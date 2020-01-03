@@ -90,4 +90,21 @@ Unknown - development feature, option that hasn't been implemented yet.
 It is assumed that users will have installed all the required libraries and the latest version of python3 before starting
 to use the program. Apart from the application login, there are no security measures nor automated data backup.
 
+### 2 GENERAL DESIGN CONSTRAINTS
+#### 2.1 Product Environment
+Lezione alla pari is the first product in our series dedicated to online learning and does not require a third part software. It is portable and usable by any operating system or hardware.
+#### 2.2 User characteristics
+In order of increasing priority, the following categories of users can be distinguished for this application:
 
+* Companies and other work areas, who can use our product to simplify the learning of the courses (for example the safety courses), or to explain the operation of a new machinery
+
+* Schools, who can use our product to provide simplified learning. These users will probably be the primary users of the user interface.
+
+#### 2.3 Mandated Constraints
+For now, our product works only locally, functioning as a closed system. The only requirements for our platform are: 
+1. stable internet connection 
+2. device that can connect to the network
+3. Python knowledge
+
+#### 2.4 Potential System Evolution
+For now, our product works only locally, but we are planning to make the platform web based. making it available to all world users without having to install the application
