@@ -38,7 +38,7 @@ The overall goal is to give students and professors alike an easy to use and int
 - 09/09/2010 - Project Charter completed
 - 09/09/2010 - Software Requirements Specifications completed
 - 09/09/2010 - Software Project Management Plan completed
--09/09/2010 - Database and SQL Server deployment
+- 09/09/2010 - Database and SQL Server deployment
 - 12/07/2010 - Product Released
 
 ## Financial Information (Cost estimate and budget information): 
