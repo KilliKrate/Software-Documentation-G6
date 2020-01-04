@@ -43,11 +43,11 @@ Table of Contents
 >>> 3.8.2 Software Interface
 >
 > 4 SYSTEM FEATURES
->> 4.1 Feature 1
+>> 4.1 Authentication
 >>
->> 4.2 Feature 2
+>> 4.2 Lessons
 >>
->> 4.3 Feature 3
+>> 4.3 Quizzes
 >
 > 5 APPENDICES
 
@@ -168,3 +168,198 @@ All data delivered through the platform is private, and will throughly adhere to
 #### 3.8.2 Software Interface
 
 - All operations and logic defined by the use cases will be achieved through Python and SQL queries. SQL will take care of login, registration and course access, while a cooperation between SQL and Python will achieve document delivery and video streaming
+
+## 4 SYSTEM FEATURES
+
+### 4.1 Feature: Authentication
+
+#### 4.1.1 Description and Priority
+
+**Cost**: 3
+
+**Risk**: 4
+
+**Benefit**: 9
+
+**Value**: High
+
+#### 4.1.2 Use case: Registration
+
+**Actors**: any not logged in user
+
+**Description**: This use case begins when a not logged in user wants to create a new account to use the services.
+
+**Basic path**: 
+1. The user opens the registration form by pressing “register” button.
+2. The program opens the registration form and requires the user to insert some personal information: name, surname, password, email and birthdate.
+Each field must match a specific pattern specified by the program
+3. The program pops up a confirmation and redirects the user to the homepage.
+
+**Alternate path**:
+1. If the pattern in step 2 is not matched, the user will be presented with a dialog box with an error that specifies the cause.
+2. The user can try again to register.
+
+#### 4.1.3 Additional requirements
+
+N/A
+
+#### 4.1.4 Description and Priority
+
+**Cost**: 2
+
+**Risk**: 3
+
+**Benefit**: 9
+
+**Value**: High
+
+#### 4.1.5 Use case: Login
+
+**Actors**: any registered user
+
+**Description**: This use case begins when a registered user wants to log in to the system with an already existing account.
+
+**Basic path**: 
+1. The user opens the login form by pressing “login” button
+2. The program opens the login form and requires the user to insert email and password of his account.
+Each field must match a specific pattern specified by the program
+3. The program pops up a confirmation and redirects the user to the homepage.
+
+**Alternate path**:
+1. If the credentials used in step 2 are not correct, the user will be presented with a dialog box with an error that specifies the cause.
+2. The user can try again to login.
+
+
+#### 4.1.6 Additional requirements
+
+N/A
+
+### 4.2 Feature: Lessons
+
+#### 4.2.1 Description and Priority
+
+**Cost**: 5
+
+**Risk**: 2
+
+**Benefit**: 9
+
+**Value**: High
+
+#### 4.2.2 Use case: create a lesson
+
+**Actors**: any logged-in user
+
+**Description**: This use case begins when a logged-in user wants to create a lesson.
+
+**Basic path**: 
+1. The user selects a course and a topic, then presses the “+” button on top of the 3rd column.
+2. The program opens the lesson creation form and requires the user to insert the name of the lesson, after that the lesson is created. A name is required in order to proceed.
+
+**Alternate path**:
+1. If the name used in step 2 is not valid, the user will be presented with a dialog box with an error that specifies the cause.
+2. The user can try again to create a lesson.
+
+#### 4.2.3 Additional requirements
+
+N/A
+
+#### 4.2.4 Description and Priority
+
+**Cost**: 5
+
+**Risk**: 6
+
+**Benefit**: 8
+
+**Value**: High
+
+#### 4.2.5 Use case: manage a lesson
+
+**Actors**: any logged-in user
+
+**Description**: This use case begins when a logged-in user wants to manage a lesson previously created (see 4.2.2).
+
+**Basic path**: 
+1. The user right-clicks on the lesson, this will pop up a new menu near the mouse. On the new menu the user right-clicks on “Modifica” to manage a lesson’s content.
+2. The program opens a new page with a WYSIWYG (What You See Is What You Get) form where the user can freely customize the lesson and then submit the changes.
+
+**Alternate path**: N/A
+
+#### 4.2.6 Additional requirements
+
+It is assumed that the user that wants to manage the lesson is authorized to do so.
+
+### 4.3 Feature: Quizzes
+
+#### 4.3.1 Description and Priority
+
+**Cost**: 4
+
+**Risk**: 5
+
+**Benefit**: 7
+
+**Value**: Medium-high
+
+#### 4.3.2 Use case: create a quiz
+
+**Actors**: any logged-in user
+
+**Description**: This use case begins when a logged-in user wants to create one or more quizzes.
+
+**Basic path**: TBD
+
+**Alternate path**: TBD
+
+#### 4.3.3 Additional requirements
+
+It is assumed that the user that wants to manage the quiz is authorized to do so.
+
+#### 4.3.4 Description and Priority
+
+**Cost**: 4
+
+**Risk**: 6
+
+**Benefit**: 7
+
+**Value**: Medium-high
+
+#### 4.3.5 Use case: manage a quiz
+
+**Actors**: any logged-in user
+
+**Description**: This use case begins when a logged-in user wants to manage a quiz previously created (see 4.3.2)
+
+**Basic path**: TBD
+
+**Alternate path**: TBD
+
+#### 4.3.6 Additional requirements
+
+N/A
+
+#### 4.3.7 Description and Priority
+
+**Cost**: 5
+
+**Risk**: 3
+
+**Benefit**: 7
+
+**Value**: Medium-high
+
+#### 4.3.8 Use case: results a quiz
+
+**Actors**: any logged-in user
+
+**Description**: This use case begins when a logged-in user wants to see the results of a quiz previously created (see 4.3.2)
+
+**Basic path**: TBD
+
+**Alternate path**: TBD
+
+#### 4.3.9 Additional requirements
+
+It is assumed that the user that wants to see the results is authorized to do so.
