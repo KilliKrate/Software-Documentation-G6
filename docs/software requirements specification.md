@@ -86,10 +86,10 @@ the platform, and only registered individuals will be able to participate. The a
 
 **Interface** - visual representation of the system 
 
-#### 1.5 Document Conventions
+### 1.5 Document Conventions
 TBD (to be defined / to be discussed) - information that still needs to be gathered, framed or that it is incomplete.  
 Unknown - development feature, option that hasn't been implemented yet.
-#### 1.6 Assumptions
+### 1.6 Assumptions
 It is assumed that users will have installed all the required libraries and the latest version of python3 before starting
 to use the program. Apart from the application login, there are no security measures nor automated data backup.
 
