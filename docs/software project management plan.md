@@ -27,48 +27,49 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  Group 6 is responsible for developing and maintaining this document.
  
  ## Table of Contents
- > 1 OVERVIEW
->> 1.1 Purpose and Scope
+ > [1 OVERVIEW](#1-overview)
+>> [1.1 Purpose and Scope](#11-purpose-and-scope)
 >>
->> 1.2 Goals and Objectives
+>> [1.2 Goals and Objectives](#12-goals-and-objectives)
 >>
->> 1.3 Project Deliverables
+>> [1.3 Project Deliverables](#13-project-deliverables)
 >>
->> 1.4 Assumptions and Constraints
+>> [1.4 Assumptions and Constraints](#14-assumptions-and-constraints)
 >>
->> 1.5 Schedule and Budget Summary
+>> [1.5 Schedule and Budget Summary](#15-schedule-and-budget-summary)
 >>
->> 1.6 Success Criteria
+>> [1.6 Success Criteria](#16-success-criteria)
 >>
->> 1.7 Definitions
+>> [1.7 Definitions](#17-definitions)
 >
-> 2 STARTUP PLAN
->> 2.1 Team Organization
+> [2 STARTUP PLAN](#2-startup-plan)
+>> [2.1 Team Organization](#21-team-organization)
 >>
->> 2.2 Project Communications
+>> [2.2 Project Communications](#22-project-communications)
 >>
->> 2.3 Technical Process
+>> [2.3 Technical Process](#23-technical-process)
 >>
->> 2.4 Tools
+>> [2.4 Tools](#24-tools)
 >
-> 3 WORK PLAN
->> 3.1 Resource Estimate 
+> [3 WORK PLAN](#3-work-plan)
+>> [3.1 Resource Estimate](#31-resource-estimate)
 >>
->> 3.2 Release Plan
+>> [3.2 Release Plan](#32-release-plan)
 >>
->> 3.3 Iteration Plans
+>> [3.3 Iteration Plans](#33-iteration-plans)
 >
-> 4 CONTROL PLAN
->> 4.1 Monitoring and Control
+> [4 CONTROL PLAN](#4-control-plan)
+>> [4.1 Monitoring and Control](#41-monitoring-and-control)
 >>
->> 4.2 Configuration Management Plan
+>> [4.2 Configuration Management Plan](#42-configuration-management-plan)
 >
-> 5 SUPPORTING PROCESS PLAN
->> 5.1 Risk Management Plan
+> [5 SUPPORTING PROCESS PLANS](#5-supporting-process-plans)
+>> [5.1 Risk Management Plan](#51-risk-management-plan)
 >>
->> 5.2 Test Plan
+>> [5.2 Test Plan](#52-test-plan)
 >>
->> 5.3 Product Acceptance Plan
+>> [5.3 Product Acceptance Plan](#53-product-acceptance-plan)
+>
 
  ## 1 OVERVIEW
 
@@ -356,5 +357,5 @@ The test plan defines the items that will be tested, methods for testing, and a 
 
 The test plan will be available in a separate document in the version control system at: https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/test%20plan.md
 
-### 5.3	Product Acceptance Plan
+### 5.3 Product Acceptance Plan
 At the completion of each iteration, the prototype will be tested. Testing will be made via [Travis CI](https://travis-ci.org/) and [Docker](https://www.docker.com/) to create an isolated and uncontaminated environment. The software tested on Docker will face multiple checks with different operative systems to ensure the proper behavior.
