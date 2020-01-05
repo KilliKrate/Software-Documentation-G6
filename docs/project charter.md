@@ -35,12 +35,12 @@ The overall goal is to give school and company figures an easy to use and intuit
 | Date | Review / Milestone |
 | ---- | ------------------ |
 | 04/10/2019 | Project start |
-| 05/13/2019 | Software Documentation and planning completed |
-| 05/17/2019 | Start of the first iteration |
-| 05/30/2019 | Review of the first iteration |
-| 06/01/2019 | Start of the second iteration |
-| 06/17/2019 | Beta release and feedback from stakeholders |
-| 07/20/2019 | Further development of the platform |
+| 04/15/2019 | Software Documentation and planning completed |
+| 04/16/2019 | Start of the first iteration |
+| 05/20/2019 | Review of the first iteration |
+| 05/22/2019 | Start of the second iteration |
+| 07/01/2019 | Beta release and feedback from stakeholders |
+| 07/08/2019 | Further development of the platform |
 | 09/13/2019 | Application fully downloadable from Github repository | 
 
 ## Financial Information (Cost estimate and budget information): 

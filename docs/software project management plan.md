@@ -71,64 +71,64 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 >> [5.3 Product Acceptance Plan](#53-product-acceptance-plan)
 >
 
- ## 1 OVERVIEW
+## 1 OVERVIEW
 
- ### 1.1 Purpose and Scope
- Lezioni alla Pari is an online desktop application designed to streamline knowledge sharing between people inside a closed environment: any group can use our platform to create lessons in the form of illustrated documents or video, in order to instruct their peers on subjects of interest. Quizzes are also available as a tool to summarize (in the case of a company) or test (in the case of a class) the understanding of the subject.
+### 1.1 Purpose and Scope
+Lezioni alla Pari is an online desktop application designed to streamline knowledge sharing between people inside a closed environment: any group can use our platform to create lessons in the form of illustrated documents or video, in order to instruct their peers on subjects of interest. Quizzes are also available as a tool to summarize (in the case of a company) or test (in the case of a class) the understanding of the subject.
 
- Anyone can use this application: from sports groups and classrooms, to project teams and companies, the application uses a simple and straightforward structure so that anyone can pick up the program and immediately start learning without the need to check any user guide or manual. This is particularly important because this application is meant to cater to a wide demographic: a kid in a classroom should be able to use the program as well as a new intern in a big company.
+Anyone can use this application: from sports groups and classrooms, to project teams and companies, the application uses a simple and straightforward structure so that anyone can pick up the program and immediately start learning without the need to check any user guide or manual. This is particularly important because this application is meant to cater to a wide demographic: a kid in a classroom should be able to use the program as well as a new intern in a big company.
 
- The software will allow people to create a course, which will contain lessons on a set of topics. The authors of a course can decide to invite people as collaborators, which will actively populate the course and work together with the author, or a student, an individual that can only read and watch lessons. Automated quizzes can also be created and completed, and the author and collaborators will be able to check the answers given if needed.
+The software will allow people to create a course, which will contain lessons on a set of topics. The authors of a course can decide to invite people as collaborators, which will actively populate the course and work together with the author, or a student, an individual that can only read and watch lessons. Automated quizzes can also be created and completed, and the author and collaborators will be able to check the answers given if needed.
 
- Lezioni alla Pari will run on a client-server structure, which thanks to a distributed server system will allow us to deliver content quickly, and is easily scalable if necessary.
+Lezioni alla Pari will run on a client-server structure, which thanks to a distributed server system will allow us to deliver content quickly, and is easily scalable if necessary.
 
- A mobile version of the program is feasible and will be delivered if the project is successful, and enough people start using it to justify cost and developement times.
+A mobile version of the program is feasible and will be delivered if the project is successful, and enough people start using it to justify cost and developement times.
 
- ### 1.2 Goals and Objectives
- The main objective of Lezioni alla Pari is to give the members of a group a way to easily share knowledge and information between each other.  
+### 1.2 Goals and Objectives
+The main objective of Lezioni alla Pari is to give the members of a group a way to easily share knowledge and information between each other.  
 
- Project Goals:
- 1. Deliver an easy to use application that democratizes knowledge sharing in a way never seen before.
- 2. Give ITI G. Marconi, our main partner, prestige and visibility in the local region, if not nationally.
- 3. Deepen our knowledge of software engineering and architecture design.
+Project Goals:
+1. Deliver an easy to use application that democratizes knowledge sharing in a way never seen before.
+2. Give ITI G. Marconi, our main partner, prestige and visibility in the local region, if not nationally.
+3. Deepen our knowledge of software engineering and architecture design.
 
- Project Objectives:
- 1. Create a desktop client that allows people to create content, and delivers that content on-demand securely and promptly.
- 2. Create an easy to use and intuitive User Interface, and refine the User Experience in a way that all demographics can take advantage of the app.
- 3. Provide a way for authors to summarize information through automated quizzes, and give the ability to the former to review the answers of each participant.
+Project Objectives:
+1. Create a desktop client that allows people to create content, and delivers that content on-demand securely and promptly.
+2. Create an easy to use and intuitive User Interface, and refine the User Experience in a way that all demographics can take advantage of the app.
+3. Provide a way for authors to summarize information through automated quizzes, and give the ability to the former to review the answers of each participant.
 
- ### 1.3 Project Deliverables
+### 1.3 Project Deliverables
 
- | Date | Deliverable |
- | ---- | ----------- |
- | 05/13/2019 | Software Documentation |
- | 05/30/2019 | End of the first iteration |
- | 06/16/2019 | End of the second iteration |
- | 06/17/2019 | Beta release for stakeholders|
- | 09/13/2019 | Application fully downloadable from Github repository |
+| Date | Deliverable |
+| ---- | ----------- |
+| 05/13/2019 | Software Documentation |
+| 05/30/2019 | End of first iteration: video streaming, database structure and partial back-end developement |
+| 06/16/2019 | End of second iteration: back-end completion, front-end developement |
+| 06/17/2019 | Beta release for stakeholders|
+| 09/13/2019 | Application fully downloadable from Github repository |
 
- ### 1.4 Assumptions and Constraints
+### 1.4 Assumptions and Constraints
 
- #### 1.4.1 Assumptions
- 1. Github will allow the team to collaborate on the project remotely by scheduling tasks and committing code
+#### 1.4.1 Assumptions
+1. Github will allow the team to collaborate on the project remotely by scheduling tasks and committing code
 
- #### 1.4.2 Constraints
- 1. The project will have to be supported by at least 3 partners before the beta phase, in order to have an acceptable amount feedback.
- 2. The application must satisfy security and privacy standards of public institutions before release, in order to guarantee that sensible information will not be made public through exploitation of weaknesses or hacking.
+#### 1.4.2 Constraints
+1. The project will have to be supported by at least 3 partners before the beta phase, in order to have an acceptable amount feedback.
+2. The application must satisfy security and privacy standards of public institutions before release, in order to guarantee that sensible information will not be made public through exploitation of weaknesses or hacking.
 
- ### 1.5 Schedule and Budget Summary
+### 1.5 Schedule and Budget Summary
 
- #### 1.5.1 Cost Estimate
- - 1 project manager and back-end developer and at 4 hours per week for 24 weeks  
+#### 1.5.1 Cost Estimate
+- 1 project manager and back-end developer and at 4 hours per week for 24 weeks  
  **96 hours * €20/hr = €1920**
 
- - 1 marketing specialist and front-end developer at 4 hours per week for 24 weeks  
+- 1 marketing specialist and front-end developer at 4 hours per week for 24 weeks  
  **96 hours * €20/hr = €1920**
 
- - 1 back-end dev at 4 hours per week each for 24 weeks  
+- 1 back-end dev at 4 hours per week each for 24 weeks  
  **96 hours * €15/hr = €1440**
 
- - 1 front-end dev at 4 hours per week each for 24 weeks  
+- 1 front-end dev at 4 hours per week each for 24 weeks  
  **96 hours * €15/hr = €1440**
 
 **384 hours total, €6720 total, avg, €17,5 per hour**
@@ -138,12 +138,12 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 | Date | Review / Milestone |
 | ---- | ------------------ |
 | 04/10/2019 | Project start |
-| 05/13/2019 | Software Documentation and planning completed |
-| 05/17/2019 | Start of the first iteration |
-| 05/30/2019 | Review of the first iteration |
-| 06/01/2019 | Start of the second iteration |
-| 06/17/2019 | Beta release and feedback from stakeholders |
-| 07/20/2019 | Further development of the platform |
+| 04/15/2019 | Software Documentation and planning completed |
+| 04/16/2019 | Start of the first iteration |
+| 05/20/2019 | Review of the first iteration |
+| 05/22/2019 | Start of the second iteration |
+| 07/01/2019 | Beta release and feedback from stakeholders |
+| 07/08/2019 | Further development of the platform |
 | 09/13/2019 | Application fully downloadable from Github repository | 
 
 ### 1.6 Success Criteria
@@ -153,202 +153,199 @@ At least 3 official insitutions/companies that have successfully adopted our pla
 
 - **Use Case**: Describes a goal-oriented interaction between the system and an actor. A use case may define several variants called scenarios that result in different paths through the use case and usually different outcomes.
 
-- **Actor**: Person or program that receives an output from a use case, be it in the form of an UI (person) or value (software).
+- **Back-end**: The part of the software that handles the logical part of the application (fetching and saving data from database, sending changes, etc.)
 
-- **System**: Set of features provided by the application that are directly associated with each other.
+- **Front-end**: The main user interface of the software, through which the user interacts
 
-- **Scenario**: One path through a set of possible use cases.
-
-- **Lezioni alla Pari**: What is being described here, the software that is being developed, specified in this document.
+- **Appplication**: Lezioni alla Pari, which is the software that is being developed, specified in this document.
 
 - **Project**: Activities that will lead to the production of the application described in this document.
 
-- **User Interface**: Visual component that enables interaction with a person that is using the software. 
+- **User**: A person who uses our application.
 
- ## 2 STARTUP PLAN
+- **Client-Server**: a model used for the developement of internet-based applications.
 
- ### 2.1 Team Organization
- Team members:
- * Project Leader:         Ovidiu Costin Andrioaia.  
- The project leader is responsible for creating the project plan, managing risks, running the weekly team meeting and providing monthly status reports to senior management.
+- **Client**: The part of the software that is used by the user.
 
- * Front-end developer:    David Constantin Cirdan - Zhiang Angelo Xia.  
-  The Front-end developers are responsible for choosing the design and style of the application and they are responsible for coding  the user interface.
+## 2 STARTUP PLAN
 
- * Back-end developer:     Luciano Mateias.  
- The Back-end developer is responsible for coding
- the part of the application that will manage the data provided by the front-end.
+### 2.1 Team Organization
+Team members:
+* Project Manager :         Ovidiu Costin Andrioaia.  
+The project leader is responsible for creating the project plan, managing risks, and running the weekly team meeting.
 
- * Marketing :             Zhiyang Angelo Xia.  
- He deals with the sales policies of a company's products. It establishes the techniques and strategies it must adopt to sell more.
+* Front-end developer:    David Constantin Cirdan - Zhiang Angelo Xia.  
+The Front-end developers are responsible for designing and and implementing the application's UI.
 
- ### 2.2 Project Communications
- The information is collected in the weekly mitting, in which each sector reports on the data obtained, so as to be able to obtain a graph and check the progress of the project. 
- The data transmission occurs thanks to the use of multiple channels:
- * Social media
- * Github
- * Referral through users
+* Back-end developer:     Ovidiu Costin Andrioaia - Luciano Mateias.  
+The Back-end developer is responsible for coding the logic of the application.
 
- ### 2.3 Technical Process
- As a development methodology the team chose to use the cascade model together with the UTF-8 standard for the code. with the cascade model the development was divided into sequential phases, in which each phase produces an output which is used as input for the next phase.
+* Marketing :             Zhiyang Angelo Xia.  
+Deals with the sale policies of the company's products and establishes the techniques and strategies that must be adopted in order to increase sales.
 
- ### 2.4 Tools
- Tools used for development:
- * Programming Language:   Python - JavaScript
- * Version Controll:       Github
- * Defect tracking:        Bugzilla
- * Build tools:            PyCharm
- * Database:               SQL
+### 2.2 Project Communications
+The information is collected in the weekly meeting, in which each member reports on the obtained feedback, so as to be able to obtain a concise summary and check the progress of the project. 
+The feedback reporting occurs thanks to the use of multiple channels:
+* Social media
+* Github
+* Referral through users
 
- ## 3 Work Plan
+### 2.3 Technical Process
+As a development methodology the team chose to use SCRUM together with the PEP-8 code standard. SCRUM enables the team to develop the software quickly and with the assistance of feedback for further iteration.
 
- ### 3.1 Resource Estimate
- The following estimates of resource spending are based on time, estimated effort, actual effort and the dependecies between the tasks:
- * Intention agreement: 
-    * Team members involved: all the team takes part
-    * Time: this task should be done in one day
-    * Estimated effort: substantial
-    * Actual effort: substantial
-    * Dependencies: all the later tasks will be influenced by this one
- * Find partners:
-    * Team members involved: all the team will take part to a certain extend, the main person in charge though, will be the marketing advisor
-    * Time: the task is estimated to take up to one month before conclusion.
-    * Estimated effort: major
-    * Actual effort: major
-    * Dependencies: all the tasks regarding the advertising and launch of the platform will be influenced
- * Database architecture design:
-    * Team members involved: all the team
-    * Time: up to one week
-    * Estimated effort: average
-    * Actual effort: average
-    * Dependencies: software development tasks
- * Video streaming architecure design:
-    * Team members involved: all the team
-    * Time: up to one week
-    * Estimated effort: substantial
-    * Actual effort: substantial
-    * Dependencies: software development tasks
- * Back-end architecure design:
-    * Team members involved: back-end developer and project leader
-    * Time: up to one week
-    * Estimated effort: substantial
-    * Actual effort: substantial
-    * Dependencies: 
- * Database development:
-    * Team members involved: all the team
-    * Time: up to two weeks
-    * Estimated effort: average
-    * Actual effort: average
-    * Dependencies: all the software development tasks
- * Back-end development:
-    * Team members involved: back-end developer and project leader
-    * Time: up to two weeks
-    * Estimated effort: average
-    * Actual effort: average
-    * Dependencies: front-end tasks and overall software constraints
- * Client design and development:
-    * Team members involved: front-end developers
-    * Time: up to one week
-    * Estimated effort: average
-    * Actual effort: average
-    * Dependencies: appeal to the partners and stakeholders
- * Private Beta release:
-    * Team members involved: all the team
-    * Time: two months from the start of the project
-    * Estimated effort: major
-    * Actual effort: major
-    * Dependencies: market contribution and reviews of the product
- * Partner and stakeholder feedback:
-    * Team members involved: all the team
-    * Time: up to one week after beta release
-    * Estimated effort: minor
-    * Actual effort: minor
-    * Dependencies: changes on the software on a structural and aesthetical level
- * Debugging:
-    * Team members involved: all the team
-    * Time: up to one week
-    * Estimated effort: average
-    * Actual effort: average
-    * Dependencies: a well functioning software for the future 
- * UI and UX improvements:
-    * Team members involved: all the team
-    * Time: up to one week
-    * Estimated effort: average
-    * Actual effort: average
-    * Dependencies: a well functioning software for the future 
- * Final release:
-    * Team members involved: all the team
-    * Time: roughly three months after project start
-    * Estimated effort: average
-    * Actual effort: average
-    * Dependencies: none
+### 2.4 Tools
+Tools used for development:
+* Programming Language:   Python - JavaScript
+* Version Control:        Github
+* Defect tracking:        Bugzilla
+* Build tools:            PyCharm
+* Database:               SQL
+
+## 3 Work Plan
+
+### 3.1 Resource Estimate
+The following estimates of resource spending are based on time, estimated effort, actual effort and the dependecies between the tasks:
+* Software documentation: 
+   * Team members involved: all the team takes part
+   * Time: this task should be done in three days
+   * Estimated effort: substantial
+   * Actual effort: substantial
+   * Dependencies: all the later tasks will be influenced by this one
+* Find partners:
+   * Team members involved: all the team will take part to a certain extent, but the marketing specialist will be in charge of decision making.
+   * Time: the task is estimated to take up to one month before conclusion.
+   * Estimated effort: major
+   * Actual effort: major
+   * Dependencies: all the tasks regarding the advertising and launch of the platform will be influenced
+* Database architecture design:
+   * Team members involved: all the team
+   * Time: up to one week
+   * Estimated effort: average
+   * Actual effort: average
+   * Dependencies: software development tasks
+* Video streaming architecure design:
+   * Team members involved: all the team
+   * Time: up to one week
+   * Estimated effort: substantial
+   * Actual effort: substantial
+   * Dependencies: software development tasks
+* Back-end architecure design:
+   * Team members involved: back-end developer and project leader
+   * Time: up to one week
+   * Estimated effort: substantial
+   * Actual effort: substantial
+   * Dependencies: 
+* Database development:
+   * Team members involved: all the team
+   * Time: up to two weeks
+   * Estimated effort: average
+   * Actual effort: average
+   * Dependencies: all the software development tasks
+* Back-end development:
+   * Team members involved: back-end developer and project leader
+   * Time: up to two months
+   * Estimated effort: average
+   * Actual effort: average
+   * Dependencies: front-end tasks and overall software constraints
+* Client design and development:
+   * Team members involved: front-end developers
+   * Time: up to one month
+   * Estimated effort: average
+   * Actual effort: average
+   * Dependencies: appeal to the partners and stakeholders
+* Private Beta release:
+   * Team members involved: all the team
+   * Time: one month from the end of the project
+   * Estimated effort: major
+   * Actual effort: major
+   * Dependencies: market contribution and reviews of the product
+* Partner and stakeholder feedback:
+   * Team members involved: all the team
+   * Time: up to one week after beta release
+   * Estimated effort: minor
+   * Actual effort: minor
+   * Dependencies: changes on the software on a structural and aesthetical level
+* Debugging:
+   * Team members involved: all the team
+   * Time: up to two weeks
+   * Estimated effort: average
+   * Actual effort: average
+   * Dependencies: a well functioning software for the future 
+* UI and UX improvements:
+   * Team members involved: all the team
+   * Time: up to two weeks
+   * Estimated effort: average
+   * Actual effort: average
+   * Dependencies: a well functioning software for the future 
+* Final release:
+   * Team members involved: all the team
+   * Time: roughly six months after project start
+   * Estimated effort: average
+   * Actual effort: average
+   * Dependencies: none
  
- ### 3.2 Release Plan
+### 3.2 Release Plan
 
- **Iteration #1**
- * Summary: design all the application architecure and find partners
+**Iteration #1**
+* Summary: design all the application architecure and find partners
  
- | Features / Deliverables | Estimated Effort | Actual Effort |
- | ----------------------- | ---------------- | --------------| 
- | Architecture design | Substantial | Substantial |
- | Finding partners | Major | Major |
+| Features / Deliverables | Estimated Effort | Actual Effort |
+| ----------------------- | ---------------- | --------------| 
+| Architecture design | Substantial | Substantial |
+| Finding partners | Major | Major |
 
- **Iteration #2**
- * Summary: development of the database, front-end and back-end with beta release
+**Iteration #2**
+* Summary: development of the database, front-end and back-end with beta release
  
- | Features / Deliverables | Estimated Effort | Actual Effort |
- | ----------------------- | ---------------- | ------------- |
- | DB, Back / Front-end | Substantial | Substantial |
- | Beta release | Major | Major |
+| Features / Deliverables | Estimated Effort | Actual Effort |
+| ----------------------- | ---------------- | ------------- |
+| DB, Back / Front-end | Substantial | Substantial |
+| Beta release | Major | Major |
  
- **Iteration #3**
- * Summary: final release, with the approval of partners, stakeholders and various software debugging
+**Iteration #3**
+* Summary: final release, with the approval of partners, stakeholders and various software debugging
  
- | Features / Deliverables | Estimated Effort | Actual Effort |
- | ----------------------- | ---------------- | ------------- |
- | Final release | Average | Substantial |
+| Features / Deliverables | Estimated Effort | Actual Effort |
+| ----------------------- | ---------------- | ------------- |
+| Final release | Average | Substantial |
  
- ### 3.3 Iteration Plans
- * **First iteration**: intention agreement will all the team on how the software should be developed,
- starting to search for partners interested in the project while developing the overall design and framework.
+### 3.3 Iteration Plans
+* **First iteration**: intention agreement will all the team on how the software should be developed, starting to search for partners interested in the project while developing the overall design and framework. In the meantime devs will also develop and deploy the video streaming architecture, the database structure and will deploy a part of the back-end server logic.
 
- * **Second iteration**: deployment of the database, then front-end and back-end development. After the core application is finished,
- launch the private beta.
+* **Second iteration**: front-end design and implementation and back-end completion. After the core application is finished, the private beta will be launched for all partners to use.
 
- * **Third iteration**: past the beta and the general feedback on the software, start fixing bugs and improve the platform, at last launch the final release.
+* **Third iteration**: past the beta and the general feedback on the software, start fixing bugs and improve the platform, at last launch the final release.
  
- ## 4 Control Plan
+## 4 Control Plan
 
- ### 4.1 Monitoring and Control
- The following list of dates includes formal reviews of the project and major accomplished milestones
- in reference to the established schedule.
+### 4.1 Monitoring and Control
+The following list of dates includes formal reviews of the project and major accomplished milestones
+in reference to the established schedule.
  
- | Date | Review / Milestone |
- | ---- | ------------------ |
- | 04/10/2019 | Project start |
- | 05/13/2019 | Software Documentation and planning completed |
- | 05/17/2019 | Start of the first iteration |
- | 05/30/2019 | Review of the first iteration |
- | 06/01/2019 | Start of the second iteration |
- | 06/17/2019 | Beta release and feedback from stakeholders |
- | 07/20/2019 | Further development of the platform |
- | 09/13/2019 | Application fully downloadable from Github repository | 
+| Date | Deliverable |
+| ---- | ----------- |
+| 04/15/2019 | Software Documentation |
+| 05/20/2019 | End of first iteration |
+| 06/30/2019 | End of second iteration |
+| 07/01/2019 | Beta release for stakeholders |
+| 09/13/2019 | Application fully downloadable from Github repository |
 
- ### 4.2 Configuration Management Plan
- This is the procedure to follow when making changes to the final product:
- 1. All the data is stored on a GIT repository hosted by Github, this is the main container.
- 2. All the changes to documents and files are tracked via commits and comments
- inside them, including the software documentation.
- 3. Changes are verified only after all the development team has seen and approved them.
- 4. The change control procedure is the one that follows:
-    * send an e-mail to one of the developers, where it is explicitly described the parts of the software to modify,
-    how impactful this changes are, the needed resources and time constraints.
-    * if the e-mail doesn't receive any response within 30 days, the request will be dispatched, otherwise
-    the recipient will contact the applicant and set the application process.
-    * the petitioner from now on will be part of the project development and will implement
-    the new feature with close collaboration with the team, following all the assigned instructions.
-    * after the change has been successfully actualized, all the documentation and schedule will be updated with the new changes,
-    as well as the public software.
+
+### 4.2 Configuration Management Plan
+This is the procedure to follow when making changes to the final product:
+1. All the data is stored on a GIT repository hosted by Github, this is the main container.
+2. All the changes to documents and files are tracked via commits and comments
+inside them, including the software documentation.
+3. Changes are verified only after all the development team has seen and approved them.
+4. The change control procedure is the one that follows:
+   * send an e-mail to one of the developers, where it is explicitly described the parts of the software to modify,
+   how impactful this changes are, the needed resources and time constraints.
+   * if the e-mail doesn't receive any response within 30 days, the request will be dispatched, otherwise
+   the recipient will contact the applicant and set the application process.
+   * the petitioner from now on will be part of the project development and will implement
+   the new feature with close collaboration with the team, following all the assigned instructions.
+   * after the change has been successfully actualized, all the documentation and schedule will be updated with the new changes,
+   as well as the public software.
  
 ## 5 Supporting Process Plans
 
@@ -359,9 +356,8 @@ At least 3 official insitutions/companies that have successfully adopted our pla
 |   2    |Dev Team’s lack of relevant experience          |Likely                 |Major           |High             |Let the dev team spend some time learning the needed technologies                                                                   |
 |   3    |End of financial support                        |Likely                 |Moderate – Major|Moderate         |Constantly check for new fund opportunities                                                                                         |
 |   4    |End of support for project requirements         |Likely                 |Moderate        |Minor            |Talk to the managers of each of the library/framework used to ensure they will get updated till the project is released             |
-|   5    |Lack of test data                               |Unlikely               |Moderate        |Minor            |Gather and adapt some sample data from internet                                                                                     |
-|   6    |Commerce team’s inexperience with ads           |Unlikely               |Minor - Moderate|Minor - Moderate |Let the commerce team spend some time learning the usage of Google AdSense                                                          |
-|   7    |Customer change  of idea                        |Unlikely               |Minor           |Moderate         |Illustrate each step to complete the project and ensure the customer agrees to every revision made during the project (Agile method)|
+|   5    |Commerce team’s inexperience with ads           |Unlikely               |Minor - Moderate|Minor - Moderate |Let the commerce team spend some time learning the usage of Google AdSense                                                          |
+|   6    |Customer change  of idea                        |Unlikely               |Minor           |Moderate         |Illustrate each step to complete the project and ensure the customer agrees to every revision made during the project (Agile method)|
 
 ### 5.2 Test Plan
 The test plan defines the items that will be tested, methods for testing, and a schedule detailing the tasks, owners, and time line.

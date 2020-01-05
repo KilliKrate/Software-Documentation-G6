@@ -222,9 +222,9 @@ All data delivered through the platform is private, and will throughly adhere to
 
 #### 4.1.2 Use case: Registration
 
-**Actors**: any not logged in user
+**Actors**: any unauthenticated in user
 
-**Description**: This use case begins when a not logged in user wants to create a new account to use the services.
+**Description**: This use case begins when an unauthenticated user wants to create a new account to use the Lezioni alla Pari platform.
 
 **Basic path**: 
 1. The user enters the registration form by pressing “register” button.
@@ -285,9 +285,9 @@ N/A
 
 #### 4.2.2 Use case: create a lesson
 
-**Actors**: any logged-in user
+**Actors**: any authenticated user
 
-**Description**: This use case begins when a logged-in user wants to create a lesson.
+**Description**: This use case begins when an authenticated user wants to create a lesson.
 
 **Basic path**: 
 1. The user selects a course and a topic, then presses the “+” button on top of the 3rd column.
@@ -311,21 +311,21 @@ N/A
 
 **Value**: High
 
-#### 4.2.5 Use case: manage a lesson
+#### 4.2.5 Use case: edit a lesson
 
-**Actors**: any logged-in user
+**Actors**: any authenticated user
 
-**Description**: This use case begins when a logged-in user wants to manage a lesson previously created (see 4.2.2).
+**Description**: This use case begins when an authenticated user wants to edit a lesson previously created (see 4.2.2).
 
 **Basic path**: 
-1. The user right-clicks on the lesson, this will pop up a new menu near the mouse. On the new menu the user right-clicks on “Modifica” to manage a lesson’s content.
-2. The program displays a new page with a WYSIWYG (What You See Is What You Get) form where the user can freely customize the lesson and then submit the changes.
+1. The user right-clicks on the lesson, this causes a new menu to appear, close to mouse cursor. On the new menu the user right-clicks on “Modifica” to edit a lesson’s content.
+2. The program displays a new page with a RTF Editor where the user can freely customize the lesson and then submit the changes.
 
 **Alternate path**: N/A
 
 #### 4.2.6 Additional requirements
 
-It is assumed that the user that wants to manage the lesson is authorized to do so.
+It is assumed that the user that wants to manage the lesson is authorized to do so. This is possible only if the user is the author or a collaborator of the course
 
 ### 4.3 Quizzes
 
@@ -341,22 +341,22 @@ It is assumed that the user that wants to manage the lesson is authorized to do 
 
 #### 4.3.2 Use case: create a quiz
 
-**Actors**: any logged-in user
+**Actors**: any authenticated user
 
-**Description**: This use case begins when a logged-in user wants to create one or more quizzes.
+**Description**: This use case begins when an authenticated user wants to create one or more quizzes.
 
 **Basic path**:
 1. The user selects a course and a topic, then presses the “+” button on top of the 3rd column.
-2. The program displays the quiz creation form and requires the user to insert the name of the quiz, after that the quiz creator form is displayed to the user.
-3. The user creates the quiz using the intuitive controls of the form and then submits it, after that the quiz is created.
+2. The program displays the quiz creation form and requires the user to insert the name of the quiz, after that the quiz creation form is displayed to the user.
+3. The user creates the quiz using the fields of the form and then submits it, after that the quiz is created.
 
 **Alternate path**:
 1. If the name used in step 2 is not valid, the user will be presented with a dialog box with an error that specifies the cause.
-2. The user can try again to create a quiz.
+2. The user can attempt to create a quiz.
 
 #### 4.3.3 Additional requirements
 
-It is assumed that the user that wants to manage the quiz is authorized to do so.
+It is assumed that the user that wants to manage the quiz is authorized to do so. This is possible only if the user is the author or a collaborator of the course
 
 #### 4.3.4 Description and Priority
 
@@ -368,15 +368,15 @@ It is assumed that the user that wants to manage the quiz is authorized to do so
 
 **Value**: High
 
-#### 4.3.5 Use case: manage a quiz
+#### 4.3.5 Use case: edit a quiz
 
-**Actors**: any logged-in user
+**Actors**: any authenticated user
 
-**Description**: This use case begins when a logged-in user wants to manage a quiz previously created (see 4.3.2)
+**Description**: This use case begins when an authenticated user wants to edit a quiz previously created (see 4.3.2)
 
 **Basic path**:
-1. The user right-clicks on the quiz, this will pop up a new menu near the mouse. On the new menu the user right-clicks on “Modifica” to manage a quiz’s content.
-2. The program displays a new page with a intuitive form where the user can freely customize the quiz and then submit the changes.
+1. The user right-clicks on the quiz, this causes a new menu to appear, close to mouse cursor. On the new menu the user right-clicks on “Modifica” to edit a quiz’s content.
+2. The program displays a new page with an intuitive quiz editor where the user can freely customize the quiz and then submit the changes.
 
 **Alternate path**:
 
@@ -398,20 +398,20 @@ N/A
 
 #### 4.3.8 Use case: results of a quiz
 
-**Actors**: any logged-in user
+**Actors**: any authenticated user
 
-**Description**: This use case begins when a logged-in user wants to see the results of a quiz previously created (see 4.3.2)
+**Description**: This use case begins when an authenticated user wants to see the results of a quiz previously created (see 4.3.2)
 
 **Basic path**:
-1. The user right-clicks on the quiz, this will pop up a new menu near the mouse. On the new menu the user right-clicks on “Revisiona” to review a quiz’s results.
+1. The user right-clicks on the quiz, this causes a new menu to appear, close to mouse cursor. On the new menu the user right-clicks on “Revisione” to review a quiz’s results.
 2. The program displays a review panel where the user can easily access the result of every quiz participant by left-clicking on his username.
 
 **Alternate path**:
-1. If no user participated there will be no list displayed.
+1. If no user participated no list will be displayed.
 
 #### 4.3.9 Additional requirements
 
-It is assumed that the user that wants to see the results is authorized to do so.
+It is assumed that the user that wants to see the results is authorized to do so. This is possible only if the user is the author or a collaborator of the course
 
 ### 4.4 Inviting
 
@@ -427,13 +427,13 @@ It is assumed that the user that wants to see the results is authorized to do so
 
 #### 4.4.2 Use case: Inviting user to a course
 
-**Actors**: any course creator
+**Actors**: any author, the course creator
 
 **Description**: This use case begins when a course creator wants to invite another user to his course via mail.
 
 **Basic path**: 
-1. The user right-clicks on the course, this will pop up a new menu near the mouse. On the new menu the user right-clicks on “Modifica”.
-2. The program displays a new page with a form asking the user to digit the email of the user to invite.
+1. The user right-clicks on the course, this causes a new menu to appear, close to mouse cursor. On the new menu the user right-clicks on “Modifica”.
+2. A new page will be displayed with a form asking the user to type the email of the user he intends to invite.
 3. The user submits the form and the invite is sent.
 
 **Alternate path**:
