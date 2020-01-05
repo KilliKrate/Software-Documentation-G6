@@ -89,6 +89,8 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 
 The test plan defines the items that will be tested, methods for testing, and a schedule detailing the tasks, owners, and time line.
 
-Testing is made via [Travis CI platform](https://travis-ci.org/) whenever it is possible.
-
 The test plan will be available in a separate document in the version control system at: https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/test%20plan.md
+
+#### 5.3	Product Acceptance Plan
+
+At the completion of each iteration, the prototype will be tested. Testing will be made via [Travis CI](https://travis-ci.org/) and [Docker](https://www.docker.com/) to create an isolated and uncontaminated environment. The software tested on Docker will face multiple checks with different operative systems to ensure the proper behavior.
