@@ -434,7 +434,7 @@ It is assumed that the user that wants to see the results is authorized to do so
 **Basic path**: 
 1. The user right-clicks on the course, this will pop up a new menu near the mouse. On the new menu the user right-clicks on “Modifica”.
 2. The program opens a new page with a form asking the user to digit the email of the user to invite.
-3. The user submits the form.
+3. The user submits the form and the invite is sent.
 
 **Alternate path**:
 
