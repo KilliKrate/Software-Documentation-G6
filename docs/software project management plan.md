@@ -72,17 +72,17 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  ### 2 STARTUP PLAN
  #### 2.1 Team Organization
  Team members:
- * Project Leader:         Ovidiu Costin Andrioaia. 
+ * Project Leader:         Ovidiu Costin Andrioaia.  
  The project leader is responsible for creating the project plan, managing risks, running the weekly team meeting and providing monthly status reports to senior management.
 
- * Front-end developer:    Daivd Constantin Cirdan - Zhiang Angelo Xia. 
- The Front-end developers are responsible for choosing the design and style of the application and he is responsabile for coding  the user interface.
+ * Front-end developer:    Daivd Constantin Cirdan - Zhiang Angelo Xia.  
+  The Front-end developers are responsible for choosing the design and style of the application and they are responsible for coding  the user interface.
 
- * Back-end developer:     Luciano Mateias. 
+ * Back-end developer:     Luciano Mateias.  
  The Back-end developer is responsible for coding
  the part of the application that will manage the data provided by the front-end.
 
- * Marketing :             Zhiyang Angelo Xia. 
+ * Marketing :             Zhiyang Angelo Xia.  
  He deals with the sales policies of a company's products. It establishes the techniques and strategies it must adopt to sell more.
  #### 2.2 Project Communications
  The information is collected in the weekly mitting, in which each sector reports on the data obtained, so as to be able to obtain a graph and check the progress of the project. 
