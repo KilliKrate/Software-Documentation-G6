@@ -345,9 +345,14 @@ It is assumed that the user that wants to manage the lesson is authorized to do 
 
 **Description**: This use case begins when a logged-in user wants to create one or more quizzes.
 
-**Basic path**: TBD
+**Basic path**:
+1. The user selects a course and a topic, then presses the “+” button on top of the 3rd column.
+2. The program opens the quiz creation form and requires the user to insert the name of the quiz, after that the quiz creator form is displayed to the user.
+3. The user creates the quiz using the intuitive controls of the form and then submits it, after that the quiz is created.
 
-**Alternate path**: TBD
+**Alternate path**:
+1. If the name used in step 2 is not valid, the user will be presented with a dialog box with an error that specifies the cause.
+2. The user can try again to create a quiz.
 
 #### 4.3.3 Additional requirements
 
@@ -369,9 +374,13 @@ It is assumed that the user that wants to manage the quiz is authorized to do so
 
 **Description**: This use case begins when a logged-in user wants to manage a quiz previously created (see 4.3.2)
 
-**Basic path**: TBD
+**Basic path**:
+1. The user right-clicks on the quiz, this will pop up a new menu near the mouse. On the new menu the user right-clicks on “Modifica” to manage a quiz’s content.
+2. The program opens a new page with a intuitive form where the user can freely customize the quiz and then submit the changes.
 
-**Alternate path**: TBD
+**Alternate path**:
+
+N/A
 
 #### 4.3.6 Additional requirements
 
@@ -387,15 +396,18 @@ N/A
 
 **Value**: Medium-high
 
-#### 4.3.8 Use case: results a quiz
+#### 4.3.8 Use case: results of a quiz
 
 **Actors**: any logged-in user
 
 **Description**: This use case begins when a logged-in user wants to see the results of a quiz previously created (see 4.3.2)
 
-**Basic path**: TBD
+**Basic path**:
+1. The user right-clicks on the quiz, this will pop up a new menu near the mouse. On the new menu the user right-clicks on “Revisiona” to review a quiz’s results.
+2. The program opens a review panel where the user can easily access the result of every quiz participant by left-clicking on his username.
 
-**Alternate path**: TBD
+**Alternate path**:
+1. If no user participated there will be no list displayed.
 
 #### 4.3.9 Additional requirements
 
