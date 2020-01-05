@@ -363,3 +363,34 @@ N/A
 #### 4.3.9 Additional requirements
 
 It is assumed that the user that wants to see the results is authorized to do so.
+
+### 4.4 Feature: Inviting
+
+#### 4.4.1 Description and Priority
+
+**Cost**: 3
+
+**Risk**: 3
+
+**Benefit**: 9
+
+**Value**: High
+
+#### 4.4.2 Use case: Inviting user to a course
+
+**Actors**: any course creator
+
+**Description**: This use case begins when a course creator wants to invite another user to his course via mail.
+
+**Basic path**: 
+1. The user right-clicks on the course, this will pop up a new menu near the mouse. On the new menu the user right-clicks on “Modifica”.
+2. The program opens a new page with a form asking the user to digit the email of the user to invite.
+3. The user submits the form.
+
+**Alternate path**:
+
+N/A
+
+#### 4.1.3 Additional requirements
+
+N/A
