@@ -71,3 +71,16 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 >> 5.3 Product Acceptance Plan
 
  
+### 5 Supporting Process Plans
+
+#### 5.1 Risk Management Plan
+
+|**Rank**|**Risk**                               |**Probability of loss**|**Size of loss**|**Risk exposure**|**Response**|
+|:------:|:-------------------------------------:|:---------------------:|:--------------:|:---------------:|:----------:|
+|   1    |Schedule                               |Likely                 |Major           |                 |            |
+|   2    |Team’s lack of relevant experience     |Likely                 |Major           |                 |            |
+|   3    |End of financial support               |Likely                 |Moderate – Major|                 |            |
+|   4    |End of support for project requirements|Likely                 |Moderate        |                 |            |
+|   5    |Lack of test data                      |Unlikely               |Moderate        |                 |            |
+|   6    |Team’s inadequacy with ads             |Unlikely               |Minor - Moderate|                 |            |
+|   7    |Customer change  of idea               |Unlikely               |Minor           |                 |            |
