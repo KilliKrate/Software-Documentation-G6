@@ -38,7 +38,7 @@ The overall goal is to give students and professors alike an easy to use and int
 - 05/02/2019 - Project Charter completed
 - 05/06/2019 - Software Requirements Specifications completed
 - 05/13/2019 - Software Project Management Plan completed
-- 07/09/2019 - Database and SQL Server deployment
+- 06/09/2019 - Database and SQL Server deployment
 - 09/13/2019 - Product Released
 
 ## Financial Information (Cost estimate and budget information): 
