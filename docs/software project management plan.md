@@ -61,7 +61,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 > 4 CONTROL PLAN
 >> 4.1 Monitoring and Control
 >>
->> 4.2 Metrics Collection
+>> 4.2 Configuration Management Plan
 >
 > 5 SUPPORTING PROCESS PLAN
 >> 5.1 Risk Management Plan
@@ -205,8 +205,34 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  
  ### 4 Control Plan
  #### 4.1 Monitoring and Control
+ The following list of dates includes formal reviews of the project and major accomplished milestones
+ in reference to the established schedule.
  
- #### 4.2 Metrics Collection
+ | Date | Review / Milestone |
+ | ---- | ------------------ |
+ | 04/10/2019 | Project start |
+ | 13/05/2019 | Software Documentation and planning completed |
+ | 05/17/2019 | Start of the first iteration |
+ | 05/30/2019 | Review of the first iteration |
+ | 06/01/2019 | Start of the second iteration |
+ | 06/17/2019 | Beta release and feedback from stakeholders |
+ | 07/20/2019 | Further development of the platform |
+ | 09/13/2019 | Application fully downloadable from Github repository | 
+ #### 4.2 Configuration Management Plan
+ This is the procedure to follow when making changes to the final product:
+ 1. All the data is stored on a GIT repository hosted by Github, this is the main container.
+ 2. All the changes to documents and files are tracked via commits and comments
+ inside them, including the software documentation.
+ 3. Changes are verified only after all the development team has seen and approved them.
+ 4. The change control procedure is the one that follows:
+    * send an e-mail to one of the developers, where it is explicitly described the parts of the software to modify,
+    how impactful this changes are, the needed resources and time constraints.
+    * if the e-mail doesn't receive any response within 30 days, the request will be dispatched, otherwise
+    the recipient will contact the applicant and set the application process.
+    * the petitioner from now on will be part of the project development and will implement
+    the new feature with close collaboration with the team, following all the assigned instructions.
+    * after the change has been successfully actualized, all the documentation and schedule will be updated with the new changes,
+    as well as the public software.
  
 ### 5 Supporting Process Plans
 
