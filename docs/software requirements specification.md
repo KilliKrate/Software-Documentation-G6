@@ -393,6 +393,6 @@ It is assumed that the user that wants to see the results is authorized to do so
 
 N/A
 
-#### 4.1.3 Additional requirements
+#### 4.4.3 Additional requirements
 
 N/A
