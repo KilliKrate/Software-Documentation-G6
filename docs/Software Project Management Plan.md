@@ -174,7 +174,7 @@ Team members:
 * Project Manager :         Ovidiu Costin Andrioaia.  
 The project leader is responsible for creating the project plan, managing risks, and running the weekly team meeting.
 
-* Front-end developer:    David Constantin Cirdan - Zhiang Angelo Xia.  
+* Front-end developer:    David Constantin Cirdan - Zhiyang Angelo Xia.  
 The Front-end developers are responsible for designing and and implementing the application's UI.
 
 * Back-end developer:     Ovidiu Costin Andrioaia - Luciano Mateias.  
