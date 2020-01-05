@@ -1,57 +1,96 @@
 ## Requirements for the Lezioni alla pari project
 Table of Contents
-> 1 INTRODUCTION
->> 1.1 Overview
+> [1 INTRODUCTION](#1-introduction)
+>> [1.1 Overview](#11-overview)
 >>
->> 1.2  Goals and Objectives
+>> [1.2 Goals and Objectives](#12-goals-and-objectives)
 >>
->> 1.3 Scope
+>> [1.3 Scope](#13-scope)
 >>
->> 1.4 Definitions
+>> [1.4 Definitions](#14-definitions)
 >> 
->> 1.5 Document Conventions
+>> [1.5 Document Conventions](#15-document-conventions)
 >>
->> 1.6 Assumptions
+>> [1.6 Assumptions](#16-assumptions)
 >
-> 2 GENERAL DESIGN CONSTRAINTS
->> 2.1  Product Environment 
+> [2 GENERAL DESIGN CONSTRAINTS](#2-general-design-constraints)
+>> [2.1  Product Environment](#21-product-environment)
 >>
->> 2.2 User Characteristics
+>> [2.2 User Characteristics](#22-user-characteristics)
 >>
->> 2.3 Mandated Constraints
+>> [2.3 Mandated Constraints](#23-mandated-constraints)
 >> 
->> 2.4 Potential System Evolution
+>> [2.4 Potential System Evolution](#24-potential-system-evolution)
 >
->3 NONFUNCTIONAL REQUIREMENTS
->> 3.1 Operational Requirements
+> [3 NONFUNCTIONAL REQUIREMENTS](#3-nonfunctional-requirements)
+>> [3.1 Operational Requirements](#31-operational-requirements)
 >>
->> 3.2 Performance Requirements
+>> [3.2 Performance Requirements](#32-performance-requirements)
 >>
->> 3.3 Security Requirements
+>> [3.3 Security Requirements](#33-security-requirements)
 >> 
->> 3.4 Safety Requirements
+>> [3.4 Safety Requirements](#34-safety-requirements)
 >>
->> 3.5 Legal Requirements
+>> [3.5 Legal Requirements](#35-legal-requirements)
 >>
->> 3.6 Other Quality Attributes
+>> [3.6 Other Quality Attributes](#36-other-quality-attributes)
 >> 
->> 3.7 Documentation and Training
+>> [3.7 Documentation and Training](#37-documentation-and-training)
 >>
->> 3.8 External Interface
->>> 3.8.1 User Interface
+>> [3.8 External Interface](#38-external-interface)
+>>> [3.8.1 User Interface](#381-user-interface)
 >>>
->>> 3.8.2 Software Interface
+>>> [3.8.2 Software Interface](#382-software-interface)
 >
-> 4 SYSTEM FEATURES
->> 4.1 Authentication
+> [4 SYSTEM FEATURES](#4-system-features)
+>> [4.1 Authentication](#41-authentication)
+>>> [4.1.1 Description and Priority](#411-description-and-priority)
+>>>
+>>> [4.1.2 Use case: Registration](#412-use-case-registration)
+>>>
+>>> [4.1.3 Additional requirements](#413-additional-requirements)
+>>>
+>>> [4.1.4 Description and Priority](#414-description-and-priority)
+>>>
+>>> [4.1.5 Use case: Login](#415-use-case-login)
+>>>
+>>> [4.1.6 Additional requirements](#416-additional-requirements)
 >>
->> 4.2 Lessons
+>> [4.2 Lessons](#42-lessons)
+>>> [4.2.1 Description and Priority](#421-description-and-priority)
+>>>
+>>> [4.2.2 Use case: create a lesson](#422-use-case-create-a-lesson)
+>>>
+>>> [4.2.3 Additional requirements](#423-additional-requirements)
+>>>
+>>> [4.2.4 Description and Priority](#424-description-and-priority)
+>>>
+>>> [4.2.5 Use case: manage a lesson](#425-use-case-manage-a-lesson)
+>>>
+>>> [4.2.6 Additional requirements](#426-additional-requirements)
 >>
->> 4.3 Quizzes
+>> [4.3 Quizzes](#43-quizzes)
+>>> [4.3.1 Description and Priority](#431-description-and-priority)
+>>>
+>>> [4.3.2 Use case: create a quiz](#432-use-case-create-a-quiz)
+>>>
+>>> [4.3.3 Additional requirements](#433-additional-requirements)
+>>>
+>>> [4.3.4 Description and Priority](#434-description-and-priority)
+>>>
+>>> [4.3.5 Use case: manage a quiz](#435-use-case-manage-a-quiz)
+>>>
+>>> [4.3.6 Additional requirements](#436-additional-requirements)
+>>
+>> [4.4 Inviting](#44-inviting)
+>>> [4.4.1 Description and Priority](#441-description-and-priority)
+>>>
+>>> [4.4.2 Use case: Inviting user to a course](#442-use-case-inviting-user-to-a-course)
+>>>
+>>> [4.4.3 Additional requirements](#443-additional-requirements)
+>>>
+>>
 >
->> 4.4 Inviting
->
-> 5 APPENDICES
 
 Authors  
 Ovidiu Andrioaia, David Cirdan, Luciano Mateias and Zhiyang Xia.
@@ -173,7 +212,7 @@ All data delivered through the platform is private, and will throughly adhere to
 
 ## 4 SYSTEM FEATURES
 
-### 4.1 Feature: Authentication
+### 4.1 Authentication
 
 #### 4.1.1 Description and Priority
 
@@ -236,7 +275,7 @@ Each field must match a specific pattern specified by the program
 
 N/A
 
-### 4.2 Feature: Lessons
+### 4.2 Lessons
 
 #### 4.2.1 Description and Priority
 
@@ -292,7 +331,7 @@ N/A
 
 It is assumed that the user that wants to manage the lesson is authorized to do so.
 
-### 4.3 Feature: Quizzes
+### 4.3 Quizzes
 
 #### 4.3.1 Description and Priority
 
@@ -366,7 +405,7 @@ N/A
 
 It is assumed that the user that wants to see the results is authorized to do so.
 
-### 4.4 Feature: Inviting
+### 4.4 Inviting
 
 #### 4.4.1 Description and Priority
 
