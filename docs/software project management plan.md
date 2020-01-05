@@ -69,7 +69,29 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 >> 5.2 Test Plan
 >>
 >> 5.3 Product Acceptance Plan
-
+ ### 2 STARTUP PLAN
+ #### 2.1 Team Organization
+ * Team members:
+    * Project Leader:         Ovidiu Costin Andrioaia. The project leader is responsible for creating the project plan, managing risks, running the weekly team meeting and providing monthly status reports to senior management.
+    * Front-end developer:    Daivd Constantin Cirdan. The Front-end developer is responsible for choosing the design and style of the application and he is responsabile for coding  the user interface.
+    * Back-end developer:     Luciano Mateias. The Back-end developer is responsible for coding
+    the part of the application that will manage the data provided by the front-end.
+    * Marketing manager:              Zhiyang Angelo Xia. The marketing manager deals with the sales policies of a company's products. It establishes the techniques and strategies it must adopt to sell more and better than the competition, satisfying the needs of consumers.
+ #### 2.2 Project Communications
+ The information is collected in the weekly mitting, in which each sector reports on the data obtained, so as to be able to obtain a graph and check the progress of the project. 
+ The data transmission occurs thanks to the use of multiple channels:
+ * Social media
+ * Github
+ * Referral through users
+ #### 2.3 Technical Process
+ As a development methodology the team chose to use the cascade model together with the UTF-8 standard for the code. with the cascade model the development was divided into sequential phases, in which each phase produces an output which is used as input for the next phase.
+ #### 2.4 Tools
+ Tools used for development:
+ * Programming Language:   Python - JavaScript
+ * Version Controll:       Github
+ * Defect tracking:        Bugzilla
+ * Build tools:            PyCharm
+ * Database:               SQL
  ### 3 Work Plan
  #### 3.1 Resource Estimate
  The following estimates of resource spending are based on time, estimated effort, actual effort and the dependecies between the tasks:
