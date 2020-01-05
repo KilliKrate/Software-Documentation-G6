@@ -69,7 +69,10 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 >> 5.2 Test Plan
 >>
 >> 5.3 Product Acceptance Plan
+
+
  ### 2 STARTUP PLAN
+
  #### 2.1 Team Organization
  Team members:
  * Project Leader:         Ovidiu Costin Andrioaia.  
@@ -84,14 +87,17 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 
  * Marketing :             Zhiyang Angelo Xia.  
  He deals with the sales policies of a company's products. It establishes the techniques and strategies it must adopt to sell more.
+
  #### 2.2 Project Communications
  The information is collected in the weekly mitting, in which each sector reports on the data obtained, so as to be able to obtain a graph and check the progress of the project. 
  The data transmission occurs thanks to the use of multiple channels:
  * Social media
  * Github
  * Referral through users
+
  #### 2.3 Technical Process
  As a development methodology the team chose to use the cascade model together with the UTF-8 standard for the code. with the cascade model the development was divided into sequential phases, in which each phase produces an output which is used as input for the next phase.
+
  #### 2.4 Tools
  Tools used for development:
  * Programming Language:   Python - JavaScript
@@ -100,6 +106,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  * Build tools:            PyCharm
  * Database:               SQL
  ### 3 Work Plan
+
  #### 3.1 Resource Estimate
  The following estimates of resource spending are based on time, estimated effort, actual effort and the dependecies between the tasks:
  * Intention agreement: 
@@ -182,6 +189,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
     * Dependencies: none
  
  #### 3.2 Release Plan
+
  **Iteration #1**
  * Summary: design all the application architecure and find partners
  
@@ -189,6 +197,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  | ----------------------- | ---------------- | --------------| 
  | Architecture design | Substantial | Substantial |
  | Finding partners | Major | Major |
+
  **Iteration #2**
  * Summary: development of the database, front-end and back-end with beta release
  
@@ -196,6 +205,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  | ----------------------- | ---------------- | ------------- |
  | DB, Back / Front-end | Substantial | Substantial |
  | Beta release | Major | Major |
+ 
  **Iteration #3**
  * Summary: final release, with the approval of partners, stakeholders and various software debugging
  
@@ -206,11 +216,14 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  #### 3.3 Iteration Plans
  * **First iteration**: intention agreement will all the team on how the software should be developed,
  starting to search for partners interested in the project while developing the overall design and framework.
+
  * **Second iteration**: deployment of the database, then front-end and back-end development. After the core application is finished,
  launch the private beta.
+
  * **Third iteration**: past the beta and the general feedback on the software, start fixing bugs and improve the platform, at last launch the final release.
  
  ### 4 Control Plan
+
  #### 4.1 Monitoring and Control
  The following list of dates includes formal reviews of the project and major accomplished milestones
  in reference to the established schedule.
@@ -225,6 +238,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  | 06/17/2019 | Beta release and feedback from stakeholders |
  | 07/20/2019 | Further development of the platform |
  | 09/13/2019 | Application fully downloadable from Github repository | 
+
  #### 4.2 Configuration Management Plan
  This is the procedure to follow when making changes to the final product:
  1. All the data is stored on a GIT repository hosted by Github, this is the main container.
@@ -244,7 +258,6 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 ### 5 Supporting Process Plans
 
 #### 5.1 Risk Management Plan
-
 |**Rank**|**Risk**                               |**Probability of loss**|**Size of loss**|**Risk exposure**|**Response**|
 |:------:|:-------------------------------------:|:---------------------:|:--------------:|:---------------:|:----------:|
 |   1    |Schedule                               |Likely                 |Major           |High             |            |
@@ -256,11 +269,9 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 |   7    |Customer change  of idea               |Unlikely               |Minor           |Moderate         |            |
 
 #### 5.2 Test Plan
-
 The test plan defines the items that will be tested, methods for testing, and a schedule detailing the tasks, owners, and time line.
 
 The test plan will be available in a separate document in the version control system at: https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/test%20plan.md
 
 #### 5.3	Product Acceptance Plan
-
 At the completion of each iteration, the prototype will be tested. Testing will be made via [Travis CI](https://travis-ci.org/) and [Docker](https://www.docker.com/) to create an isolated and uncontaminated environment. The software tested on Docker will face multiple checks with different operative systems to ensure the proper behavior.
