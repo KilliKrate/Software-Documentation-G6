@@ -49,6 +49,8 @@ Table of Contents
 >>
 >> 4.3 Quizzes
 >
+>> 4.4 Inviting
+>
 > 5 APPENDICES
 
 Authors  
