@@ -265,7 +265,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 |   3    |End of financial support                        |Likely                 |Moderate – Major|Moderate         |Constantly check for new fund opportunities                                                                                         |
 |   4    |End of support for project requirements         |Likely                 |Moderate        |Minor            |Talk to the managers of each of the library/framework used to ensure they will get updated till the project is released             |
 |   5    |Lack of test data                               |Unlikely               |Moderate        |Minor            |Gather and adapt some sample data from internet                                                                                     |
-|   6    |Commerce team’s inexperience with ads           |Unlikely               |Minor - Moderate|Minor - Moderate |Let the commerce team some time learning the usage of Google AdSense                                                                |
+|   6    |Commerce team’s inexperience with ads           |Unlikely               |Minor - Moderate|Minor - Moderate |Let the commerce team spend some time learning the usage of Google AdSense                                                          |
 |   7    |Customer change  of idea                        |Unlikely               |Minor           |Moderate         |Illustrate each step to complete the project and ensure the customer agrees to every revision made during the project (Agile method)|
 
 #### 5.2 Test Plan
