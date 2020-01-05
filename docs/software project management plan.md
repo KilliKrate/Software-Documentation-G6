@@ -258,15 +258,15 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 ### 5 Supporting Process Plans
 
 #### 5.1 Risk Management Plan
-|**Rank**|**Risk**                               |**Probability of loss**|**Size of loss**|**Risk exposure**|**Response**|
-|:------:|:-------------------------------------:|:---------------------:|:--------------:|:---------------:|:----------:|
-|   1    |Schedule                               |Likely                 |Major           |High             |            |
-|   2    |Team’s lack of relevant experience     |Likely                 |Major           |High             |            |
-|   3    |End of financial support               |Likely                 |Moderate – Major|Moderate         |            |
-|   4    |End of support for project requirements|Likely                 |Moderate        |Minor            |            |
-|   5    |Lack of test data                      |Unlikely               |Moderate        |Minor            |            |
-|   6    |Team’s inexperience with ads             |Unlikely               |Minor - Moderate|Minor - Moderate |            |
-|   7    |Customer change  of idea               |Unlikely               |Minor           |Moderate         |            |
+|**Rank**|**Risk**                                        |**Probability of loss**|**Size of loss**|**Risk exposure**|**Response**                                                                                                                        |
+|:------:|:----------------------------------------------:|:---------------------:|:--------------:|:---------------:|:----------------------------------------------------------------------------------------------------------------------------------:|
+|   1    |Schedule                                        |Likely                 |Major           |High             |Adhere to the schedule                                                                                                              |
+|   2    |Dev Team’s lack of relevant experience          |Likely                 |Major           |High             |Let the dev team spend some time learning the needed technologies                                                                   |
+|   3    |End of financial support                        |Likely                 |Moderate – Major|Moderate         |Constantly check for new fund opportunities                                                                                         |
+|   4    |End of support for project requirements         |Likely                 |Moderate        |Minor            |Talk to the managers of each of the library/framework used to ensure they will get updated till the project is released             |
+|   5    |Lack of test data                               |Unlikely               |Moderate        |Minor            |Gather and adapt some sample data from internet                                                                                     |
+|   6    |Commerce team’s inexperience with ads           |Unlikely               |Minor - Moderate|Minor - Moderate |Let the commerce team some time learning the usage of Google AdSense                                                                |
+|   7    |Customer change  of idea                        |Unlikely               |Minor           |Moderate         |Illustrate each step to complete the project and ensure the customer agrees to every revision made during the project (Agile method)|
 
 #### 5.2 Test Plan
 The test plan defines the items that will be tested, methods for testing, and a schedule detailing the tasks, owners, and time line.
