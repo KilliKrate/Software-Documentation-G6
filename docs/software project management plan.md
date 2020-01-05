@@ -265,7 +265,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 |   3    |End of financial support               |Likely                 |Moderate – Major|Moderate         |            |
 |   4    |End of support for project requirements|Likely                 |Moderate        |Minor            |            |
 |   5    |Lack of test data                      |Unlikely               |Moderate        |Minor            |            |
-|   6    |Team’s inadequacy with ads             |Unlikely               |Minor - Moderate|Minor - Moderate |            |
+|   6    |Team’s inexperience with ads             |Unlikely               |Minor - Moderate|Minor - Moderate |            |
 |   7    |Customer change  of idea               |Unlikely               |Minor           |Moderate         |            |
 
 #### 5.2 Test Plan
