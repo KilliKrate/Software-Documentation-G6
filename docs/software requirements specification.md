@@ -227,8 +227,8 @@ All data delivered through the platform is private, and will throughly adhere to
 **Description**: This use case begins when a not logged in user wants to create a new account to use the services.
 
 **Basic path**: 
-1. The user opens the registration form by pressing “register” button.
-2. The program opens the registration form and requires the user to insert some personal information: name, surname, password, email and birthdate.
+1. The user enters the registration form by pressing “register” button.
+2. The program requires the user to insert some personal information: name, surname, password, email and birthdate.
 Each field must match a specific pattern specified by the program
 3. The program pops up a confirmation and redirects the user to the homepage.
 
@@ -257,8 +257,8 @@ N/A
 **Description**: This use case begins when a registered user wants to log in to the system with an already existing account.
 
 **Basic path**: 
-1. The user opens the login form by pressing “login” button
-2. The program opens the login form and requires the user to insert email and password of his account.
+1. The user enters the login form by pressing “login” button
+2. The program requires the user to insert email and password of his account.
 Each field must match a specific pattern specified by the program
 3. The program pops up a confirmation and redirects the user to the homepage.
 
@@ -291,7 +291,7 @@ N/A
 
 **Basic path**: 
 1. The user selects a course and a topic, then presses the “+” button on top of the 3rd column.
-2. The program opens the lesson creation form and requires the user to insert the name of the lesson, after that the lesson is created. A name is required in order to proceed.
+2. The program displays the lesson creation form and requires the user to insert the name of the lesson, after that the lesson is created. A name is required in order to proceed.
 
 **Alternate path**:
 1. If the name used in step 2 is not valid, the user will be presented with a dialog box with an error that specifies the cause.
@@ -319,7 +319,7 @@ N/A
 
 **Basic path**: 
 1. The user right-clicks on the lesson, this will pop up a new menu near the mouse. On the new menu the user right-clicks on “Modifica” to manage a lesson’s content.
-2. The program opens a new page with a WYSIWYG (What You See Is What You Get) form where the user can freely customize the lesson and then submit the changes.
+2. The program displays a new page with a WYSIWYG (What You See Is What You Get) form where the user can freely customize the lesson and then submit the changes.
 
 **Alternate path**: N/A
 
@@ -347,7 +347,7 @@ It is assumed that the user that wants to manage the lesson is authorized to do 
 
 **Basic path**:
 1. The user selects a course and a topic, then presses the “+” button on top of the 3rd column.
-2. The program opens the quiz creation form and requires the user to insert the name of the quiz, after that the quiz creator form is displayed to the user.
+2. The program displays the quiz creation form and requires the user to insert the name of the quiz, after that the quiz creator form is displayed to the user.
 3. The user creates the quiz using the intuitive controls of the form and then submits it, after that the quiz is created.
 
 **Alternate path**:
@@ -376,7 +376,7 @@ It is assumed that the user that wants to manage the quiz is authorized to do so
 
 **Basic path**:
 1. The user right-clicks on the quiz, this will pop up a new menu near the mouse. On the new menu the user right-clicks on “Modifica” to manage a quiz’s content.
-2. The program opens a new page with a intuitive form where the user can freely customize the quiz and then submit the changes.
+2. The program displays a new page with a intuitive form where the user can freely customize the quiz and then submit the changes.
 
 **Alternate path**:
 
@@ -404,7 +404,7 @@ N/A
 
 **Basic path**:
 1. The user right-clicks on the quiz, this will pop up a new menu near the mouse. On the new menu the user right-clicks on “Revisiona” to review a quiz’s results.
-2. The program opens a review panel where the user can easily access the result of every quiz participant by left-clicking on his username.
+2. The program displays a review panel where the user can easily access the result of every quiz participant by left-clicking on his username.
 
 **Alternate path**:
 1. If no user participated there will be no list displayed.
@@ -433,7 +433,7 @@ It is assumed that the user that wants to see the results is authorized to do so
 
 **Basic path**: 
 1. The user right-clicks on the course, this will pop up a new menu near the mouse. On the new menu the user right-clicks on “Modifica”.
-2. The program opens a new page with a form asking the user to digit the email of the user to invite.
+2. The program displays a new page with a form asking the user to digit the email of the user to invite.
 3. The user submits the form and the invite is sent.
 
 **Alternate path**:
