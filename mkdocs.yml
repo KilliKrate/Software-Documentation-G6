@@ -1,2 +1,7 @@
+site_name: Software-Documentation-G6
+
 nav:
     - 'Introduction': 'index.md'
+    
+theme:
+    name: readthedocs
