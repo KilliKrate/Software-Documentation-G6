@@ -1,16 +1,16 @@
-## Software Project Management Plan
+# Software Project Management Plan
 
-### Lezioni alla pari
+## Lezioni alla pari
 January 4, 2020
 
-### Team Members
-Ovidiu Andrioaia<br>
-David Cirdan<br>
-Luciano Mateias<br>
+## Team Members
+Ovidiu Andrioaia  
+David Cirdan  
+Luciano Mateias  
 Zhiyang Xia
 
 
-### Document Control
+## Document Control
 **Change History**
 
 | Revision | Change Date | Description of changes |
@@ -26,7 +26,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  
  Group 6 is responsible for developing and maintaining this document.
  
- ### Table of Contents
+ ## Table of Contents
  > 1 OVERVIEW
 >> 1.1 Purpose and Scope
 >>
@@ -70,15 +70,97 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 >>
 >> 5.3 Product Acceptance Plan
 
+ ## 1 OVERVIEW
 
- ### 2 STARTUP PLAN
+ ### 1.1 Purpose and Scope
+ Lezioni alla Pari is an online desktop application designed to streamline knowledge sharing between people inside a closed environment: any group can use our platform to create lessons in the form of illustrated documents or video, in order to instruct their peers on subjects of interest. Quizzes are also available as a tool to summarize (in the case of a company) or test (in the case of a class) the understanding of the subject.
 
- #### 2.1 Team Organization
+ Anyone can use this application: from sports groups and classrooms, to project teams and companies, the application uses a simple and straightforward structure so that anyone can pick up the program and immediately start learning without needing to check any user guide or manual. This is particularly important because this application is meant to cater to a wide demographic: a kid in a classroom should be able to use the program as well as a new intern in a big company.
+
+ The software will allow people to create a course, which will contain lessons on a set of topics. The authors of a course can decide to invite people as collaborators, which will actively populate the course and work together with the author, or a student, an individual that can only read and watch lessons. Automated quizzes can also be created and completed, and the author and collaborators will be able to check the answers given if needed.
+
+ Lezioni alla Pari will run on a client-server structure, which thanks to a distributed server system will allow us to deliver content quickly, and is easily scalable if necessary.
+
+ A mobile version of the program is feasible and will be delivered if the project is successful, and enough people start using it to justify cost and developement times.
+
+ ### 1.2 Goals and Objectives
+ The main objective of Lezioni alla Pari is to give the members of a group a way to easily share knowledge and information between each other.  
+
+ Project Goals:
+ 1. Deliver an easy to use application that democratizes knowledge sharing in a way never seen before.
+ 2. Give ITIS Marconi, our main partner, prestige and visibility in the local region, if not nationally.
+ 3. Deepen our knowledge of software engineering and architecture design.
+
+ Project Objectives:
+ 1. Create a desktop client that allows people to create content, and delivers that content on-demand securely and promptly.
+ 2. Create an easy to use and intuitive User Interface, and refine the User Experience in a way that all demographics can take advantage of the app.
+ 3. Provide a way for authors to summarize information through automated quizzes, and give the ability to the former to review the answers of each participant.
+
+ ### 1.3 Project Deliverables
+
+ | Date | Deliverable |
+ | ---- | ----------- |
+ | 05/13/2019 | Software Documentation |
+ | 05/30/2019 | End of the first iteration |
+ | 06/16/2019 | End of the second iteration |
+ | 06/17/2019 | Beta release for stakeholders|
+ | 09/13/2019 | Application fully downloadable from Github repository |
+
+ ### 1.4 Assumptions and Constraints
+
+ #### 1.4.1 Assumptions
+ 1. Github will allow the team to collaborate on the project remotely by scheduling tasks and committing code
+
+ #### 1.4.2 Constraints
+ 1. The project will have to be supported by at least 3 partners before the beta phase, in order to have an acceptable amount feedback.
+ 2. The application must satisfy security and privacy standards of public institutions before release, in order to guarantee that sensible information will not be made public through exploitation of weaknesses or hacking.
+
+ ### 1.5 Schedule and Budget Summary
+
+ #### 1.5.1 Cost Estimate
+ - 1 project manager and back-end developer and at 10 hours per week for 6 weeks  
+**60 hours * $45/hr = $2700**
+
+- 1 marketing specialist and front-end developer at 10 hours per week for 6 weeks  
+**60 hours * $40/hr = $2400**
+
+- 1 back-end dev at 10 hours per week each for 6 weeks  
+**60 hours * $35/hr = $2100**
+
+- 1 front-end dev at 10 hours per week each for 6 weeks  
+**60 hours * $35/hr = $2100**
+
+**240 hours total, $9300 total, avg, $38,75 per hour**
+
+#### 1.5.2 Schedule Summary
+
+| Date | Review / Milestone |
+| ---- | ------------------ |
+| 04/10/2019 | Project start |
+| 05/13/2019 | Software Documentation and planning completed |
+| 05/17/2019 | Start of the first iteration |
+| 05/30/2019 | Review of the first iteration |
+| 06/01/2019 | Start of the second iteration |
+| 06/17/2019 | Beta release and feedback from stakeholders |
+| 07/20/2019 | Further development of the platform |
+| 09/13/2019 | Application fully downloadable from Github repository | 
+
+### 1.6 Success Criteria
+At least 3 official insitutions/companies that have successfully adopted our platform after release will be considered as a success to the project
+
+### 1.7 Definitions
+
+lorem lorem lorem
+
+
+ ## 2 STARTUP PLAN
+
+ ### 2.1 Team Organization
  Team members:
  * Project Leader:         Ovidiu Costin Andrioaia.  
  The project leader is responsible for creating the project plan, managing risks, running the weekly team meeting and providing monthly status reports to senior management.
 
- * Front-end developer:    Daivd Constantin Cirdan - Zhiang Angelo Xia.  
+ * Front-end developer:    David Constantin Cirdan - Zhiang Angelo Xia.  
   The Front-end developers are responsible for choosing the design and style of the application and they are responsible for coding  the user interface.
 
  * Back-end developer:     Luciano Mateias.  
@@ -88,26 +170,27 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  * Marketing :             Zhiyang Angelo Xia.  
  He deals with the sales policies of a company's products. It establishes the techniques and strategies it must adopt to sell more.
 
- #### 2.2 Project Communications
+ ### 2.2 Project Communications
  The information is collected in the weekly mitting, in which each sector reports on the data obtained, so as to be able to obtain a graph and check the progress of the project. 
  The data transmission occurs thanks to the use of multiple channels:
  * Social media
  * Github
  * Referral through users
 
- #### 2.3 Technical Process
+ ### 2.3 Technical Process
  As a development methodology the team chose to use the cascade model together with the UTF-8 standard for the code. with the cascade model the development was divided into sequential phases, in which each phase produces an output which is used as input for the next phase.
 
- #### 2.4 Tools
+ ### 2.4 Tools
  Tools used for development:
  * Programming Language:   Python - JavaScript
  * Version Controll:       Github
  * Defect tracking:        Bugzilla
  * Build tools:            PyCharm
  * Database:               SQL
- ### 3 Work Plan
 
- #### 3.1 Resource Estimate
+ ## 3 Work Plan
+
+ ### 3.1 Resource Estimate
  The following estimates of resource spending are based on time, estimated effort, actual effort and the dependecies between the tasks:
  * Intention agreement: 
     * Team members involved: all the team takes part
@@ -188,7 +271,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
     * Actual effort: average
     * Dependencies: none
  
- #### 3.2 Release Plan
+ ### 3.2 Release Plan
 
  **Iteration #1**
  * Summary: design all the application architecure and find partners
@@ -213,7 +296,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  | ----------------------- | ---------------- | ------------- |
  | Final release | Average | Substantial |
  
- #### 3.3 Iteration Plans
+ ### 3.3 Iteration Plans
  * **First iteration**: intention agreement will all the team on how the software should be developed,
  starting to search for partners interested in the project while developing the overall design and framework.
 
@@ -222,16 +305,16 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 
  * **Third iteration**: past the beta and the general feedback on the software, start fixing bugs and improve the platform, at last launch the final release.
  
- ### 4 Control Plan
+ ## 4 Control Plan
 
- #### 4.1 Monitoring and Control
+ ### 4.1 Monitoring and Control
  The following list of dates includes formal reviews of the project and major accomplished milestones
  in reference to the established schedule.
  
  | Date | Review / Milestone |
  | ---- | ------------------ |
  | 04/10/2019 | Project start |
- | 13/05/2019 | Software Documentation and planning completed |
+ | 05/13/2019 | Software Documentation and planning completed |
  | 05/17/2019 | Start of the first iteration |
  | 05/30/2019 | Review of the first iteration |
  | 06/01/2019 | Start of the second iteration |
@@ -239,7 +322,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  | 07/20/2019 | Further development of the platform |
  | 09/13/2019 | Application fully downloadable from Github repository | 
 
- #### 4.2 Configuration Management Plan
+ ### 4.2 Configuration Management Plan
  This is the procedure to follow when making changes to the final product:
  1. All the data is stored on a GIT repository hosted by Github, this is the main container.
  2. All the changes to documents and files are tracked via commits and comments
@@ -255,7 +338,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
     * after the change has been successfully actualized, all the documentation and schedule will be updated with the new changes,
     as well as the public software.
  
-### 5 Supporting Process Plans
+## 5 Supporting Process Plans
 
 #### 5.1 Risk Management Plan
 |**Rank**|**Risk**                                        |**Probability of loss**|**Size of loss**|**Risk exposure**|**Response**                                                                                                                        |
@@ -268,10 +351,10 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 |   6    |Commerce team’s inexperience with ads           |Unlikely               |Minor - Moderate|Minor - Moderate |Let the commerce team spend some time learning the usage of Google AdSense                                                          |
 |   7    |Customer change  of idea                        |Unlikely               |Minor           |Moderate         |Illustrate each step to complete the project and ensure the customer agrees to every revision made during the project (Agile method)|
 
-#### 5.2 Test Plan
+### 5.2 Test Plan
 The test plan defines the items that will be tested, methods for testing, and a schedule detailing the tasks, owners, and time line.
 
 The test plan will be available in a separate document in the version control system at: https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/test%20plan.md
 
-#### 5.3	Product Acceptance Plan
+### 5.3	Product Acceptance Plan
 At the completion of each iteration, the prototype will be tested. Testing will be made via [Travis CI](https://travis-ci.org/) and [Docker](https://www.docker.com/) to create an isolated and uncontaminated environment. The software tested on Docker will face multiple checks with different operative systems to ensure the proper behavior.

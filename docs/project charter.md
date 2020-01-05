@@ -69,9 +69,9 @@ The SCRUM development strategy will be used to its fullest extent, as developmen
 
 The project will have to be supported by at least 3 partners before the beta phase, in order to have an acceptable amount feedback. The application must satisfy security and privacy standards of public institutions before release. If support after release or partners is not sufficient, the platform will be launched to the public domain as an online learning tool.
 
-## Assumptions: 
+## Assumptions 
 
- Team members will work from home, since no office space is available. Transition from a desktop client to an online website is possible, and will happen if the project does not meet its success criteria.  
+ Team members will work from home, since no office space is available. Collaboration will be made possible through Github.  
 
 ## Success Criteria
 
