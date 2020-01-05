@@ -32,14 +32,14 @@ The overall goal is to give students and professors alike an easy to use and int
 
 ## Schedule Information (Major milestones and deliverables):
 
-- 09/09/2010 - Starting meeting with team, customer and stakeholders
-- 09/09/2010 - Project Model Canvas completed
-- 09/09/2010 - Business Model Canvas completed
-- 09/09/2010 - Project Charter completed
-- 09/09/2010 - Software Requirements Specifications completed
-- 09/09/2010 - Software Project Management Plan completed
-- 09/09/2010 - Database and SQL Server deployment
-- 12/07/2010 - Product Released
+- 04/15/2019 - Starting meeting with team, customer and stakeholders
+- 04/27/2019 - Project Model Canvas completed
+- 04/29/2019 - Business Model Canvas completed
+- 05/02/2019 - Project Charter completed
+- 05/06/2019 - Software Requirements Specifications completed
+- 05/13/2019 - Software Project Management Plan completed
+- 07/09/2019 - Database and SQL Server deployment
+- 09/13/2019 - Product Released
 
 ## Financial Information (Cost estimate and budget information): 
 
