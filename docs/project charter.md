@@ -12,58 +12,60 @@
 
 Team: has the authority to make decision for the entire project, incuding resource management, and has to organize and complete tasks based on the other stakeholders needs and partner feedback.
 
-Customers: will use the application to share learning material and leave simple quizzes as homework at the end of each document. Because of the simplicity of the application, students will also use the application as reference for future projects.
+Customers: will use the application to share learning material and leave simple quizzes as a way to summarize each lesson.
 
 The Sponsor: will have an application to enhance the school’s learning experience for its students and professors, while also gaining local visibility since it was made by its students.
 
 ## Purpose
 
-Thanks to the creation of an open and non-profit learning platform students and professors alike will be able to streamline knowledge sharing between small groups, classes, or even entire departments, while also making computerized quizzes and tests easier to make. Other insitutions and companies will also be able to use this system for learning materials and resources, especially for interns or new employees.
+Thanks to the creation of an online open-source learning platform students and professors alike will be able to streamline knowledge sharing between small groups, classes, or even entire departments, while also making computerized quizzes and tests easier to make. Other insitutions and companies will also be able to use this system for learning materials and resources, especially for interns or new employees.
 
 ## Goals and Objectives
 
-The overall goal is to give students and professors alike an easy to use and intuitive platform to share knowledge by creating courses and quizzes. The app is expected to:
+The overall goal is to give school and company figures an easy to use and intuitive platform to share knowledge by creating courses and quizzes. The app is expected to:
 
-- Provide an account login, registration and options section
-- Provide a way to create and manage courses and quizzes
-- Provide a way to view other people’s courses and complete their tests
-- Function in a simple and intuitive manner
-- Deliver content efficiently and on-demand
+1. Provide an account login, registration and options section
+2. Provide a way to create and manage courses and quizzes
+3. Provide a way to add partecipants to a course, in the form of collaborators or students
+4. Function in a simple and intuitive manner, so that it's usable to all demographics
+5. Deliver content efficiently and on-demand
 
 ## Schedule Information (Major milestones and deliverables):
 
-- 04/15/2019 - Starting meeting with team, customer and stakeholders
-- 04/27/2019 - Project Model Canvas completed
-- 04/29/2019 - Business Model Canvas completed
-- 05/02/2019 - Project Charter completed
-- 05/06/2019 - Software Requirements Specifications completed
-- 05/13/2019 - Software Project Management Plan completed
-- 06/09/2019 - Database and SQL Server deployment
-- 09/13/2019 - Product Released
+| Date | Review / Milestone |
+| ---- | ------------------ |
+| 04/10/2019 | Project start |
+| 05/13/2019 | Software Documentation and planning completed |
+| 05/17/2019 | Start of the first iteration |
+| 05/30/2019 | Review of the first iteration |
+| 06/01/2019 | Start of the second iteration |
+| 06/17/2019 | Beta release and feedback from stakeholders |
+| 07/20/2019 | Further development of the platform |
+| 09/13/2019 | Application fully downloadable from Github repository | 
 
 ## Financial Information (Cost estimate and budget information): 
 
-- 1 project manager and back-end developer and at 10 hours per week for 6 weeks  
-**60 hours * $45/hr = $2700**
+- 1 project manager and back-end developer and at 4 hours per week for 24 weeks  
+**96 hours * €20/hr = €1920**
 
-- 1 marketing specialist and front-end developer at 10 hours per week for 6 weeks  
-**60 hours * $40/hr = $2400**
+- 1 marketing specialist and front-end developer at 4 hours per week for 24 weeks  
+**96 hours * €20/hr = €1920**
 
-- 1 back-end dev at 10 hours per week each for 6 weeks  
-**60 hours * $35/hr = $2100**
+- 1 back-end dev at 4 hours per week each for 24 weeks  
+**96 hours * €15/hr = €1440**
 
-- 1 front-end dev at 10 hours per week each for 6 weeks  
-**60 hours * $35/hr = $2100**
+- 1 front-end dev at 4 hours per week each for 24 weeks  
+**96 hours * €15/hr = €1440**
 
-**240 hours total, $9300 total, avg, $38,75 per hour**
+**384 hours total, €6720 total, avg, €17,5 per hour**
 
 ## Project Priorities and degrees of freedom
 
-Internal development dates are generally flexible only by a few days at most, and with the authorization of the project manager.  Budget is extendable in terms of hours put in by each team member. The team members amount of weekly hours may change based on the amount of work to be done, as organized by the project manager. Roles are changeable based on workloads of individual team members.  Roles are expected to shift throughout the project as needs arise.
+Internal development dates are generally flexible only by a few days at most, and with the authorization of the project manager.  Budget is extendable in terms of hours put in by each team member. The team members amount of weekly hours may change based on the amount of work to be done, as organized by the project manager. Roles are changeable based on workloads of individual team members. Roles are expected to shift throughout the project as needs arise.
 
 ## Approach 
 
-The SCRUM development strategy will be used to its fullest extent, as development will be based on Sprints, after which feedback from the stakeholders will be received and analyzed for subsequent iteration. After the back-end and basic front end has been deployed, a beta phase will start, in which all partners will 
+The SCRUM development strategy will be used to its fullest extent, as development will be based on Sprints, after which feedback from the stakeholders will be received and analyzed for subsequent iteration. After the back-end and basic front end has been deployed, a beta phase will start, in which all partners will give useful feedback for UI and UX improvements before the final release.
 
 ## Constraints
 

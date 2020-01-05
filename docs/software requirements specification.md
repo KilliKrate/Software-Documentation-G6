@@ -1,4 +1,4 @@
-## Requirements for the Lezioni alla pari project
+# Requirements for the Lezioni alla pari project
 Table of Contents
 > [1 INTRODUCTION](#1-introduction)
 >> [1.1 Overview](#11-overview)
@@ -97,63 +97,59 @@ Ovidiu Andrioaia, David Cirdan, Luciano Mateias and Zhiyang Xia.
 ## 1 INTRODUCTION
 
 ### 1.1 Overview
-Lezioni alla pari is an application that focuses on simplyfing the sharing of knowledge between various parties inside a closed environment (e.g. the departments of a company) easier and within everyone’s reach. The software streamlines the creation of courses that can contain documents, videos and quizzes on a wide range of topics.
+Lezioni alla pari is an application that focuses on simplyfing the sharing of knowledge between various parties inside a closed environment (e.g. the departments of a company, a classroom, a sports club) easier and within everyone’s reach. The software streamlines the creation of courses that can contain documents, videos and quizzes on a wide range of topics.
 
 This document provides information on the requirements of the Lezioni alla pari application, and aims to deliver an intelligible documentation of the software to the developers that can use it as a reference, as well as their customers, that can have a deeper insight of the project and its sophistications.
 
 ### 1.2 Goals and Objectives
 The main objective of this project is to develop a platform that will provide the following:
-1. A login system for the users
-2. An intuitive graphical user interface
-3. A lesson creating system with containers that can have documents, videos and quizzes
-4. Automated quiz correction
+1. Login and registration system for users
+2. Intuitive graphical user interface
+3. Course creation system with lessons that can contain documents, videos or quizzes
+5. Automated quiz correction
 
 ### 1.3 Scope
-Lezioni alla pari will store all the users data inside a local file, all the contents created inside the user environment won't be accessible outside
-the platform, and only registered individuals will be able to participate. The application is open-source and can be downloaded through Github, it can be installed only on Personal Computers.
+Lezioni alla Pari will store user information and documents inside an SQL database, while video lessons will be delivered through a dedicate content streaming server. Content is meant to be private to the group, the only way to access someone else's documents is to be invited by the author of the course, or the collaborators themselves. The application is open-source and can be downloaded through Github, and can be installed on any desktop that supports Python-based applications (this includes the main operating systems, like Windows, Linux and Mac OS)
 
 ### 1.4 Definitions
-**Use case** - describes a goal-oriented interaction between the system and an actor. A use case may define several variants called scenarios that result in different paths through the use case and usually different outcomes.
+- **Use Case**: Describes a goal-oriented interaction between the system and an actor. A use case may define several variants called scenarios that result in different paths through the use case and usually different outcomes.
 
-**Actor** - user or other software system that receives value from a use case.
+- **Actor**: Person or program that receives an output from a use case, be it in the form of an UI (person) or value (software).
 
-**System** - set of features provided by the application that are directly associated with each other.
+- **System**: Set of features provided by the application that are directly associated with each other.
 
-**Scenario** - one path through a use case.
+- **Scenario**: One path through a set of possible use cases.
 
-**Application** - what is being described here; the software system specified in this document.
+- **Lezioni alla Pari**: What is being described here, the software that is being developed, specified in this document.
 
-**Project** - activities that will lead to the production of the application described here.
+- **Project**: Activities that will lead to the production of the application described in this document.
 
-**Interface** - visual representation of the system 
+- **User Interface**: Visual component that enables interaction with a person that is using the software. 
 
 ### 1.5 Document Conventions
 TBD (to be defined / to be discussed) - information that still needs to be gathered, framed or that it is incomplete.  
 Unknown - development feature, option that hasn't been implemented yet.
+
 ### 1.6 Assumptions
-It is assumed that users will have installed all the required libraries and the latest version of python3 before starting
-to use the program. Apart from the application login, there are no security measures nor automated data backup.
+- Team members will work from home, since no office space is available. Collaboration will be made possible through Github.  
 
 ## 2 GENERAL DESIGN CONSTRAINTS
 
 ### 2.1 Product Environment
-Lezione alla pari is the first product in our series dedicated to online learning and does not require a third part software. It is portable and usable by any operating system or hardware.
+Lezioni alla Pari is the first product in our series dedicated to online learning and does not require any third party software. It is portable and usable by any operating system that supports python3.
 
 ### 2.2 User characteristics
 In order of increasing priority, the following categories of users can be distinguished for this application:
 
-* Companies and other work areas, who can use our product to simplify the learning of the courses (for example the safety courses), or to explain the operation of a new machinery
+- Companies and other work areas, who can use our product to simplify the learning of information (for example the safety courses), provide easy access to any type of project documentation, and also provide a way for interns and new employees to learn skills relevant to their position
 
-* Schools, who can use our product to provide simplified learning. These users will probably be the primary users of the user interface.
+- Schools, who can use our product to provide a streamlined learning experience. This can include teachers and professors, who can use lessons and tests as extra reading and homework, and as a way to grade students.
 
 ### 2.3 Mandated Constraints
-For now, our product works only locally, functioning as a closed system. The only requirements for our platform are: 
-1. stable internet connection 
-2. device that can connect to the network
-3. Python knowledge
+The end-user must have a device with an OS that supports python3, and can reliably handle video decoding, in order to watch video lessons.
 
 ### 2.4 Potential System Evolution
-For now, our product works only locally, but we are planning to make the platform web based. making it available to all world users without having to install the application
+The final product will be a desktop applications, so UI and UX are optimized for this platform only. As successfull adoption of our platform increases, Lezioni alla Pari will transition to a web-based platform, and finally an Android and iOS application.
 
 ## 3 NONFUNCTIONAL REQUIREMENTS
 
@@ -216,11 +212,11 @@ All data delivered through the platform is private, and will throughly adhere to
 
 #### 4.1.1 Description and Priority
 
-**Cost**: 3
+**Cost**: Low
 
-**Risk**: 4
+**Risk**: Medium
 
-**Benefit**: 9
+**Benefit**: High
 
 **Value**: High
 
@@ -246,11 +242,11 @@ N/A
 
 #### 4.1.4 Description and Priority
 
-**Cost**: 2
+**Cost**: Low
 
-**Risk**: 3
+**Risk**: Low
 
-**Benefit**: 9
+**Benefit**: High
 
 **Value**: High
 
@@ -279,11 +275,11 @@ N/A
 
 #### 4.2.1 Description and Priority
 
-**Cost**: 5
+**Cost**: Medium
 
-**Risk**: 2
+**Risk**: Low
 
-**Benefit**: 9
+**Benefit**: High
 
 **Value**: High
 
@@ -307,11 +303,11 @@ N/A
 
 #### 4.2.4 Description and Priority
 
-**Cost**: 5
+**Cost**: Medium
 
-**Risk**: 6
+**Risk**: Medium
 
-**Benefit**: 8
+**Benefit**: High
 
 **Value**: High
 
@@ -335,13 +331,13 @@ It is assumed that the user that wants to manage the lesson is authorized to do 
 
 #### 4.3.1 Description and Priority
 
-**Cost**: 4
+**Cost**: Medium
 
-**Risk**: 5
+**Risk**: Medium
 
-**Benefit**: 7
+**Benefit**: High
 
-**Value**: Medium-high
+**Value**: High
 
 #### 4.3.2 Use case: create a quiz
 
@@ -359,13 +355,13 @@ It is assumed that the user that wants to manage the quiz is authorized to do so
 
 #### 4.3.4 Description and Priority
 
-**Cost**: 4
+**Cost**: Medium
 
-**Risk**: 6
+**Risk**: Medium
 
-**Benefit**: 7
+**Benefit**: High
 
-**Value**: Medium-high
+**Value**: High
 
 #### 4.3.5 Use case: manage a quiz
 
@@ -383,11 +379,11 @@ N/A
 
 #### 4.3.7 Description and Priority
 
-**Cost**: 5
+**Cost**: Medium
 
-**Risk**: 3
+**Risk**: Low
 
-**Benefit**: 7
+**Benefit**: High
 
 **Value**: Medium-high
 
@@ -409,11 +405,11 @@ It is assumed that the user that wants to see the results is authorized to do so
 
 #### 4.4.1 Description and Priority
 
-**Cost**: 3
+**Cost**: Low
 
-**Risk**: 3
+**Risk**: Low
 
-**Benefit**: 9
+**Benefit**: High
 
 **Value**: High
 
