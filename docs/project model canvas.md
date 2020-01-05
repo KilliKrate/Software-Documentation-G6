@@ -1,1 +1,1 @@
-![](img/Project%20canvas.png)
+![](img/Project%20model%20canvas.png)
