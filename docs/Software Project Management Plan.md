@@ -26,8 +26,8 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  
  Group 6 is responsible for developing and maintaining this document.
  
- ## Table of Contents
- > [1 OVERVIEW](#1-overview)
+## Table of Contents
+> [1 OVERVIEW](#1-overview)
 >> [1.1 Purpose and Scope](#11-purpose-and-scope)
 >>
 >> [1.2 Goals and Objectives](#12-goals-and-objectives)
