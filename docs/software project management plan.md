@@ -77,10 +77,18 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 
 |**Rank**|**Risk**                               |**Probability of loss**|**Size of loss**|**Risk exposure**|**Response**|
 |:------:|:-------------------------------------:|:---------------------:|:--------------:|:---------------:|:----------:|
-|   1    |Schedule                               |Likely                 |Major           |                 |            |
-|   2    |Team’s lack of relevant experience     |Likely                 |Major           |                 |            |
-|   3    |End of financial support               |Likely                 |Moderate – Major|                 |            |
-|   4    |End of support for project requirements|Likely                 |Moderate        |                 |            |
-|   5    |Lack of test data                      |Unlikely               |Moderate        |                 |            |
-|   6    |Team’s inadequacy with ads             |Unlikely               |Minor - Moderate|                 |            |
-|   7    |Customer change  of idea               |Unlikely               |Minor           |                 |            |
+|   1    |Schedule                               |Likely                 |Major           |High             |            |
+|   2    |Team’s lack of relevant experience     |Likely                 |Major           |High             |            |
+|   3    |End of financial support               |Likely                 |Moderate – Major|Moderate         |            |
+|   4    |End of support for project requirements|Likely                 |Moderate        |Minor            |            |
+|   5    |Lack of test data                      |Unlikely               |Moderate        |Minor            |            |
+|   6    |Team’s inadequacy with ads             |Unlikely               |Minor - Moderate|Minor - Moderate |            |
+|   7    |Customer change  of idea               |Unlikely               |Minor           |Moderate         |            |
+
+#### 5.2 Test Plan
+
+The test plan defines the items that will be tested, methods for testing, and a schedule detailing the tasks, owners, and time line.
+
+Testing is made via Travis CI platform whenever it is possible.
+
+The test plan will be available in a separate document in the version control system at: https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/test%20plan.md
