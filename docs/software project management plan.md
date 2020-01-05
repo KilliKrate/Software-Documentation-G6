@@ -76,7 +76,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  ### 1.1 Purpose and Scope
  Lezioni alla Pari is an online desktop application designed to streamline knowledge sharing between people inside a closed environment: any group can use our platform to create lessons in the form of illustrated documents or video, in order to instruct their peers on subjects of interest. Quizzes are also available as a tool to summarize (in the case of a company) or test (in the case of a class) the understanding of the subject.
 
- Anyone can use this application: from sports groups and classrooms, to project teams and companies, the application uses a simple and straightforward structure so that anyone can pick up the program and immediately start learning without needing to check any user guide or manual. This is particularly important because this application is meant to cater to a wide demographic: a kid in a classroom should be able to use the program as well as a new intern in a big company.
+ Anyone can use this application: from sports groups and classrooms, to project teams and companies, the application uses a simple and straightforward structure so that anyone can pick up the program and immediately start learning without the need to check any user guide or manual. This is particularly important because this application is meant to cater to a wide demographic: a kid in a classroom should be able to use the program as well as a new intern in a big company.
 
  The software will allow people to create a course, which will contain lessons on a set of topics. The authors of a course can decide to invite people as collaborators, which will actively populate the course and work together with the author, or a student, an individual that can only read and watch lessons. Automated quizzes can also be created and completed, and the author and collaborators will be able to check the answers given if needed.
 
@@ -89,7 +89,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 
  Project Goals:
  1. Deliver an easy to use application that democratizes knowledge sharing in a way never seen before.
- 2. Give ITIS Marconi, our main partner, prestige and visibility in the local region, if not nationally.
+ 2. Give ITI G. Marconi, our main partner, prestige and visibility in the local region, if not nationally.
  3. Deepen our knowledge of software engineering and architecture design.
 
  Project Objectives:
@@ -119,19 +119,19 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
  ### 1.5 Schedule and Budget Summary
 
  #### 1.5.1 Cost Estimate
- - 1 project manager and back-end developer and at 10 hours per week for 6 weeks  
-**60 hours * $45/hr = $2700**
+ - 1 project manager and back-end developer and at 4 hours per week for 24 weeks  
+ **96 hours * €20/hr = €1920**
 
-- 1 marketing specialist and front-end developer at 10 hours per week for 6 weeks  
-**60 hours * $40/hr = $2400**
+ - 1 marketing specialist and front-end developer at 4 hours per week for 24 weeks  
+ **96 hours * €20/hr = €1920**
 
-- 1 back-end dev at 10 hours per week each for 6 weeks  
-**60 hours * $35/hr = $2100**
+ - 1 back-end dev at 4 hours per week each for 24 weeks  
+ **96 hours * €15/hr = €1440**
 
-- 1 front-end dev at 10 hours per week each for 6 weeks  
-**60 hours * $35/hr = $2100**
+ - 1 front-end dev at 4 hours per week each for 24 weeks  
+ **96 hours * €15/hr = €1440**
 
-**240 hours total, $9300 total, avg, $38,75 per hour**
+**384 hours total, €6720 total, avg, €17,5 per hour**
 
 #### 1.5.2 Schedule Summary
 
@@ -151,8 +151,19 @@ At least 3 official insitutions/companies that have successfully adopted our pla
 
 ### 1.7 Definitions
 
-lorem lorem lorem
+- **Use Case**: Describes a goal-oriented interaction between the system and an actor. A use case may define several variants called scenarios that result in different paths through the use case and usually different outcomes.
 
+- **Actor**: Person or program that receives an output from a use case, be it in the form of an UI (person) or value (software).
+
+- **System**: Set of features provided by the application that are directly associated with each other.
+
+- **Scenario**: One path through a set of possible use cases.
+
+- **Lezioni alla Pari**: What is being described here, the software that is being developed, specified in this document.
+
+- **Project**: Activities that will lead to the production of the application described in this document.
+
+- **User Interface**: Visual component that enables interaction with a person that is using the software. 
 
  ## 2 STARTUP PLAN
 

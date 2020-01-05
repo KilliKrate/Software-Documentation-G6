@@ -155,11 +155,11 @@ The final product will be a desktop applications, so UI and UX are optimized for
 
 ### 3.1 Operational Requirements
 
-- The application will allow users to concurrently access and modify the data. In case a lesson is edited, all users currently accessing said lesson will be notified and offered to switch to the new version, or keep reading/watching the current one.
+- The application will allow users to concurrently access and edit documents. In case a lesson is edited, all users currently accessing said lesson will be notified and offered to switch to the new version, or keep reading/watching the current one.
 
 ### 3.2 Performance Requirements
 
-- The server will accomodate, at release, up to 100TB of data, delivered through Amazon AWS, which provides efficient document delivery and video streaming all over the world. This will of course scale as the application becomes more popular.
+- The server will accomodate, at release, up to 100TB of data, delivered through a distributed server system, which provides efficient document delivery and video streaming all over the world. This will of course be scalable as the application becomes more popular.
 
 - Response times may vary based on server workload. All database operations like login, registration and document reading should take <1 second. 
 
@@ -185,7 +185,7 @@ All data delivered through the platform is private, and will throughly adhere to
 
 - The software is portable on all desktop computer platforms, since the application heavily relies on Python. A mobile app will be made available if demand justifies it.
 
-- If the end-user wants to establish his own private Lezioni alla Pari server, instead of using the offical one, he should be able to. This will ensure maximum privacy and performance. A standalone server executable shall be thereby included in a post-release update if the demand justifies the developement costs. 
+- UI is built from the ground-up to be intuitive and easy to understand withouth need to consult a user guide or manual. This is intended to provide ease of access to a wide demographic.
 
 ### 3.7 Documentation and Training
 
