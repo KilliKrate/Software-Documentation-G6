@@ -22,9 +22,9 @@ Zhiyang Xia
 This document is stored in the project's GIT repository at:
 https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/software%20project%20management%20plan.md
  
- **Document Owner**
- 
- Group 6 is responsible for developing and maintaining this document.
+**Document Owner**
+
+Group 6 is responsible for developing and maintaining this document.
  
 ## Table of Contents
 > [1 OVERVIEW](#1-overview)
