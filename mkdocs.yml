@@ -3,7 +3,7 @@ nav:
     - 'Project Charter': 'Project Charter.md'
     - 'Software Requirements Specification': 'Software Requirements Specification.md'
     - 'Software Project Management plan': 'Software Project Management Plan.md'
-    - 'Business Model Canvas': 'Business Model Canvas.md'
+    - 'Business Model Canvas': 'Business Model Canvas/index.md'
     - 'Project Model Canvas': 'Project Model Canvas.md'
     
 theme:
