@@ -9,3 +9,4 @@ nav:
 theme:
     name: readthedocs
 
+use_directory_urls: true
