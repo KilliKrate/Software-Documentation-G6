@@ -1,117 +1,117 @@
 # Requirements for the Lezioni alla pari project
 Table of Contents
-> [1 INTRODUCTION](#1-introduction)
->> [1.1 Overview](#11-overview)
+> [INTRODUCTION](#introduction)
+>> [Overview](#overview)
 >>
->> [1.2 Goals and Objectives](#12-goals-and-objectives)
+>> [Goals and Objectives](#goals-and-objectives)
 >>
->> [1.3 Scope](#13-scope)
+>> [Scope](#scope)
 >>
->> [1.4 Definitions](#14-definitions)
+>> [Definitions](#definitions)
 >> 
->> [1.5 Document Conventions](#15-document-conventions)
+>> [Document Conventions](#document-conventions)
 >>
->> [1.6 Assumptions](#16-assumptions)
+>> [Assumptions](#assumptions)
 >
-> [2 GENERAL DESIGN CONSTRAINTS](#2-general-design-constraints)
->> [2.1  Product Environment](#21-product-environment)
+> [GENERAL DESIGN CONSTRAINTS](#general-design-constraints)
+>> [ Product Environment](#product-environment)
 >>
->> [2.2 User Characteristics](#22-user-characteristics)
+>> [User Characteristics](#user-characteristics)
 >>
->> [2.3 Mandated Constraints](#23-mandated-constraints)
+>> [Mandated Constraints](#mandated-constraints)
 >> 
->> [2.4 Potential System Evolution](#24-potential-system-evolution)
+>> [Potential System Evolution](#potential-system-evolution)
 >
-> [3 NONFUNCTIONAL REQUIREMENTS](#3-nonfunctional-requirements)
->> [3.1 Operational Requirements](#31-operational-requirements)
+> [NONFUNCTIONAL REQUIREMENTS](#nonfunctional-requirements)
+>> [Operational Requirements](#operational-requirements)
 >>
->> [3.2 Performance Requirements](#32-performance-requirements)
+>> [Performance Requirements](#performance-requirements)
 >>
->> [3.3 Security Requirements](#33-security-requirements)
+>> [Security Requirements](#security-requirements)
 >> 
->> [3.4 Safety Requirements](#34-safety-requirements)
+>> [Safety Requirements](#safety-requirements)
 >>
->> [3.5 Legal Requirements](#35-legal-requirements)
+>> [Legal Requirements](#legal-requirements)
 >>
->> [3.6 Other Quality Attributes](#36-other-quality-attributes)
+>> [Other Quality Attributes](#other-quality-attributes)
 >> 
->> [3.7 Documentation and Training](#37-documentation-and-training)
+>> [Documentation and Training](#documentation-and-training)
 >>
->> [3.8 External Interface](#38-external-interface)
->>> [3.8.1 User Interface](#381-user-interface)
+>> [External Interface](#external-interface)
+>>> [User Interface](#user-interface)
 >>>
->>> [3.8.2 Software Interface](#382-software-interface)
+>>> [Software Interface](#software-interface)
 >
-> [4 SYSTEM FEATURES](#4-system-features)
->> [4.1 Authentication](#41-authentication)
->>> [4.1.1 Description and Priority](#411-description-and-priority)
+> [SYSTEM FEATURES](#system-features)
+>> [Authentication](#authentication)
+>>> [Description and Priority](#description-and-priority)
 >>>
->>> [4.1.2 Use case: Registration](#412-use-case-registration)
+>>> [Use case: Registration](#use-case-registration)
 >>>
->>> [4.1.3 Additional requirements](#413-additional-requirements)
+>>> [Additional requirements](#additional-requirements)
 >>>
->>> [4.1.4 Description and Priority](#414-description-and-priority)
+>>> [Description and Priority](#description-and-priority)
 >>>
->>> [4.1.5 Use case: Login](#415-use-case-login)
+>>> [Use case: Login](#use-case-login)
 >>>
->>> [4.1.6 Additional requirements](#416-additional-requirements)
+>>> [Additional requirements](#additional-requirements)
 >>
->> [4.2 Lessons](#42-lessons)
->>> [4.2.1 Description and Priority](#421-description-and-priority)
+>> [Lessons](#lessons)
+>>> [Description and Priority](#description-and-priority)
 >>>
->>> [4.2.2 Use case: create a lesson](#422-use-case-create-a-lesson)
+>>> [Use case: create a lesson](#use-case-create-a-lesson)
 >>>
->>> [4.2.3 Additional requirements](#423-additional-requirements)
+>>> [Additional requirements](#additional-requirements)
 >>>
->>> [4.2.4 Description and Priority](#424-description-and-priority)
+>>> [Description and Priority](#description-and-priority)
 >>>
->>> [4.2.5 Use case: manage a lesson](#425-use-case-manage-a-lesson)
+>>> [Use case: manage a lesson](#use-case-manage-a-lesson)
 >>>
->>> [4.2.6 Additional requirements](#426-additional-requirements)
+>>> [Additional requirements](#additional-requirements)
 >>
->> [4.3 Quizzes](#43-quizzes)
->>> [4.3.1 Description and Priority](#431-description-and-priority)
+>> [Quizzes](#quizzes)
+>>> [Description and Priority](#description-and-priority)
 >>>
->>> [4.3.2 Use case: create a quiz](#432-use-case-create-a-quiz)
+>>> [Use case: create a quiz](#use-case-create-a-quiz)
 >>>
->>> [4.3.3 Additional requirements](#433-additional-requirements)
+>>> [Additional requirements](#additional-requirements)
 >>>
->>> [4.3.4 Description and Priority](#434-description-and-priority)
+>>> [Description and Priority](#description-and-priority)
 >>>
->>> [4.3.5 Use case: manage a quiz](#435-use-case-manage-a-quiz)
+>>> [Use case: manage a quiz](#use-case-manage-a-quiz)
 >>>
->>> [4.3.6 Additional requirements](#436-additional-requirements)
+>>> [Additional requirements](#additional-requirements)
 >>
->> [4.4 Inviting](#44-inviting)
->>> [4.4.1 Description and Priority](#441-description-and-priority)
+>> [Inviting](#inviting)
+>>> [Description and Priority](#description-and-priority)
 >>>
->>> [4.4.2 Use case: Inviting user to a course](#442-use-case-inviting-user-to-a-course)
+>>> [Use case: Inviting user to a course](#use-case-inviting-user-to-a-course)
 >>>
->>> [4.4.3 Additional requirements](#443-additional-requirements)
+>>> [Additional requirements](#additional-requirements)
 >>>
 >>
 >
 
 Authors  
 Ovidiu Andrioaia, David Cirdan, Luciano Mateias and Zhiyang Xia.
-## 1 INTRODUCTION
+## INTRODUCTION
 
-### 1.1 Overview
+### Overview
 Lezioni alla pari is an application that focuses on simplyfing the sharing of knowledge between various parties inside a closed environment (e.g. the departments of a company, a classroom, a sports club) easier and within everyone’s reach. The software streamlines the creation of courses that can contain documents, videos and quizzes on a wide range of topics.
 
 This document provides information on the requirements of the Lezioni alla pari application, and aims to deliver an intelligible documentation of the software to the developers that can use it as a reference, as well as their customers, that can have a deeper insight of the project and its sophistications.
 
-### 1.2 Goals and Objectives
+### Goals and Objectives
 The main objective of this project is to develop a platform that will provide the following:
 1. Login and registration system for users
 2. Intuitive graphical user interface
 3. Course creation system with lessons that can contain documents, videos or quizzes
 5. Automated quiz correction
 
-### 1.3 Scope
+### Scope
 Lezioni alla Pari will store user information and documents inside an SQL database, while video lessons will be delivered through a dedicate content streaming server. Content is meant to be private to the group, the only way to access someone else's documents is to be invited by the author of the course, or the collaborators themselves. The application is open-source and can be downloaded through Github, and can be installed on any desktop that supports Python-based applications (this includes the main operating systems, like Windows, Linux and Mac OS)
 
-### 1.4 Definitions
+### Definitions
 - **Use Case**: Describes a goal-oriented interaction between the system and an actor. A use case may define several variants called scenarios that result in different paths through the use case and usually different outcomes.
 
 - **Actor**: Person or program that receives an output from a use case, be it in the form of an UI (person) or value (software).
@@ -126,38 +126,38 @@ Lezioni alla Pari will store user information and documents inside an SQL databa
 
 - **User Interface**: Visual component that enables interaction with a person that is using the software. 
 
-### 1.5 Document Conventions
+### Document Conventions
 TBD (to be defined / to be discussed) - information that still needs to be gathered, framed or that it is incomplete.  
 Unknown - development feature, option that hasn't been implemented yet.
 
-### 1.6 Assumptions
+### Assumptions
 - Team members will work from home, since no office space is available. Collaboration will be made possible through Github.  
 
-## 2 GENERAL DESIGN CONSTRAINTS
+## GENERAL DESIGN CONSTRAINTS
 
-### 2.1 Product Environment
+### Product Environment
 Lezioni alla Pari is the first product in our series dedicated to online learning and does not require any third party software. It is portable and usable by any operating system that supports python3.
 
-### 2.2 User characteristics
+### User characteristics
 In order of increasing priority, the following categories of users can be distinguished for this application:
 
 - Companies and other work areas, who can use our product to simplify the learning of information (for example the safety courses), provide easy access to any type of project documentation, and also provide a way for interns and new employees to learn skills relevant to their position
 
 - Schools, who can use our product to provide a streamlined learning experience. This can include teachers and professors, who can use lessons and tests as extra reading and homework, and as a way to grade students.
 
-### 2.3 Mandated Constraints
+### Mandated Constraints
 The end-user must have a device with an OS that supports python3, and can reliably handle video decoding, in order to watch video lessons.
 
-### 2.4 Potential System Evolution
+### Potential System Evolution
 The final product will be a desktop applications, so UI and UX are optimized for this platform only. As successfull adoption of our platform increases, Lezioni alla Pari will transition to a web-based platform, and finally an Android and iOS application.
 
-## 3 NONFUNCTIONAL REQUIREMENTS
+## NONFUNCTIONAL REQUIREMENTS
 
-### 3.1 Operational Requirements
+### Operational Requirements
 
 - The application will allow users to concurrently access and edit documents. In case a lesson is edited, all users currently accessing said lesson will be notified and offered to switch to the new version, or keep reading/watching the current one.
 
-### 3.2 Performance Requirements
+### Performance Requirements
 
 - The server will accomodate, at release, up to 100TB of data, delivered through a distributed server system, which provides efficient document delivery and video streaming all over the world. This will of course be scalable as the application becomes more popular.
 
@@ -169,31 +169,31 @@ The final product will be a desktop applications, so UI and UX are optimized for
 
 - Video lesson upload will take more, based on server workload and user connection speed.
 
-### 3.3 Security Requirements
+### Security Requirements
 
 - The application must use the most up to date standards and practice for its security: sensible information created and shared by users must be kept private and confidential. The software must adhere to the NIST, OWASP and CWE standards, in order to protect data from malevolent attacks to the platform.
 
 - The application must guarantee absolute privacy: data shared through our servers will be encrypted and inaccessible by anyone but the intended recipients of the information. This also includes the team members themselves.
 
-### 3.4 Safety Requirements
+### Safety Requirements
 No safety requirements were identified for this application.
 
-### 3.5 Legal Requirements
+### Legal Requirements
 All data delivered through the platform is private, and will throughly adhere to GDPR laws and OECD Privacy Principles. Copyright will not be enforced on user-made content, since it is of a private, non-commercial and non-redistributable nature.
 
-### 3.6 Other Quality Attributes
+### Other Quality Attributes
 
 - The software is portable on all desktop computer platforms, since the application heavily relies on Python. A mobile app will be made available if demand justifies it.
 
 - UI is built from the ground-up to be intuitive and easy to understand withouth need to consult a user guide or manual. This is intended to provide ease of access to a wide demographic.
 
-### 3.7 Documentation and Training
+### Documentation and Training
 
 - No training will be delivered when the application is delivered. A short tutorial will introduce the new users to the main features of the application. The application should be extremely intuitive to use, so UX will be a big focus during developement.
 
-### 3.8 External Interface
+### External Interface
 
-#### 3.8.1 User Interface 
+#### User Interface 
 - The user interface for the application will follow a modern and minimalist style, which makes important elements easily noticeable, and keeps the main features always in view.
 
 - The login and registration forms will be quick and straightforward, with the purpose of introducing the user to the application immediately.
@@ -202,15 +202,15 @@ All data delivered through the platform is private, and will throughly adhere to
 
 - Accessibility options, such as increased font sizes and color blindness support will be available at launch.
 
-#### 3.8.2 Software Interface
+#### Software Interface
 
 - All operations and logic defined by the use cases will be achieved through Python and SQL queries. SQL will take care of login, registration and course access, while a cooperation between SQL and Python will achieve document delivery and video streaming
 
-## 4 SYSTEM FEATURES
+## SYSTEM FEATURES
 
-### 4.1 Authentication
+### Authentication
 
-#### 4.1.1 Description and Priority
+#### Description and Priority
 
 **Cost**: Low
 
@@ -220,7 +220,7 @@ All data delivered through the platform is private, and will throughly adhere to
 
 **Value**: High
 
-#### 4.1.2 Use case: Registration
+#### Use case: Registration
 
 **Actors**: any unauthenticated in user
 
@@ -236,11 +236,11 @@ Each field must match a specific pattern specified by the program
 1. If the pattern in step 2 is not matched, the user will be presented with a dialog box with an error that specifies the cause.
 2. The user can try again to register.
 
-#### 4.1.3 Additional requirements
+#### Additional requirements
 
 N/A
 
-#### 4.1.4 Description and Priority
+#### Description and Priority
 
 **Cost**: Low
 
@@ -250,7 +250,7 @@ N/A
 
 **Value**: High
 
-#### 4.1.5 Use case: Login
+#### Use case: Login
 
 **Actors**: any registered user
 
@@ -267,13 +267,13 @@ Each field must match a specific pattern specified by the program
 2. The user can try again to login.
 
 
-#### 4.1.6 Additional requirements
+#### Additional requirements
 
 N/A
 
-### 4.2 Lessons
+### Lessons
 
-#### 4.2.1 Description and Priority
+#### Description and Priority
 
 **Cost**: Medium
 
@@ -283,7 +283,7 @@ N/A
 
 **Value**: High
 
-#### 4.2.2 Use case: create a lesson
+#### Use case: create a lesson
 
 **Actors**: any authenticated user
 
@@ -297,11 +297,11 @@ N/A
 1. If the name used in step 2 is not valid, the user will be presented with a dialog box with an error that specifies the cause.
 2. The user can try again to create a lesson.
 
-#### 4.2.3 Additional requirements
+#### Additional requirements
 
 N/A
 
-#### 4.2.4 Description and Priority
+#### Description and Priority
 
 **Cost**: Medium
 
@@ -311,7 +311,7 @@ N/A
 
 **Value**: High
 
-#### 4.2.5 Use case: edit a lesson
+#### Use case: edit a lesson
 
 **Actors**: any authenticated user
 
@@ -323,13 +323,13 @@ N/A
 
 **Alternate path**: N/A
 
-#### 4.2.6 Additional requirements
+#### Additional requirements
 
 It is assumed that the user that wants to manage the lesson is authorized to do so. This is possible only if the user is the author or a collaborator of the course
 
-### 4.3 Quizzes
+### Quizzes
 
-#### 4.3.1 Description and Priority
+#### Description and Priority
 
 **Cost**: Medium
 
@@ -339,7 +339,7 @@ It is assumed that the user that wants to manage the lesson is authorized to do 
 
 **Value**: High
 
-#### 4.3.2 Use case: create a quiz
+#### Use case: create a quiz
 
 **Actors**: any authenticated user
 
@@ -354,11 +354,11 @@ It is assumed that the user that wants to manage the lesson is authorized to do 
 1. If the name used in step 2 is not valid, the user will be presented with a dialog box with an error that specifies the cause.
 2. The user can attempt to create a quiz.
 
-#### 4.3.3 Additional requirements
+#### Additional requirements
 
 It is assumed that the user that wants to manage the quiz is authorized to do so. This is possible only if the user is the author or a collaborator of the course
 
-#### 4.3.4 Description and Priority
+#### Description and Priority
 
 **Cost**: Medium
 
@@ -368,7 +368,7 @@ It is assumed that the user that wants to manage the quiz is authorized to do so
 
 **Value**: High
 
-#### 4.3.5 Use case: edit a quiz
+#### Use case: edit a quiz
 
 **Actors**: any authenticated user
 
@@ -382,11 +382,11 @@ It is assumed that the user that wants to manage the quiz is authorized to do so
 
 N/A
 
-#### 4.3.6 Additional requirements
+#### Additional requirements
 
 N/A
 
-#### 4.3.7 Description and Priority
+#### Description and Priority
 
 **Cost**: Medium
 
@@ -396,7 +396,7 @@ N/A
 
 **Value**: Medium-high
 
-#### 4.3.8 Use case: results of a quiz
+#### Use case: results of a quiz
 
 **Actors**: any authenticated user
 
@@ -409,13 +409,13 @@ N/A
 **Alternate path**:
 1. If no user participated no list will be displayed.
 
-#### 4.3.9 Additional requirements
+#### Additional requirements
 
 It is assumed that the user that wants to see the results is authorized to do so. This is possible only if the user is the author or a collaborator of the course
 
-### 4.4 Inviting
+### Inviting
 
-#### 4.4.1 Description and Priority
+#### Description and Priority
 
 **Cost**: Low
 
@@ -425,7 +425,7 @@ It is assumed that the user that wants to see the results is authorized to do so
 
 **Value**: High
 
-#### 4.4.2 Use case: Inviting user to a course
+#### Use case: Inviting user to a course
 
 **Actors**: any author, the course creator
 
@@ -440,6 +440,6 @@ It is assumed that the user that wants to see the results is authorized to do so
 
 N/A
 
-#### 4.4.3 Additional requirements
+#### Additional requirements
 
 N/A
