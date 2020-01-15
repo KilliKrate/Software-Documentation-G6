@@ -1,7 +1,7 @@
 site_name: 2020_5BI_Team6_Software_Doc
 nav:
     - 'Project charter': 'project charter.md'
-    - 'Software Requirements Specification Plan': 'software requirements specification plan.md'
+    - 'Software Requirements Specification Plan': 'Software Requirements Specification Plan.md'
     - 'Software project management plan': 'software project management plan.md'
     - 'Business model canvas': 'business model canvas.md'
     - 'Project model canvas': 'project model canvas.md'
