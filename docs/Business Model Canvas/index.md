@@ -1,1 +1,1 @@
-![](../img/Business model canvas.png)
+![](../img/Business%20model%20canvas.png)
