@@ -7,9 +7,7 @@ nav:
     - 'Project Model Canvas': 'Project Model Canvas/index.md'
     
 theme:
-    name: flatly
-    custom_dir: flatly/
-    
-formats: all    
+    name: readthedocs
+
 
 use_directory_urls: true
