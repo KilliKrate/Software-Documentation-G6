@@ -1,8 +1,6 @@
 version: 2
 
-formats:
-  - epub
-  - pdf
+formats: all
 
 mkdocs:
   configuration: mkdocs.yml
