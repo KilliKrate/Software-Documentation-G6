@@ -9,5 +9,7 @@ nav:
 theme:
     name: flatly
     custom_dir: flatly/
+    
+formats: all    
 
 use_directory_urls: true
