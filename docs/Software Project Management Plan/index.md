@@ -27,53 +27,53 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 Group 6 is responsible for developing and maintaining this document.
  
 ## Table of Contents
-> [1 OVERVIEW](#1-overview)
->> [1.1 Purpose and Scope](#11-purpose-and-scope)
+> [OVERVIEW](#overview)
+>> [Purpose and Scope](#purpose-and-scope)
 >>
->> [1.2 Goals and Objectives](#12-goals-and-objectives)
+>> [Goals and Objectives](#goals-and-objectives)
 >>
->> [1.3 Project Deliverables](#13-project-deliverables)
+>> [Project Deliverables](#project-deliverables)
 >>
->> [1.4 Assumptions and Constraints](#14-assumptions-and-constraints)
+>> [Assumptions and Constraints](#assumptions-and-constraints)
 >>
->> [1.5 Schedule and Budget Summary](#15-schedule-and-budget-summary)
+>> [Schedule and Budget Summary](#schedule-and-budget-summary)
 >>
->> [1.6 Success Criteria](#16-success-criteria)
+>> [Success Criteria](#success-criteria)
 >>
->> [1.7 Definitions](#17-definitions)
+>> [Definitions](#definitions)
 >
-> [2 STARTUP PLAN](#2-startup-plan)
->> [2.1 Team Organization](#21-team-organization)
+> [STARTUP PLAN](#startup-plan)
+>> [Team Organization](#team-organization)
 >>
->> [2.2 Project Communications](#22-project-communications)
+>> [Project Communications](#project-communications)
 >>
->> [2.3 Technical Process](#23-technical-process)
+>> [Technical Process](#technical-process)
 >>
->> [2.4 Tools](#24-tools)
+>> [Tools](#tools)
 >
-> [3 WORK PLAN](#3-work-plan)
->> [3.1 Resource Estimate](#31-resource-estimate)
+> [WORK PLAN](#work-plan)
+>> [Resource Estimate](#resource-estimate)
 >>
->> [3.2 Release Plan](#32-release-plan)
+>> [Release Plan](#release-plan)
 >>
->> [3.3 Iteration Plans](#33-iteration-plans)
+>> [Iteration Plans](#iteration-plans)
 >
-> [4 CONTROL PLAN](#4-control-plan)
->> [4.1 Monitoring and Control](#41-monitoring-and-control)
+> [CONTROL PLAN](#control-plan)
+>> [Monitoring and Control](#monitoring-and-control)
 >>
->> [4.2 Configuration Management Plan](#42-configuration-management-plan)
+>> [Configuration Management Plan](#configuration-management-plan)
 >
-> [5 SUPPORTING PROCESS PLANS](#5-supporting-process-plans)
->> [5.1 Risk Management Plan](#51-risk-management-plan)
+> [SUPPORTING PROCESS PLANS](#supporting-process-plans)
+>> [Risk Management Plan](#risk-management-plan)
 >>
->> [5.2 Test Plan](#52-test-plan)
+>> [Test Plan](#test-plan)
 >>
->> [5.3 Product Acceptance Plan](#53-product-acceptance-plan)
+>> [Product Acceptance Plan](#product-acceptance-plan)
 >
 
-## 1 OVERVIEW
+## OVERVIEW
 
-### 1.1 Purpose and Scope
+### Purpose and Scope
 Lezioni alla Pari is an online desktop application designed to streamline knowledge sharing between people inside a closed environment: any group can use our platform to create lessons in the form of illustrated documents or video, in order to instruct their peers on subjects of interest. Quizzes are also available as a tool to summarize (in the case of a company) or test (in the case of a class) the understanding of the subject.
 
 Anyone can use this application: from sports groups and classrooms, to project teams and companies, the application uses a simple and straightforward structure so that anyone can pick up the program and immediately start learning without the need to check any user guide or manual. This is particularly important because this application is meant to cater to a wide demographic: a kid in a classroom should be able to use the program as well as a new intern in a big company.
@@ -84,7 +84,7 @@ Lezioni alla Pari will run on a client-server structure, which thanks to a distr
 
 A mobile version of the program is feasible and will be delivered if the project is successful, and enough people start using it to justify cost and developement times.
 
-### 1.2 Goals and Objectives
+### Goals and Objectives
 The main objective of Lezioni alla Pari is to give the members of a group a way to easily share knowledge and information between each other.  
 
 Project Goals:
@@ -97,7 +97,7 @@ Project Objectives:
 2. Create an easy to use and intuitive User Interface, and refine the User Experience in a way that all demographics can take advantage of the app.
 3. Provide a way for authors to summarize information through automated quizzes, and give the ability to the former to review the answers of each participant.
 
-### 1.3 Project Deliverables
+### Project Deliverables
 
 | Date | Deliverable |
 | ---- | ----------- |
@@ -107,18 +107,18 @@ Project Objectives:
 | 06/17/2019 | Beta release for stakeholders|
 | 09/13/2019 | Application fully downloadable from Github repository |
 
-### 1.4 Assumptions and Constraints
+### Assumptions and Constraints
 
-#### 1.4.1 Assumptions
+#### Assumptions
 1. Github will allow the team to collaborate on the project remotely by scheduling tasks and committing code
 
-#### 1.4.2 Constraints
+#### Constraints
 1. The project will have to be supported by at least 3 partners before the beta phase, in order to have an acceptable amount feedback.
 2. The application must satisfy security and privacy standards of public institutions before release, in order to guarantee that sensible information will not be made public through exploitation of weaknesses or hacking.
 
-### 1.5 Schedule and Budget Summary
+### Schedule and Budget Summary
 
-#### 1.5.1 Cost Estimate
+#### Cost Estimate
 - 1 project manager and back-end developer and at 4 hours per week for 24 weeks  
  **96 hours * €20/hr = €1920**
 
@@ -133,7 +133,7 @@ Project Objectives:
 
 **384 hours total, €6720 total, avg, €17,5 per hour**
 
-#### 1.5.2 Schedule Summary
+#### Schedule Summary
 
 | Date | Review / Milestone |
 | ---- | ------------------ |
@@ -146,10 +146,10 @@ Project Objectives:
 | 07/08/2019 | Further development of the platform |
 | 09/13/2019 | Application fully downloadable from Github repository | 
 
-### 1.6 Success Criteria
+### Success Criteria
 At least 3 official insitutions/companies that have successfully adopted our platform after release will be considered as a success to the project
 
-### 1.7 Definitions
+### Definitions
 
 - **Use Case**: Describes a goal-oriented interaction between the system and an actor. A use case may define several variants called scenarios that result in different paths through the use case and usually different outcomes.
 
@@ -167,9 +167,9 @@ At least 3 official insitutions/companies that have successfully adopted our pla
 
 - **Client**: The part of the software that is used by the user.
 
-## 2 STARTUP PLAN
+## STARTUP PLAN
 
-### 2.1 Team Organization
+### Team Organization
 Team members:
 * Project Manager :         Ovidiu Costin Andrioaia.  
 The project leader is responsible for creating the project plan, managing risks, and running the weekly team meeting.
@@ -183,17 +183,17 @@ The Back-end developer is responsible for coding the logic of the application.
 * Marketing :             Zhiyang Angelo Xia.  
 Deals with the sale policies of the company's products and establishes the techniques and strategies that must be adopted in order to increase sales.
 
-### 2.2 Project Communications
+### Project Communications
 The information is collected in the weekly meeting, in which each member reports on the obtained feedback, so as to be able to obtain a concise summary and check the progress of the project. 
 The feedback reporting occurs thanks to the use of multiple channels:
 * Social media
 * Github
 * Referral through users
 
-### 2.3 Technical Process
+### Technical Process
 As a development methodology the team chose to use SCRUM together with the PEP-8 code standard. SCRUM enables the team to develop the software quickly and with the assistance of feedback for further iteration.
 
-### 2.4 Tools
+### Tools
 Tools used for development:
 * Programming Language:   Python - JavaScript
 * Version Control:        Github
@@ -201,9 +201,9 @@ Tools used for development:
 * Build tools:            PyCharm
 * Database:               SQL
 
-## 3 Work Plan
+## Work Plan
 
-### 3.1 Resource Estimate
+### Resource Estimate
 The following estimates of resource spending are based on time, estimated effort, actual effort and the dependecies between the tasks:
 * Software documentation: 
    * Team members involved: all the team takes part
@@ -284,7 +284,7 @@ The following estimates of resource spending are based on time, estimated effort
    * Actual effort: average
    * Dependencies: none
  
-### 3.2 Release Plan
+### Release Plan
 
 **Iteration #1**
 * Summary: design all the application architecure and find partners
@@ -309,16 +309,16 @@ The following estimates of resource spending are based on time, estimated effort
 | ----------------------- | ---------------- | ------------- |
 | Final release | Average | Substantial |
  
-### 3.3 Iteration Plans
+### Iteration Plans
 * **First iteration**: intention agreement will all the team on how the software should be developed, starting to search for partners interested in the project while developing the overall design and framework. In the meantime devs will also develop and deploy the video streaming architecture, the database structure and will deploy a part of the back-end server logic.
 
 * **Second iteration**: front-end design and implementation and back-end completion. After the core application is finished, the private beta will be launched for all partners to use.
 
 * **Third iteration**: past the beta and the general feedback on the software, start fixing bugs and improve the platform, at last launch the final release.
  
-## 4 Control Plan
+## Control Plan
 
-### 4.1 Monitoring and Control
+### Monitoring and Control
 The following list of dates includes formal reviews of the project and major accomplished milestones
 in reference to the established schedule.
  
@@ -331,7 +331,7 @@ in reference to the established schedule.
 | 09/13/2019 | Application fully downloadable from Github repository |
 
 
-### 4.2 Configuration Management Plan
+### Configuration Management Plan
 This is the procedure to follow when making changes to the final product:
 1. All the data is stored on a GIT repository hosted by Github, this is the main container.
 2. All the changes to documents and files are tracked via commits and comments
@@ -347,9 +347,9 @@ inside them, including the software documentation.
    * after the change has been successfully actualized, all the documentation and schedule will be updated with the new changes,
    as well as the public software.
  
-## 5 Supporting Process Plans
+## Supporting Process Plans
 
-#### 5.1 Risk Management Plan
+#### Risk Management Plan
 |**Rank**|**Risk**                                        |**Probability of loss**|**Size of loss**|**Risk exposure**|**Response**                                                                                                                        |
 |:------:|:----------------------------------------------:|:---------------------:|:--------------:|:---------------:|:----------------------------------------------------------------------------------------------------------------------------------:|
 |   1    |Schedule                                        |Likely                 |Major           |High             |Adhere to the schedule                                                                                                              |
@@ -359,10 +359,10 @@ inside them, including the software documentation.
 |   5    |Commerce team’s inexperience with ads           |Unlikely               |Minor - Moderate|Minor - Moderate |Let the commerce team spend some time learning the usage of Google AdSense                                                          |
 |   6    |Customer change  of idea                        |Unlikely               |Minor           |Moderate         |Illustrate each step to complete the project and ensure the customer agrees to every revision made during the project (Agile method)|
 
-### 5.2 Test Plan
+### Test Plan
 The test plan defines the items that will be tested, methods for testing, and a schedule detailing the tasks, owners, and time line.
 
 The test plan will be available in a separate document in the version control system at: https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/test%20plan.md
 
-### 5.3 Product Acceptance Plan
+### Product Acceptance Plan
 At the completion of each iteration, the prototype will be tested. Testing will be made via [Travis CI](https://travis-ci.org/) and [Docker](https://www.docker.com/) to create an isolated and uncontaminated environment. The software tested on Docker will face multiple checks with different operative systems to ensure the proper behavior.

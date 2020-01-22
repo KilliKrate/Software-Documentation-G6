@@ -1,5 +1,31 @@
 # Project Charter
 
+## Lezioni alla pari
+January 4, 2020
+
+## Team Members
+Ovidiu Andrioaia  
+David Cirdan  
+Luciano Mateias  
+Zhiyang Xia
+
+
+## Document Control
+**Change History**
+
+| Revision | Change Date | Description of changes |
+| -------- | ----------- | ---------------------- |
+| V1.0     | 01/04/2020  | Initial release        |
+
+**Document storage**
+
+This document is stored in the project's GIT repository at:
+https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/software%20project%20management%20plan.md
+ 
+**Document Owner**
+
+Group 6 is responsible for developing and maintaining this document.
+
 ### Project Title: Lezioni alla Pari
 ### Start Date: 04/10/2019
 ### End Date: 09/13/2019
