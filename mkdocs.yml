@@ -9,5 +9,9 @@ nav:
     - 'Business Model Canvas': 'Business Model Canvas/index.md'
     - 'Project Model Canvas': 'Project Model Canvas/index.md'
     
+markdown_extensions:
+    - toc:
+        permalink: 
+    
 theme:
     name: readthedocs
