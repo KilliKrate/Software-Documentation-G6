@@ -11,7 +11,7 @@ nav:
     
 markdown_extensions:
     - toc:
-        permalink: 
+        permalink: True
     
 theme:
     name: readthedocs
