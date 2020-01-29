@@ -1,4 +1,7 @@
+repo_url: https://github.com/KilliKrate/Software-Documentation-G6/
+
 site_name: 2020_5BI_Team6_Software_Doc
+
 nav:
     - 'Project Charter': 'Project Charter/index.md'
     - 'Software Requirements Specification': 'Software Requirements Specification/index.md'
@@ -8,6 +11,3 @@ nav:
     
 theme:
     name: readthedocs
-
-
-use_directory_urls: true
