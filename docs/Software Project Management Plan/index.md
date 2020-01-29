@@ -27,7 +27,7 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/softwar
 Group 6 is responsible for developing and maintaining this document.
  
 ## Table of Contents
-> [OVERVIEW](#overview)
+> [Overview](#overview)
 >> [Purpose and Scope](#purpose-and-scope)
 >>
 >> [Goals and Objectives](#goals-and-objectives)
@@ -42,7 +42,7 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Definitions](#definitions)
 >
-> [STARTUP PLAN](#startup-plan)
+> [Startup Plan](#startup-plan)
 >> [Team Organization](#team-organization)
 >>
 >> [Project Communications](#project-communications)
@@ -51,19 +51,19 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Tools](#tools)
 >
-> [WORK PLAN](#work-plan)
+> [Work Plan](#work-plan)
 >> [Resource Estimate](#resource-estimate)
 >>
 >> [Release Plan](#release-plan)
 >>
 >> [Iteration Plans](#iteration-plans)
 >
-> [CONTROL PLAN](#control-plan)
+> [Control Plan](#control-plan)
 >> [Monitoring and Control](#monitoring-and-control)
 >>
 >> [Configuration Management Plan](#configuration-management-plan)
 >
-> [SUPPORTING PROCESS PLANS](#supporting-process-plans)
+> [Supporting Process Plans](#supporting-process-plans)
 >> [Risk Management Plan](#risk-management-plan)
 >>
 >> [Test Plan](#test-plan)
@@ -71,7 +71,7 @@ Group 6 is responsible for developing and maintaining this document.
 >> [Product Acceptance Plan](#product-acceptance-plan)
 >
 
-## OVERVIEW
+## Overview
 
 ### Purpose and Scope
 Lezioni alla Pari is an online desktop application designed to streamline knowledge sharing between people inside a closed environment: any group can use our platform to create lessons in the form of illustrated documents or video, in order to instruct their peers on subjects of interest. Quizzes are also available as a tool to summarize (in the case of a company) or test (in the case of a class) the understanding of the subject.
@@ -167,7 +167,7 @@ At least 3 official insitutions/companies that have successfully adopted our pla
 
 - **Client**: The part of the software that is used by the user.
 
-## STARTUP PLAN
+## Startup Plan
 
 ### Team Organization
 Team members:

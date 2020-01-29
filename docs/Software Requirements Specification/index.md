@@ -1,6 +1,6 @@
 # Requirements for the Lezioni alla pari project
 Table of Contents
-> [INTRODUCTION](#introduction)
+> [Introduction](#introduction)
 >> [Overview](#overview)
 >>
 >> [Goals and Objectives](#goals-and-objectives)
@@ -13,7 +13,7 @@ Table of Contents
 >>
 >> [Assumptions](#assumptions)
 >
-> [GENERAL DESIGN CONSTRAINTS](#general-design-constraints)
+> [General Design Constraints](#general-design-constraints)
 >> [ Product Environment](#product-environment)
 >>
 >> [User Characteristics](#user-characteristics)
@@ -22,7 +22,7 @@ Table of Contents
 >> 
 >> [Potential System Evolution](#potential-system-evolution)
 >
-> [NONFUNCTIONAL REQUIREMENTS](#nonfunctional-requirements)
+> [Nonfunctional Requirements](#nonfunctional-requirements)
 >> [Operational Requirements](#operational-requirements)
 >>
 >> [Performance Requirements](#performance-requirements)
@@ -42,7 +42,7 @@ Table of Contents
 >>>
 >>> [Software Interface](#software-interface)
 >
-> [SYSTEM FEATURES](#system-features)
+> [System Features](#system-features)
 >> [Authentication](#authentication)
 >>> [Description and Priority](#description-and-priority)
 >>>
@@ -94,7 +94,7 @@ Table of Contents
 
 Authors  
 Ovidiu Andrioaia, David Cirdan, Luciano Mateias and Zhiyang Xia.
-## INTRODUCTION
+## Introduction
 
 ### Overview
 Lezioni alla pari is an application that focuses on simplyfing the sharing of knowledge between various parties inside a closed environment (e.g. the departments of a company, a classroom, a sports club) easier and within everyone’s reach. The software streamlines the creation of courses that can contain documents, videos and quizzes on a wide range of topics.
@@ -133,7 +133,7 @@ Unknown - development feature, option that hasn't been implemented yet.
 ### Assumptions
 - Team members will work from home, since no office space is available. Collaboration will be made possible through Github.  
 
-## GENERAL DESIGN CONSTRAINTS
+## General Design Constraints
 
 ### Product Environment
 Lezioni alla Pari is the first product in our series dedicated to online learning and does not require any third party software. It is portable and usable by any operating system that supports python3.
@@ -151,7 +151,7 @@ The end-user must have a device with an OS that supports python3, and can reliab
 ### Potential System Evolution
 The final product will be a desktop applications, so UI and UX are optimized for this platform only. As successfull adoption of our platform increases, Lezioni alla Pari will transition to a web-based platform, and finally an Android and iOS application.
 
-## NONFUNCTIONAL REQUIREMENTS
+## Nonfunctional Requirements
 
 ### Operational Requirements
 
@@ -206,7 +206,7 @@ All data delivered through the platform is private, and will throughly adhere to
 
 - All operations and logic defined by the use cases will be achieved through Python and SQL queries. SQL will take care of login, registration and course access, while a cooperation between SQL and Python will achieve document delivery and video streaming
 
-## SYSTEM FEATURES
+## System Features
 
 ### Authentication
 
