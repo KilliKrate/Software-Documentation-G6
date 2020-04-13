@@ -143,7 +143,7 @@ The Process View is essential in understanding how the separate components and s
 
 ### Application View
 
-This thread is the main application thread that is created at runtime of the program. The program creates the thread; this is not a user created thread. This thread handles the basic program flow by controlling navigation between items, videos, quizzes, including the handling of user input to the graphical forms.
+This view is the main application view that is created at runtime of the program. The program creates the view; this is not a user created view. This view handles the basic program flow by controlling navigation between items, videos, quizzes, including the handling of user input to the graphical forms.
 
 ### Presentation View
 
