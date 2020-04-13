@@ -31,7 +31,7 @@ Group 6 is responsible for developing and maintaining this document.
 >
 > [Data Flow Diagram](#data-flow-diagram)
 >
-> [TBD](#tbd)
+> [Logic diagram](#logic-diagram)
 >
 > [High Level Hierarchy](#high-level-hierarchy)
 >> [Hierarchy Diagram](#hierarchy-diagram)
@@ -39,17 +39,11 @@ Group 6 is responsible for developing and maintaining this document.
 >> [Hierarchy Description](#hierarchy-description)
 >
 > [Components Classification](#components-classification)
->> [Presentation Layer](#presentation-layer)
+>> [Presentation Tier](#presentation-tier)
 >>
->> [Controller Layer](#controller-layer)
+>> [Business Tier](#business-tier)
 >>
->> [Business Layer](#business-layer)
->>
->> [Record Layer](#record-layer)
->>
->> [Data Access Layer](#data-access-layer)
->>
->> [Database Layer](#database-layer)
+>> [Data Tier](#data-tier)
 >
 > [Process View](#process-view)
 >> [Process View Description](#process-view-description)
@@ -58,7 +52,9 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Presentation View](#presentation-view)
 >>
->> [User Management View](#user-management-view)
+>> [Login View](#login-view)
+>>
+>> [Registration View](#registration-view)
 >
 
 ## Introduction
@@ -69,9 +65,9 @@ The Lezioni alla Pari Architecture Document is designed to illustrate and identi
 
 ![](../img/Data%20flow%20diagram.png)
 
-## TBD
+## Logic Diagram
 
-![](../img/TBD.png)
+![](../img/Logic%20diagram.png)
 
 ## High Level Hierarchy
 
@@ -85,53 +81,27 @@ The architecture system for the Lezioni alla Pari apllication is an n-tier appli
 
 ## Components Classification
 
-### Presentation Layer
+### Presentation Tier
 
 **Purpose**: To display forms, controls, images, videos to the user to create fluid and efficient user experience.
 
-**Specific Nature**: The presentation layer will be in charge of displaying appropriate images, menus and videos to the user. This layer will also be in charge of handling stylus click. When a user clicks a menu on the GUI, the code corresponding to that event will be called. This layer will also be in charge of the spawning of appropriate threads. The need of spawning extra threads is due to the fact that the main thread of the app will be watching for event clicks, but we also need another thread constantly running to send asynchronous requests to the webserver.
+**Specific Nature**: The presentation tier will be in charge of displaying appropriate images, menus and videos to the user. This tier will also be in charge of handling stylus click. When a user clicks a menu on the GUI, the code corresponding to that event will be called. This tier will also be in charge of the spawning of appropriate threads. The need of spawning extra threads is due to the fact that the main thread of the app will be watching for event clicks, but we also need another thread constantly running to send asynchronous requests to the webserver.
 
 **Subcomponents**: Image Viewer, Video Player
 
-### Controller Layer
+### Business Tier
 
-**Purpose**: Processes and respond to events, typically user actions, and may invoke changes on the model.
-
-**Specific Nature**:
-
-**Subcomponents**:
-
-### Business Layer
-
-**Purpose**: This layer is in charge of the heavy algorithm business logic found in complex solutions.
+**Purpose**: Processes and respond to events, typically user actions. This tier is in charge of the heavy algorithm business logic found in complex solutions. 
 
 **Specific Nature**:
 
 **Subcomponents**:
 
-### Record Layer
+### Data Tier
 
-**Purpose**: This layer is in charge of containing the classes that strictly consist of data.
-Little to no functional methods will be found in these classes.
+**Purpose**: This tier is in charge of storing data in persistent storage.
 
-**Specific Nature**:
-
-**Subcomponents**:
-
-### Data Access Layer
-
-**Purpose**: This layer is in charge of communicating to the database. This layer should handle all of the database transactions and connectivity.
-
-**Specific Nature**:
-
-**Subcomponents**:
-
-
-### Database Layer
-
-**Purpose**: This layer is in charge of storing data in persistent storage.
-
-**Specific Nature**:
+**Specific Nature**: This tier will consist of XML and JSON files.These together will be our database management system. There will be only one XML file named *user_data.xml* while JSON files will be *acl.json* and *descriptor.json*.
 
 **Subcomponents**:
 
@@ -153,7 +123,7 @@ This view is user created, when the application enters the Course/Topic/Lesson m
 
 This view is created when opening the application. This view manages the login, and the registration if needed, of users in order to give them the proper authorizations.
 
-## Register View
+## Registration View
 
 This view is user created, when the users chooses to create a new account from the Login view. This view handles the basic operations of creating a new user on the platform.
 
