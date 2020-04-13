@@ -45,9 +45,9 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Business Layer](#business-layer)
 >>
->> [Data Access Layer](#data-access-layer)
->>
 >> [Record Layer](#record-layer)
+>>
+>> [Data Access Layer](#data-access-layer)
 >>
 >> [Database Layer](#database-layer)
 >
@@ -103,15 +103,7 @@ The architecture system for the Lezioni alla Pari apllication is an n-tier appli
 
 ### Business Layer
 
-**Purpose**:
-
-**Specific Nature**:
-
-**Subcomponents**:
-
-### Data Access Layer
-
-**Purpose**:
+**Purpose**: This layer is in charge of the heavy algorithm business logic found in complex solutions.
 
 **Specific Nature**:
 
@@ -119,15 +111,25 @@ The architecture system for the Lezioni alla Pari apllication is an n-tier appli
 
 ### Record Layer
 
-**Purpose**:
+**Purpose**: This layer is in charge of containing the classes that strictly consist of data.
+Little to no functional methods will be found in these classes.
 
 **Specific Nature**:
 
 **Subcomponents**:
 
+### Data Access Layer
+
+**Purpose**: This layer is in charge of communicating to the database. This layer should handle all of the database transactions and connectivity.
+
+**Specific Nature**:
+
+**Subcomponents**:
+
+
 ### Database Layer
 
-**Purpose**:
+**Purpose**: This layer is in charge of storing data in persistent storage.
 
 **Specific Nature**:
 
