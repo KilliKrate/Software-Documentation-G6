@@ -29,6 +29,10 @@ Group 6 is responsible for developing and maintaining this document.
 ## Table of contents
 > [Introduction](#introduction)
 >
+> [Data Flow Diagram](#data-flow-diagram)
+>
+> [TBD](#tbd)
+>
 > [High Level Hierarchy](#high-level-hierarchy)
 >> [Hierarchy Diagram](#hierarchy-diagram)
 >>
@@ -39,7 +43,13 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Controller Layer](#controller-layer)
 >>
+>> [Business Layer](#business-layer)
+>>
 >> [Data Access Layer](#data-access-layer)
+>>
+>> [Record Layer](#record-layer)
+>>
+>> [Database Layer](#database-layer)
 >
 > [Process View](#process-view)
 >> [Process View Description](#process-view-description)
@@ -55,11 +65,23 @@ Group 6 is responsible for developing and maintaining this document.
 
 The Lezioni alla Pari Architecture Document is designed to illustrate and identify the high level architecture used to design and implement the Lezioni alla Pari application. The document contains an overall view of the system hierarchy, logical views of the system components, and a process view of the system's communication.
 
+## Data Flow Diagram
+
+![](../img/Data%20flow%20diagram.png)
+
+## TBD
+
+![](../img/TBD.png)
+
 ## High Level Hierarchy
 
 ### Hierarchy Diagram
 
+![](../img/Hierarchy%20diagram.png)
+
 ### Hierarchy Description
+
+The architecture system for the Lezioni alla Pari apllication is an n-tier application.
 
 ## Components Classification
 
@@ -77,7 +99,39 @@ The Lezioni alla Pari Architecture Document is designed to illustrate and identi
 
 **Specific Nature**:
 
+**Subcomponents**:
+
+### Business Layer
+
+**Purpose**:
+
+**Specific Nature**:
+
+**Subcomponents**:
+
 ### Data Access Layer
+
+**Purpose**:
+
+**Specific Nature**:
+
+**Subcomponents**:
+
+### Record Layer
+
+**Purpose**:
+
+**Specific Nature**:
+
+**Subcomponents**:
+
+### Database Layer
+
+**Purpose**:
+
+**Specific Nature**:
+
+**Subcomponents**:
 
 ## Process View
 
@@ -93,7 +147,13 @@ This thread is the main application thread that is created at runtime of the pro
 
 This view is user created, when the application enters the Course/Topic/Lesson management mode. This view is the main one, responsible for almost every action in the application. From this view an authorized user, based on its permissions, can create an item on the platform and give read and write access to other users. 
 
-### User Management View
+### Login View
+
+This view is created when opening the application. This view manages the login, and the registration if needed, of users in order to give them the proper authorizations.
+
+## Register View
+
+This view is user created, when the users chooses to create a new account from the Login view. This view handles the basic operations of creating a new user on the platform.
 
 # EXAMPLES OF JSON
 
