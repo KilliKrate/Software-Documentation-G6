@@ -72,15 +72,27 @@ ITI G. MARCONI shall undertake the following activities:
 
 3. Any problems inherent in the project involve all parties included in the agreement
 
-### VI.&nbsp;&nbsp;&nbsp;FUNDING  
+### VI.&nbsp;&nbsp;&nbsp;THIRD PARTY BENEFICIARY RIGHTS
+
+The parties do not intend to create in any other individual or entity the status of a third-party beneficiary, and this MOU shall not be construed so as to create such status.  The rights, duties and obligations contained in this MOU shall operate only between the parties to this MOU, and shall inure solely to the benefit of the parties to this MOU.  The provisions of this MOU are intended only to assist the parties in determining and performing their obligations under this MOU.  The parties to this MOU intend and expressly agree that only parties signatory to this MOU shall have any legal or equitable right to seek to enforce this MOU, to seek any remedy arising out of a party’s performance or failure to perform any term or condition of this MOU, or to bring an action for the breach of this MOU.
+
+### VII.&nbsp;&nbsp;FUNDING  
 
 This MOU does not include the reimbursement of funds between the two parties. 
 
-### VII.&nbsp;&nbsp;EFFECTIVE DATE AND SIGNATURE
+### VIII.&nbsp;TERM OF MOU
 
-This MOU shall be effective upon the signature of Parties A and B authorized officials.  It shall be in force from 13/04/2020 to 13/04/2022.
+This MOU is effective upon the day and date last signed and executed by the duly authorized representatives of the parties to this MOU and the governing bodies of the parties’ respective counties or municipalities and shall remain in full force and effect for not longer than 2 years. This MOU may be terminated, without cause, by either party upon 48 hours written notice, which notice shall be delivered by hand or by certified mail to the address listed above.
 
 Parties A and B indicate agreement with this MOU by their signatures. 
+\
+\
+\
+\
+\
+\
+\
+\
 
 ### SIGNATURES AND DATES
 
