@@ -85,14 +85,14 @@ This MOU does not include the reimbursement of funds between the two parties.
 This MOU is effective upon the day and date last signed and executed by the duly authorized representatives of the parties to this MOU and the governing bodies of the parties’ respective counties or municipalities and shall remain in full force and effect for not longer than 2 years. This MOU may be terminated, without cause, by either party upon 48 hours written notice, which notice shall be delivered by hand or by certified mail to the address listed above.
 
 Parties A and B indicate agreement with this MOU by their signatures. 
-\
-\
-\
-\
-\
-\
-\
-\
+  
+  
+  
+  
+  
+  
+  
+  
 
 ### SIGNATURES AND DATES
 
