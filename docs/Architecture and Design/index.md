@@ -31,7 +31,7 @@ Group 6 is responsible for developing and maintaining this document.
 >
 > [Data Flow Diagram](#data-flow-diagram)
 >
-> [TBD](#tbd)
+> [Logic diagram](#logic-diagram)
 >
 > [High Level Hierarchy](#high-level-hierarchy)
 >> [Hierarchy Diagram](#hierarchy-diagram)
@@ -39,17 +39,11 @@ Group 6 is responsible for developing and maintaining this document.
 >> [Hierarchy Description](#hierarchy-description)
 >
 > [Components Classification](#components-classification)
->> [Presentation Layer](#presentation-layer)
+>> [Presentation Tier](#presentation-tier)
 >>
->> [Controller Layer](#controller-layer)
+>> [Business Tier](#business-tier)
 >>
->> [Business Layer](#business-layer)
->>
->> [Record Layer](#record-layer)
->>
->> [Data Access Layer](#data-access-layer)
->>
->> [Database Layer](#database-layer)
+>> [Data Tier](#data-tier)
 >
 > [Process View](#process-view)
 >> [Process View Description](#process-view-description)
@@ -58,20 +52,28 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Presentation View](#presentation-view)
 >>
->> [User Management View](#user-management-view)
+>> [Login View](#login-view)
+>>
+>> [Registration View](#registration-view)
 >
 
 ## Introduction
 
 The Lezioni alla Pari Architecture Document is designed to illustrate and identify the high level architecture used to design and implement the Lezioni alla Pari application. The document contains an overall view of the system hierarchy, logical views of the system components, and a process view of the system's communication.
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## Data Flow Diagram
 
 ![](../img/Data%20flow%20diagram.png)
 
-## TBD
+[⬆️ Back to Top](#table-of-contents)
 
-![](../img/TBD.png)
+## Logic Diagram
+
+![](../img/Logic%20diagram.png)
+
+[⬆️ Back to Top](#table-of-contents)
 
 ## High Level Hierarchy
 
@@ -81,59 +83,141 @@ The Lezioni alla Pari Architecture Document is designed to illustrate and identi
 
 ### Hierarchy Description
 
-The architecture system for the Lezioni alla Pari apllication is an n-tier application.
+The architecture system for the Lezioni alla Pari apllication is a 3-tier application.
+
+[⬆️ Back to Top](#table-of-contents)
 
 ## Components Classification
 
-### Presentation Layer
+### Presentation Tier
 
 **Purpose**: To display forms, controls, images, videos to the user to create fluid and efficient user experience.
 
-**Specific Nature**: The presentation layer will be in charge of displaying appropriate images, menus and videos to the user. This layer will also be in charge of handling stylus click. When a user clicks a menu on the GUI, the code corresponding to that event will be called. This layer will also be in charge of the spawning of appropriate threads. The need of spawning extra threads is due to the fact that the main thread of the app will be watching for event clicks, but we also need another thread constantly running to send asynchronous requests to the webserver.
+**Specific Nature**: The presentation tier will be in charge of displaying appropriate images, menus and videos to the user. This tier will also be in charge of handling stylus click. When a user clicks a menu on the GUI, the code corresponding to that event will be called. This tier will also be in charge of the spawning of appropriate threads. The need of spawning extra threads is due to the fact that the main thread of the app will be watching for event clicks, but we also need another thread constantly running to send asynchronous requests to the webserver.
 
-**Subcomponents**: Image Viewer, Video Player
+**Subcomponents**: [Quill WYSIWYG editor](https://quilljs.com/)
 
-### Controller Layer
+  - **Quill WYSIWYG editor** - Quill is a text editor that is used whenever a user, owner of a lesson or a quiz, wants to update it. With Quill we can easily upload images and videos that will make our lessons more friendly and intuitive. Styling text and entering formulas especially are some useful features.
 
-**Purpose**: Processes and respond to events, typically user actions, and may invoke changes on the model.
+### Business Tier
 
-**Specific Nature**:
+**Purpose**: Processes and respond to events, typically user actions. This tier is in charge of the heavy algorithm business logic found in complex solutions. 
 
-**Subcomponents**:
+**Specific Nature**: The Business Tier is the core of our program, it will be in charge of responding to user requests and to interact with th
 
-### Business Layer
+**Associated Constructs**: CourseApplication, CourseFileSystem
 
-**Purpose**: This layer is in charge of the heavy algorithm business logic found in complex solutions.
+  - **CourseApplication** - CourseApplication class will be responsible of processing data and serving webpages to the presentation tier, it coordinates all the other classes. This class interacts with almost everything, from loading html lessons from the filesystem to creating and editing quizzes.
 
-**Specific Nature**:
+  - **CourseFileSystem** - CourseFileSystem class will be responsible of the interaction between the application and the filesystem by opening, reading and writing files in a prestuctured way.
 
-**Subcomponents**:
+### Data Tier
 
-### Record Layer
+**Purpose**: This tier is in charge of storing data in persistent storage.
 
-**Purpose**: This layer is in charge of containing the classes that strictly consist of data.
-Little to no functional methods will be found in these classes.
+**Specific Nature**: This tier will consist of XML and JSON files.These together will be our database management system. There will be 1 XML file named *user_data.xml* and 2 JSON files named *acl.json* and *descriptor.json*.
 
-**Specific Nature**:
+**Associated Constructs**: UserManager, PermissionManager, CourseDescriptor
 
-**Subcomponents**:
+- **UserManager** - UserManager will be used to get, add, update and remove a user in our platform. Data regarding users will be stored in the file *acl.json*, this construct will be in charge of interacting with that file.
 
-### Data Access Layer
+  - Example of *user_data.xml*
 
-**Purpose**: This layer is in charge of communicating to the database. This layer should handle all of the database transactions and connectivity.
+    ```xml
+    <users usercounter="1">
+        <user active="true" id="u-1">
+            <name>John</name>
+            <surname>Doe</surname>
+            <password>johndoe420%</password>
+            <email>johndoe@mail.com</email>
+            <birthdate>10-10-1990</birthdate>
+        </user>
+    </users>
+    ```
 
-**Specific Nature**:
+- **PermissionManager** - PermissionManager will be used to store all the permissions of one or more user. Read and Write are the types of permissions that can be given to a user to prevent the access or the modify of a course and its topics and lessons/quizzes. Data regarding permissions will be stored in the file *acl.json*, this construct will be in charge of the interaction with that file.
 
-**Subcomponents**:
+  - Example of *acl.json*
 
+    ```json
+    {
+        "courses": {
+            "c-2": {    
+                "everyone": false,
+                "u-1": "rw"
+            },
+            "c-4": {
+                "everyone": false,
+                "u-1": "r"
+            }
+        }
+    }
+    ```
 
-### Database Layer
+- **CourseDescriptor** - CourseDescriptor will be used to store the current state of the logical filesystem of courses, topics and lessons/quizzes. This construct is essential, it works like an *inode* store in a Linux filesystem. Data regarding this logical filesystem will be stored in the file *descriptor.json*, this construct will be in charge of the interaction with that file.
 
-**Purpose**: This layer is in charge of storing data in persistent storage.
+  - Example of *descriptor.json*
 
-**Specific Nature**:
+    ```json
+    {
+        "courses counter": 11,
+        "topics counter": 20,
+        "elements counter": 28,
+        "courses": {
+            "c-2": {
+                "name": "Hello World, but this one is mine",
+                "topics": {
+                    "t-2": {
+                        "name": "You doing ok?",
+                        "elements": {
+                            "e-10": {
+                                "name": "I think you are",
+                                "type": "lesson",
+                                "creation date": "2019-05-24T23:30:29.271315",
+                                "edit date": "2019-05-24T23:30:29.271315",
+                                "delete date": null
+                            },
+                            "e-27": {
+                                "name": "How to make potatoes",
+                                "type": "quiz",
+                                "creation date": "2019-09-08T14:04:41.965836",
+                                "edit date": "2019-09-08T14:04:41.965836",
+                                "delete date": null
+                            }
+                        },
+                        "creation date": "2019-05-24T23:30:24.424276",
+                        "delete date": null
+                    },
+                    "t-19": {
+                        "name": "New Topic!?!?!?!",
+                        "elements": {
+                            "e-22": {
+                                "name": "Hey",
+                                "type": "lesson",
+                                "creation date": "2019-09-04T18:12:59.636303",
+                                "edit date": "2019-09-04T18:12:59.636303",
+                                "delete date": null
+                            },
+                            "e-23": {
+                                "name": "test",
+                                "type": "lesson",
+                                "creation date": "2019-09-08T12:06:19.076754",
+                                "edit date": "2019-09-08T12:06:19.076754",
+                                "delete date": null
+                            }
+                        },
+                        "creation date": "2019-09-04T18:01:46.662281",
+                        "delete date": null
+                    }
+                },
+                "creation date": "2019-05-24T23:29:36.936242",
+                "delete date": null
+            },
+        }
+    }
+    ```
 
-**Subcomponents**:
+[⬆️ Back to Top](#table-of-contents)
 
 ## Process View
 
@@ -153,85 +237,8 @@ This view is user created, when the application enters the Course/Topic/Lesson m
 
 This view is created when opening the application. This view manages the login, and the registration if needed, of users in order to give them the proper authorizations.
 
-## Register View
+### Registration View
 
 This view is user created, when the users chooses to create a new account from the Login view. This view handles the basic operations of creating a new user on the platform.
 
-# EXAMPLES OF JSON
-
-## ACL
-```json
-{
-  "courses": {
-    "c-2": {
-      "everyone": false,
-      "u-1": "rw"
-    },
-    "c-4": {
-      "everyone": false,
-      "u-1": "r"
-    }
-  }
-}
-```
-
-## DESCRIPTOR
-
-```json
-{
-    "courses counter": 11,
-    "topics counter": 20,
-    "elements counter": 28,
-    "courses": {
-        "c-2": {
-            "name": "Hello World, but this one is mine",
-            "topics": {
-                "t-2": {
-                    "name": "You doing ok?",
-                    "elements": {
-                        "e-10": {
-                            "name": "I think you are",
-                            "type": "lesson",
-                            "creation date": "2019-05-24T23:30:29.271315",
-                            "edit date": "2019-05-24T23:30:29.271315",
-                            "delete date": null
-                        },
-                        "e-27": {
-                            "name": "How to make potatoes",
-                            "type": "quiz",
-                            "creation date": "2019-09-08T14:04:41.965836",
-                            "edit date": "2019-09-08T14:04:41.965836",
-                            "delete date": null
-                        }
-                    },
-                    "creation date": "2019-05-24T23:30:24.424276",
-                    "delete date": null
-                },
-                "t-19": {
-                    "name": "New Topic!?!?!?!",
-                    "elements": {
-                        "e-22": {
-                            "name": "Hey",
-                            "type": "lesson",
-                            "creation date": "2019-09-04T18:12:59.636303",
-                            "edit date": "2019-09-04T18:12:59.636303",
-                            "delete date": null
-                        },
-                        "e-23": {
-                            "name": "test",
-                            "type": "lesson",
-                            "creation date": "2019-09-08T12:06:19.076754",
-                            "edit date": "2019-09-08T12:06:19.076754",
-                            "delete date": null
-                        }
-                    },
-                    "creation date": "2019-09-04T18:01:46.662281",
-                    "delete date": null
-                }
-            },
-            "creation date": "2019-05-24T23:29:36.936242",
-            "delete date": null
-        },
-    }
-}
-```
+[⬆️ Back to Top](#table-of-contents)
