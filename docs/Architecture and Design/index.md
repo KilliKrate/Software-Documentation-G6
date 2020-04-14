@@ -77,7 +77,7 @@ The Lezioni alla Pari Architecture Document is designed to illustrate and identi
 
 ### Hierarchy Description
 
-The architecture system for the Lezioni alla Pari apllication is an n-tier application.
+The architecture system for the Lezioni alla Pari apllication is a 3-tier application.
 
 ## Components Classification
 
