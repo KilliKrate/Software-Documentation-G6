@@ -61,13 +61,19 @@ Group 6 is responsible for developing and maintaining this document.
 
 The Lezioni alla Pari Architecture Document is designed to illustrate and identify the high level architecture used to design and implement the Lezioni alla Pari application. The document contains an overall view of the system hierarchy, logical views of the system components, and a process view of the system's communication.
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## Data Flow Diagram
 
 ![](../img/Data%20flow%20diagram.png)
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## Logic Diagram
 
 ![](../img/Logic%20diagram.png)
+
+[⬆️ Back to Top](#table-of-contents)
 
 ## High Level Hierarchy
 
@@ -79,6 +85,8 @@ The Lezioni alla Pari Architecture Document is designed to illustrate and identi
 
 The architecture system for the Lezioni alla Pari apllication is a 3-tier application.
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## Components Classification
 
 ### Presentation Tier
@@ -87,19 +95,21 @@ The architecture system for the Lezioni alla Pari apllication is a 3-tier applic
 
 **Specific Nature**: The presentation tier will be in charge of displaying appropriate images, menus and videos to the user. This tier will also be in charge of handling stylus click. When a user clicks a menu on the GUI, the code corresponding to that event will be called. This tier will also be in charge of the spawning of appropriate threads. The need of spawning extra threads is due to the fact that the main thread of the app will be watching for event clicks, but we also need another thread constantly running to send asynchronous requests to the webserver.
 
-**Subcomponents**: Image Viewer, Video Player
+**Subcomponents**: [Quill WYSIWYG editor](https://quilljs.com/)
+
+  - **Quill WYSIWYG editor** - Quill is a text editor that is used whenever a user, owner of a lesson or a quiz, wants to update it. With Quill we can easily upload images and videos that will make our lessons more friendly and intuitive. Styling text and entering formulas especially are some useful features.
 
 ### Business Tier
 
 **Purpose**: Processes and respond to events, typically user actions. This tier is in charge of the heavy algorithm business logic found in complex solutions. 
 
-**Specific Nature**:
+**Specific Nature**: The Business Tier is the core of our program, it will be in charge of responding to user requests and to interact with th
 
 **Associated Constructs**: CourseApplication, CourseFileSystem
 
   - **CourseApplication** - CourseApplication class will be responsible of processing data and serving webpages to the presentation tier, it coordinates all the other classes. This class interacts with almost everything, from loading html lessons from the filesystem to creating and editing quizzes.
 
-  - **CourseFileSystem** - CourseFileSystem class will be responsible of the interaction between the application and the filesystem.
+  - **CourseFileSystem** - CourseFileSystem class will be responsible of the interaction between the application and the filesystem by opening, reading and writing files in a prestuctured way.
 
 ### Data Tier
 
@@ -116,7 +126,6 @@ The architecture system for the Lezioni alla Pari apllication is a 3-tier applic
     ```xml
     <users usercounter="1">
         <user active="true" id="u-1">
-            <type>Student</type>
             <name>John</name>
             <surname>Doe</surname>
             <password>johndoe420%</password>
@@ -208,6 +217,8 @@ The architecture system for the Lezioni alla Pari apllication is a 3-tier applic
     }
     ```
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## Process View
 
 ### Process View Description
@@ -229,3 +240,5 @@ This view is created when opening the application. This view manages the login, 
 ### Registration View
 
 This view is user created, when the users chooses to create a new account from the Login view. This view handles the basic operations of creating a new user on the platform.
+
+[⬆️ Back to Top](#table-of-contents)
