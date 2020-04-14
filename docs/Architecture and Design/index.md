@@ -95,7 +95,11 @@ The architecture system for the Lezioni alla Pari apllication is a 3-tier applic
 
 **Specific Nature**:
 
-**Associated Constructs**:
+**Associated Constructs**: CourseApplication, CourseFileSystem
+
+  - CourseApplication - CourseApplication class will be responsible of processing data and serving webpages to the presentation tier, it coordinates all the other classes. This class interacts with almost everything, from loading html lessons from the filesystem to creating and editing quizzes.
+
+  - CourseFileSystem - CourseFileSystem class will be responsible of the interaction between the application and the filesystem.
 
 ### Data Tier
 
@@ -222,6 +226,6 @@ This view is user created, when the application enters the Course/Topic/Lesson m
 
 This view is created when opening the application. This view manages the login, and the registration if needed, of users in order to give them the proper authorizations.
 
-## Registration View
+### Registration View
 
 This view is user created, when the users chooses to create a new account from the Login view. This view handles the basic operations of creating a new user on the platform.
