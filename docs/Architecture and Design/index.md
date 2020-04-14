@@ -97,9 +97,9 @@ The architecture system for the Lezioni alla Pari apllication is a 3-tier applic
 
 **Associated Constructs**: CourseApplication, CourseFileSystem
 
-  - CourseApplication - CourseApplication class will be responsible of processing data and serving webpages to the presentation tier, it coordinates all the other classes. This class interacts with almost everything, from loading html lessons from the filesystem to creating and editing quizzes.
+  - **CourseApplication** - CourseApplication class will be responsible of processing data and serving webpages to the presentation tier, it coordinates all the other classes. This class interacts with almost everything, from loading html lessons from the filesystem to creating and editing quizzes.
 
-  - CourseFileSystem - CourseFileSystem class will be responsible of the interaction between the application and the filesystem.
+  - **CourseFileSystem** - CourseFileSystem class will be responsible of the interaction between the application and the filesystem.
 
 ### Data Tier
 
@@ -109,7 +109,7 @@ The architecture system for the Lezioni alla Pari apllication is a 3-tier applic
 
 **Associated Constructs**: UserManager, PermissionManager, CourseDescriptor
 
-- UserManager - UserManager will be used to get, add, update and remove a user in our platform. Data regarding users will be stored in the file *acl.json*, this construct will be in charge of interacting with that file.
+- **UserManager** - UserManager will be used to get, add, update and remove a user in our platform. Data regarding users will be stored in the file *acl.json*, this construct will be in charge of interacting with that file.
 
   - Example of *user_data.xml*
 
@@ -126,7 +126,7 @@ The architecture system for the Lezioni alla Pari apllication is a 3-tier applic
     </users>
     ```
 
-- PermissionManager - PermissionManager will be used to store all the permissions of one or more user. Read and Write are the types of permissions that can be given to a user to prevent the access or the modify of a course and its topics and lessons/quizzes. Data regarding permissions will be stored in the file *acl.json*, this construct will be in charge of the interaction with that file.
+- **PermissionManager** - PermissionManager will be used to store all the permissions of one or more user. Read and Write are the types of permissions that can be given to a user to prevent the access or the modify of a course and its topics and lessons/quizzes. Data regarding permissions will be stored in the file *acl.json*, this construct will be in charge of the interaction with that file.
 
   - Example of *acl.json*
 
@@ -145,7 +145,7 @@ The architecture system for the Lezioni alla Pari apllication is a 3-tier applic
     }
     ```
 
-- CourseDescriptor - CourseDescriptor will be used to store the current state of the logical filesystem of courses, topics and lessons/quizzes. This construct is essential, it works like an *inode* store in a Linux filesystem. Data regarding this logical filesystem will be stored in the file *descriptor.json*, this construct will be in charge of the interaction with that file.
+- **CourseDescriptor** - CourseDescriptor will be used to store the current state of the logical filesystem of courses, topics and lessons/quizzes. This construct is essential, it works like an *inode* store in a Linux filesystem. Data regarding this logical filesystem will be stored in the file *descriptor.json*, this construct will be in charge of the interaction with that file.
 
   - Example of *descriptor.json*
 
