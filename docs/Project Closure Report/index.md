@@ -45,20 +45,18 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [2.4 Models, Methods, Tools and Processes](#24-models-methods-tools-and-processes)
 >
-> [3. Project Experiences / Observations](#project-experiences-observations)
->> [3.1 Unexpected Impacts](#unexpected-impacts)
+> [3. Project Experiences and Observations](#3-project-experiences-and-observations)
+>> [3.1 Unexpected Impacts](#31-unexpected-impacts)
 >>
->> [3.2 Project Management Methods and Tools](#project-management-methods-and-tools)
+>> [3.2 Project Management Methods and Tools](#32-project-management-methods-and-tools)
 >
-> [4. Unrealized / Outstanding Outputs](#unrealized-outstanding-outputs)
->> [4.1 List of Outstanding Items](#list-of-outstanding-items)
+> [4. Unrealized or Outstanding Outputs](#4-unrealized-or-outstanding-outputs)
+>> [4.1 List of Outstanding Items](#41-list-of-outstanding-items)
 >>
->> [4.2 Actions Points Required](#actions-points-required)
->>
->> [4.3 Unrealized Outputs](#unrealized-outputs)
+>> [4.2 Unrealized Outputs](#42-unrealized-outputs)
 >
-> [5. Improvement Recommendations and Comments](#improvement-recommendations-and-comments)
->> [5.1 Suggestions and Improvements](#suggestions-and-improvements)
+> [5. Improvement Recommendations and Comments](#5-improvement-recommendations-and-comments)
+>> [5.1 Suggestions and Improvements](#51-suggestions-and-improvements)
 
 ----------------------------------------
 
@@ -153,3 +151,49 @@ To build the application the following tools have been adopted:
 The SCRUM method has been used to organize the work between team members and the project developing steps. Instant messaging apps were made use of in order to keep contact.
 
 [⬆Back to Top](#table-of-contents)
+
+### [3. Project Experiences and Observations](#3-project-experiences-and-observations)
+
+#### [3.1 Unexpected Impacts](#31-unexpected-impacts)
+
+There were no major unexpected impacts during the development of the application, either negative or positive. However, the team has encountered some minor difficulties, mostly communicative and technical, that caused various misunderstandings between the members or missed reception in some cases.\
+It has has to be noticed, though, that the project required a lot more time and effort than expected,
+as at the start of the process, it was not conceivable to develop such a complex application, it was just a small basic platfrom, that over time evolved into the final product.
+
+[⬆Back to Top](#table-of-contents)
+
+#### [3.2 Project Management Methods and Tools](#32-project-management-methods-and-tools)
+
+The project management methods, such as the SCRUM method for organizing work and task, objective planning has been a productive and efficient way on approaching the project. The Bugzilla tool made bug fixing and typo corrections much easier, whereas the Version Control System adopted under GitHub simplified the synchronization between file versions and remote working.
+
+[⬆Back to Top](#table-of-contents)
+
+### [4. Unrealized or Outstanding Outputs](#4-unrealized-or-outstanding-outputs)
+
+#### [4.1 List of Outstanding Items](#41-list-of-outstanding-items)
+
+There haven't been any outstanding items  that have impacted project completion, though the team had to deal with a lot of new knowledge that wasn't acquired and new skills and tools which made the development process definetly more lengthy than what expected. There was also a long period of holidays and external working commitments which slowed significantly the pace of the project.
+
+[⬆Back to Top](#table-of-contents)
+
+
+#### [4.2 Unrealized Outputs](#42-unrealized-outputs)
+
+The possibility to integrate the application into a web based system has not been put out due to time constraints, but also because the skills and effort required where not met by the team members. Ultimately, this task has been put aside.\
+
+The data storage solution of a hosted database and the usage of frameworks didn't make it in the planning of tools and systems to use for the project because of scarce adapatability to the scale of the platform and the high-demanding nature of these requests.
+
+[⬆Back to Top](#table-of-contents)
+
+### [5. Improvement Recommendations and Comments](#5-improvement-recommendations-and-comments)
+
+#### [5.1 Suggestions and Improvements](#51-suggestions-and-improvements)
+
+On a final note, here is a list of reporting notes on the project that specify all the procedures, techinques, strategies that could have been done better, or improvements to the finished project:
+
++ More time could have been invested in the learning of a framework to facilitate the development and create a more polished product
++ Organization between team members and communication could have been more effective if proper tools had been used, Trello for example.
++ A more in depth documentation and design plan for the application as many details and architectural decisions weren't clear from the start. 
+
+[⬆Back to Top](#table-of-contents)
+
