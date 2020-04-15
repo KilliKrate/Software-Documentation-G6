@@ -60,7 +60,42 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Multi-line-arrays](#multi-line-arrays)
 >
-
+> [Strings](#strings)
+>> [Quotes](#quotes)
+>>
+>> [Concatenation](#concatenation)
+>
+> [Comparison Operators & Equality](#comparison-operators-&-equality)
+>> [Comparison Operators](#comparison-operators)
+>>
+>> [Equality](#equality)
+>
+> [Functions](#functions)
+>> [Function Declaration](#function-declaration)
+>>
+>> [Function Parameters](#function-parameters)
+>
+> [Arrow Functions](#arrow-functions)
+>> [Arrow Functions vs Functions](#arrow-functions-vs-functions)
+>>
+>> [Implicit Returns](#implicit-returns)
+>>
+>> [Style and Consistency Considerations](#style-and-consistency-considerations)
+>
+> [Classes](#classes)
+>> [Class Declaration](#class-declaration)
+>>
+>> [Methods & Method Chaining](#methods-&-method-chaining)
+>>
+>> [Constructors](#constructors)
+>>
+>> [Static Methods](#static-methods)
+>
+> [Objects](#objects)
+>> [Object Initialization](#object-initialization)
+>>
+>> [Object Shorthands](#object-shorthands)
+>
 ## Introduction
 The "Lezioni alla Pari" coding standards aim to illustrate the way forward for implementing features and changes to the Javascript codebase. Every new piece of code committed the Github repository must strictly adhere to the following rules, since all the code in this code-base should look like a single person typed it, no matter the size of the team. These rules must be followed if you also are interested in collaborating with the team, by implementing changes and features to further develop the project.
 
@@ -625,6 +660,8 @@ const foo = maybe1 > maybe2 ? 'bar' : maybeNull;
 
 ## Functions
 
+### Function Declaration
+
 Functions MUST always have a sensible name that summarizes their use, just like variables. When declaring functions, one MUST NOT declare them in non-function blocks, like `if` and `while`: assign them to a variable outside of the block instead (in this case it is preferable to use arrow functions instead).
 
 ```javascript
@@ -643,6 +680,8 @@ if (currentUser) {
   };
 }
 ```
+
+### Function Parameters
 
 Parameters MUST NOT be mutated inside the function. When evaluating conditions on parameters at the start of a function, use default parameters instead.
 
@@ -691,7 +730,11 @@ function handleThings(name, opts = {}) {
 }
 ```
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## Arrow Functions
+
+### Arrow Functions vs Functions
 
 The use of arrow functions is preferred when creating and calling anonymous functions. This is better than using normal funcitons, because it is more concise and also excludes the context of `this`. Use normal functions when you have complicated logic that would deserve a named function of its own.
 
@@ -709,6 +752,8 @@ The use of arrow functions is preferred when creating and calling anonymous func
 });
 ```
 
+### Implicit Returns
+
 If the arrow function consists of a single statement, than you SHOULD omit the braces and the `return` statement, and use the implicit return. On the other hand, if the function spans across multiple lines, one MUST use braces.
 
 ```javascript
@@ -721,6 +766,8 @@ If the arrow function consists of a single statement, than you SHOULD omit the b
 // good
 [1, 2, 3].map((number) => `A string containing the ${number + 1}.`);
 ```
+
+### Style and Consistency Considerations
 
 Also, even when you have a single parameter, one MUST include parentheses around arguments for clarity and consistency
 
@@ -742,10 +789,146 @@ const itemHeight = (item) => item.height >= 256 ? item.largeSize : item.smallSiz
 const itemHeight = (item) => (item.height <= 256 ? item.largeSize : item.smallSize);
 ```
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## Classes
+
+### Class Declaration
+
+The `class` syntax MUST be used when creating classes. The previous `prototype` manipulation tecnique used for creating classes is no longer valid, because `class` is more concise and easier to debug. Furthermore, use the `extends` keyword for inheritance, instead of the `inherits()` method.
+
+```javascript
+// bad
+const inherits = require('inherits');
+function PeekableQueue(contents) {
+  Queue.apply(this, contents);
+}
+inherits(PeekableQueue, Queue);
+PeekableQueue.prototype.peek = function () {
+  return this.queue[0];
+};
+
+// good
+class PeekableQueue extends Queue {
+  peek() {
+    return this.queue[0];
+  }
+}
+```
+
+### Methods & Method Chaining
+
+There MUST NOT be duicate class members, so never give the same name to the same two properties. Furthermore, when creating setters and getters, consider returning `this`, to help with method chaining.
+
+```javascript
+class Jedi {
+  jump() {
+    this.jumping = true;
+    return this;
+  }
+
+  setHeight(height) {
+    this.height = height;
+    return this;
+  }
+}
+
+const luke = new Jedi();
+
+// jump and setHeight can be chained because jump() returns `this`
+luke.jump()
+  .setHeight(20);
+```
 
 ### Constructors
 
+Classes have a default `constructor` if one is not specified. This MUST be used when dealing with empty constructors, or constructors that delegate to the parent class, because it makes the code less redundant.
+
+```javascript
+// bad
+class Jedi {
+  constructor() {}
+
+  getName() {
+    return this.name;
+  }
+}
+
+// bad
+class Rey extends Jedi {
+  constructor(...args) {
+    super(...args);
+  }
+}
+
+// good
+class Rey extends Jedi {
+  constructor(...args) {
+    super(...args);
+    this.name = 'Rey';
+  }
+}
+```
+
+### Static Methods
+
+Lastly, if a method doesn't use `this`, it MUST be made static. Being an instance method should indicate that it behaves differently based on the properties of the object it's executed from.
+
+```javascript
+// bad
+class Foo {
+  bar() {
+    console.log('bar');
+  }
+}
+
+// good
+class Foo {
+  static bar() {
+    console.log('bar');
+  }
+}
+```
+
+[⬆️ Back to Top](#table-of-contents)
+
 ## Objects
 
-## Events
+### Object Initialization
+
+When creating a new object, always use the literal syntax rather than the curly braces syntax. This makes it clearer that you are creating a new object.
+
+```javascript
+// bad
+const item = new Object();
+
+// good
+const item = {};
+```
+
+### Object Shorthands
+
+Shorthands MUST be used when creating methods or when defining properties where the value variable is the same as the key name. Lastly, when using shorthand properties, always group them at the beginning of the object notation, in order to make it easier to tell which properties are using the shorthand.
+
+```javascript
+// bad
+const atom = {
+  name: name,
+  periodicTablePosition: periodicTablePosition,
+  weight: 89,
+  addValue: function (value) {
+    return atom.value + value;
+  },
+};
+
+// good
+const atom = {
+  name,
+  periodicTablePosition,
+  addValue(value) {
+    return atom.value + value;
+  },
+};
+```
+
+[⬆️ Back to Top](#table-of-contents)
