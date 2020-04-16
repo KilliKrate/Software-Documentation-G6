@@ -41,7 +41,7 @@ Second, a system manual shall be produced. This system manual shall consist of t
 
 #### Signatures
   
-Project sponsor: ITI G. Marconi
+ITI G. Marconi, Project sponsor
 ___
 
 Ovidiu Costin Andrioaia, Project Manager
