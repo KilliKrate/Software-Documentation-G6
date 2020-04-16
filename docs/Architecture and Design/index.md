@@ -63,9 +63,9 @@ The Lezioni alla Pari Architecture Document is designed to illustrate and identi
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Data Flow Diagram
+## Flow Chart
 
-![](../img/Data%20flow%20diagram.png)
+![](../img/Flow%20chart.png)
 
 [⬆️ Back to Top](#table-of-contents)
 
