@@ -62,6 +62,11 @@ Group 6 is responsible for developing and maintaining this document.
 >> [Delete a Lesson](#delete-a-lesson)
 >>
 > [Troubleshooting](#troubleshooting)
+>>
+>> [Incorrect Login Mail](#incorrect-login-mail)
+>>
+>> [Incorrect Login Password](#incorrect-login-password)
+>>
 >
 
 ## Introduction
@@ -295,5 +300,18 @@ Group 6 is responsible for developing and maintaining this document.
 [⬆️ Back to Top](#table-of-contents)
 
 ## Troubleshooting
+
+### Incorrect Login Mail
+
+A message will be displayed in the event an incorrect mail is entered. Try again with proper credentials. If the problem persists, contact the administrator.
+
+![](../img/User%20Guide/incorrect%20login%201.png)
+
+
+### Incorrect Login Password
+
+A message will be displayed in the event an incorrect password for the selected email is entered. Try again with proper credentials. If the problem persists, try resetting the password or contact the administrator.
+
+![](../img/User%20Guide/incorrect%20login%202.png)
 
 [⬆️ Back to Top](#table-of-contents)
