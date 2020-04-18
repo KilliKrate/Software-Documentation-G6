@@ -26,11 +26,33 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/Iterati
 
 Group 6 is responsible for developing and maintaining this document.
 
---------------------------------------------------------------------------
+-----------------------------------------------------
+## [Table of Contents](#table-of-contents)
 
-### Iteration #1 
+> [Iteration #1](#iteration-1)
+>> [1.1 Objectives](#11-objectives)
+>>
+>> [1.2 Use cases](#12-use-cases)
+>>
+>> [1.3 Task schedule](#13-task-schedule)
+>
+> [Iteration #2](#iteration-2)
+>> [2.1 Objectives](#21-objectives)
+>>
+>> [2.2 Use cases](#22-use-cases)
+>>
+>> [2.3 Task schedule](#23-task-schedule)
+>
+> [Iteration #3](#iteration-3)
+>> [3.1 Objectives](#31-objectives)
+>>
+>> [3.2 Use cases](#32-use-cases)
+>>
+>> [3.3 Task schedule](#33-task-schedule)
+-----------------------------------------------------
+### [Iteration #1](#iteration-1)
 
-**1. Objectives**
+#### [1.1 Objectives](#11-objectives)
 
 The purpose of this iteration is to make an intention agreement between the team on how the software
 should be developed, start searching for partners and design the architecture and the framework of the application.
@@ -39,11 +61,11 @@ At the end of the iteration, the project should have:
 + An operative database
 + Partners and stakeholders who are willing to support the project
 
-**2. Use cases**
+#### [1.2 Use cases](#12-use-cases)
 
 There are no use cases involved in this iteration as its purpose is to design the founding structure of the application, by which all the features and functionalities are based on.
 
-**3. Task schedule**
+#### [1.3 Task schedule](#13-task-schedule)
 
 | Task | Estimated Effort | Actual Effort | Estimated Completion Date | Actual Completion Date | Owner | Status |
 |:----:|:----------------:|:-------------:|:-------------------------:|:----------------------:|:-----:|:------:|
@@ -53,9 +75,12 @@ There are no use cases involved in this iteration as its purpose is to design th
 | Find partners | 10 | 10 | 05/01/2019 | 05/10/2019 | Angelo Xia | Finished |
 | Video streaming architecture | 10 | 10 | 05/05/2019 | 05/10/2019 | Luciano Mateias, Ovidiu Androiaia | Finished |
 
-### Iteration #2
+[⬆Back to Top](#table-of-contents)
 
-**1. Objectives**
+### [Iteration #2](#iteration-2)
+
+#### [2.1 Objectives](#21-objectives)
+
 On this iteration the team will focus on developing the front-end and the back-end of the application, providing all the features that have been designed in the previous iteration.
 At the end of this iteration, the project should have:
 + Basic user features
@@ -63,7 +88,7 @@ At the end of this iteration, the project should have:
 + A good UI and UX
 + Privately downloadable app 
 
-**2. Use cases**
+#### [2.2 Use cases](#22-use-cases)
 
 The following use cases are involved in this iteration:
 + UC1: Register and login - Basic flow 
@@ -71,7 +96,7 @@ The following use cases are involved in this iteration:
 + UC3: Create tests: Basic flow and alternate flows.
 + UC4: Watch videos - Basic flow.
 
-**3. Task schedule**
+#### [2.3 Task schedule](#23-task-schedule)
 
 | Task | Estimated Effort | Actual Effort | Estimated Completion Date | Actual Completion Date | Owner | Status |
 |:----:|:----------------:|:-------------:|:-------------------------:|:----------------------:|:-----:|:------:|
@@ -81,21 +106,25 @@ The following use cases are involved in this iteration:
 | Video streaming feature | 10 | 10 | 06/10/2019 | 06/12/2019 | Whole team | Finished |
 | Launch of beta | 10 | 10 | 07/01/2019 | 07/10/2019 | Whole team | Finished |
 
-### Iteration #3
+[⬆Back to Top](#table-of-contents)
 
-**1. Objectives**
+### [Iteration #3](#iteration-3)
+
+#### [3.1 Objectives](#31-objectives)
 
 The third iteration has the purpose to launch the final release, with the approval of partners, stakeholders and various software debugging.
 At the end of this iteration, the project should have:
 + A stable and public application for everyone
 
-**2. Use cases**
+#### [3.2 Use cases](#32-use-cases)
 
 There aren't new use cases involved in this iteration.
 
-**3. Task schedule**
+#### [3.3 Task schedule](#33-task-schedule)
 
 | Task | Estimated Effort | Actual Effort | Estimated Completion Date | Actual Completion Date | Owner | Status |
 |:----:|:----------------:|:-------------:|:-------------------------:|:----------------------:|:-----:|:------:|
 | Software debugging | 6 | 6 | 07/31/2019 | 08/10/2019 | Whole team | Finished |
 | Final release on GitHub | 5 | 7 | 09/01/2019 | 09/13/2019 | Whole team | Finished |
+
+[⬆Back to Top](#table-of-contents)
