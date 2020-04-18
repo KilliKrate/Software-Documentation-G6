@@ -20,7 +20,7 @@ Zhiyang Xia
 **Document storage**
 
 This document is stored in the project's GIT repository at:
-https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/Project%20Charter/index.md
+[https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/Project%20Charter/index.md](https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/Project%20Charter/index.md)
  
 **Document Owner**
 
