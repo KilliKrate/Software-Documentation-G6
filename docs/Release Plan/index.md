@@ -26,9 +26,16 @@ https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/Release
 
 Group 6 is responsible for developing and maintaining this document.
 
----------------------------------------------------------------------------
+-----------------------------------------------------
+## [Table of Contents](#table-of-contents)
+> [Release #1: Release of the beta application](#release-#1:-release-of-the-beta-application)
+>
+>[Release #2: Launch of the final application](#release-#2:-laucnh-of-the-final-application)
+>
 
-**Release #1: Launch of the beta application**
+-----------------------------------------------------
+
+#### [Release #1: Release of the beta application](#release-#1:-release-of-the-beta-application)
 
 + Iteration #1: design all the application architecture and find partners
 
@@ -46,7 +53,9 @@ Group 6 is responsible for developing and maintaining this document.
  | Back-end development | 34 hrs | 30 hrs |
  | Beta release | 12 hrs | 14 hrs |
  
- **Release #2: Launch of the final application**
+ [⬆Back to Top](#table-of-contents)
+
+ #### [Release #2: Launch of the final application](#release-#2:-launch-of-the-final-application)
  
  + Iteration #3: final release, with the approval of partners, stakeholders and various software debugging
  
@@ -64,3 +73,5 @@ Group 6 is responsible for developing and maintaining this document.
  | Iteration 2 | 82 hrs estimated | 82 hrs estimated | 83 hrs actual    | 83 hrs actual |
  | Iteration 3 | 35 hrs estimated | 35 hrs estimated | 35 hrs estimated | 31 hrs actual |
  | Total:      | 134 hrs          | 142 hrs          | 143 hrs          | 139 hrs
+
+[⬆Back to Top](#table-of-contents)
