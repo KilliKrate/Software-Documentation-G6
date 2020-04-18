@@ -8,6 +8,18 @@ nav:
     - 'Software Project Management plan': 'Software Project Management Plan/index.md'
     - 'Business Model Canvas': 'Business Model Canvas/index.md'
     - 'Project Model Canvas': 'Project Model Canvas/index.md'
+    - 'Release Plan': 'Release Plan/index.md'
+    - 'Iteration Plan': 'Iteration Plan/index.md'
+    - 'Memo of Understanding': 'Memo of Understanding/index.md'
+    - 'Project Success Criteria': 'Project Success Criteria/index.md'
+    - 'Project Closure Report': 'Project Closure Report/index.md'
+    - 'Status Report': 'Status Report/index.md'
+    - 'Architecture and Design': 'Architecture and Design/index.md'
+    - 'Coding Standards': 'Coding Standards/index.md'
+    - 'Test Plan': 'Test Plan/index.md'
+    - 'Test Case Specification': 'Test Case Specification/index.md'
+    - 'User Guide': 'User Guide/index.md'
+    - 'System Documentation': 'System Documentation/index.md' 
     
 markdown_extensions:
     - toc:
