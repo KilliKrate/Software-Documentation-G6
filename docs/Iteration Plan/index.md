@@ -75,7 +75,7 @@ There are no use cases involved in this iteration as its purpose is to design th
 | Find partners | 10 | 10 | 05/01/2019 | 05/10/2019 | Angelo Xia | Finished |
 | Video streaming architecture | 10 | 10 | 05/05/2019 | 05/10/2019 | Luciano Mateias, Ovidiu Androiaia | Finished |
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 ### [Iteration #2](#iteration-2)
 
@@ -106,7 +106,7 @@ The following use cases are involved in this iteration:
 | Video streaming feature | 10 | 10 | 06/10/2019 | 06/12/2019 | Whole team | Finished |
 | Launch of beta | 10 | 10 | 07/01/2019 | 07/10/2019 | Whole team | Finished |
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 ### [Iteration #3](#iteration-3)
 
@@ -127,4 +127,4 @@ There aren't new use cases involved in this iteration.
 | Software debugging | 6 | 6 | 07/31/2019 | 08/10/2019 | Whole team | Finished |
 | Final release on GitHub | 5 | 7 | 09/01/2019 | 09/13/2019 | Whole team | Finished |
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
