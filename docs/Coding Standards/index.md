@@ -26,7 +26,7 @@ This document is stored in the project's GIT repository at:
 
 Group 6 is responsible for developing and maintaining this document.
 
-## Table of contents
+## [Table of contents](#table-of-contents)
 > [Introduction](#introduction)
 >
 > [Enforcing the Standards](#enforcing-the-standards)
@@ -96,7 +96,7 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Object Shorthands](#object-shorthands)
 >
-## Introduction
+## [Introduction](#introduction)
 The "Lezioni alla Pari" coding standards aim to illustrate the way forward for implementing features and changes to the Javascript codebase. Every new piece of code committed the Github repository must strictly adhere to the following rules, since all the code in this code-base should look like a single person typed it, no matter the size of the team. These rules must be followed if you also are interested in collaborating with the team, by implementing changes and features to further develop the project.
 
 This document guarantees a basic level of quality for all the code base, which should be, in order of importance:
@@ -108,16 +108,16 @@ Efficiency comes last, as the most important characteristic is for the code to b
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Enforcing the standards
+## [Enforcing the standards](#enforcing-the-standards)
 
-### Code quality tools
+### [Code quality tools](#code-quality-tools)
 
 In order to guarantee that the coding standards are respected, we require developers to use the following tools:
 
 - ESLint plugin for VS Code OR ESLint Node Module
 - Beautify plugin for VS Code OR js-beautify Node Module
 
-### Code reviews
+### [Code reviews](#code-reviews)
 
 After the rules have been agreed upon, issues not covered by the use of the aforementioned tools can be resolved through various tecniques of code review. We will list the two main methods used by our team in order to guarantee code standard compliance:
 
@@ -129,9 +129,9 @@ The architect of the team must review the core modules of the project to ensure 
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Whitespaces
+## [Whitespaces](#whitespaces)
 
-### Indentation
+### [Indentation](#indentation)
 
 All code MUST be indented using two (2) space charachters, the code MUST NOT indent using tab charachters or trailing whitespaces. This can be reinforced by using an IDE with appropriate indentation settings. Alternatively, ESLint will throw an error if use of whitespaces is not consistent.
 
@@ -148,7 +148,7 @@ if (condition) {
 ```
 Lastly, lines SHOULD generally be no longer than 80 charachters, and MUST NOT not exceed 100. The only exceptions are [Strings](#strings) and Regex literals.
 
-### Control Structures
+### [Control Structures](#control-structures)
 
 Control structures MUST always use braces, even in cases where they are not required, for the sake of readability. Control structures MUST have a space between the control keyword and the condition, as to differentiate them from function calls, to increase readability and to decrease the likelihood of logic errors when new lines are added.
 
@@ -218,7 +218,7 @@ finally {
 }
 ```
 
-### Function Declarations
+### [Function Declarations](#function-declarations)
 
 The function keyword MUST be followed by one space. Named functions MUST NOT have a space between the function name and the following left parenthesis Optional arguments (using default values) SHOULD be defined at the end of the function signature. Every function SHOULD attempt to return a meaningful value.
 
@@ -236,7 +236,7 @@ function funStuff(text) {
 }
 ```
 
-### Function Calls
+### [Function Calls](#function-calls)
 
 Functions MUST be called with no spaces between the function name and its parameters. There MUST be one space between commas and each parameter, and there MUST NOT be a space between the last parameter, the closing parenthesis, and the semicolon.
 
@@ -250,7 +250,7 @@ var foobar = foo(bar, baz, quux);
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Semicolons
+## [Semicolons](#semicolons)
 
 Although Javascript allows for optional semi-colons, all code in the "Lezioni alla Pari" repository MUST be followed by semi-colons. Therefore, all statements (except for, function, if, switch, try, while and possibly other control structures) MUST be followed by a semi-colon. This is in order to avoid errors in the code, where ASI fails to fill them in correctly.
 
@@ -271,9 +271,9 @@ const leia = {};
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Naming Conventions
+## [Naming Conventions](#naming-conventions)
 
-### Functions and Variables
+### [Functions and Variables](#functions-and-variables)
 
 All variables and functions MUST use camelCase, with the exception of classes and constructors. The first letter of the word MUST be lowercase, while all the first letters of subsequent words MUST be uppercased. There MUST NOT be underscores between the words, as that would be snake_case.
 
@@ -300,7 +300,7 @@ for ( ; idx < length; idx++ ) {
 }
 ```
 
-### Classes and Constructors 
+### [Classes and Constructors](#classes-and-constructors)
 
 As mentioned above, there is an exception in the case of classes and constructors. The programmer, in this situation, MUST use PascalCase.
 
@@ -328,13 +328,13 @@ const good = new User({
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Comments
+## [Comments](#comments)
 
-### JSDoc Standard
+### [JSDoc Standard](#jsdoc-standard)
 
 Single line and multiline comments are not only allowed, but recommended. The team MUST adopt the standards of [JSDoc 3](https://jsdoc.app/) for the proper documentation of code. Following those rules, all files, classes and functions MUST be documented. For more in-depth perspectives on code documentation, you should head over to the official [JSDoc Documentation](https://jsdoc.app/)
 
-### Non-JSDoc Comments
+### [Non-JSDoc Comments](#non-jsdoc-comments)
 
 One should note that comments not adherent to the JSDoc standard are recommended where files, functions, classes are not concerned. In particular, when one is explaining the logic surrounding an algorithm, one MUST write comments so that who tries to comprehend a particularly complex piece of logic can understand it even without reading it directly.
 
@@ -402,9 +402,9 @@ function make(tag) {
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Variables
+## [Variables](#variables)
 
-### Variable Declaration
+### [Variable Declaration](#variable-declaration)
 
 Variables MUST be declared using the  `let` or `const` keywords. The `var` keyword MUST NOT be used. Using `var` might result in variable scoper errors, which are often confusing and sometimes result in global variables. Variables MUST be declared on separate lines, by repeating the `let` or `const` keyword.
 
@@ -428,7 +428,7 @@ let lambSauceFound = false;
 let hotel = 'trivago';
 ```
 
-### Declaration Location
+### [Declaration Location](#declaration-location)
 
 All variables MUST be declared at a sensible location in their respective scope, which is inside the curly braces that contain them. Forget any previous consideration about scope, since this is where `var` is fundamentally different `let` or `const`: The former is function-scoped, so placing them at the beginning of the function was the most sensible approach, while the latter are block-scoped, meaning they exist only in their block. Most often, sensible declaration choices will avoid things like unnecessary function calls.
 
@@ -466,15 +466,15 @@ function checkName(hasName) {
 }
 ```
 
-### Unused Variables
+### [Unused Variables](#unused-variables)
 
 Lastly, you SHOULD try to avoid creating unused variables: variables created but never read, or read for the sole purpose of modifying them (like in an increment) MUST NOT be present in the code. This also includes unused function arguments. ESLint will prevent this in some cases, but try to avoid it yourself.
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Arrays
+## [Arrays](#arrays)
 
-### Single-line Arrays
+### [Single-line Arrays](#single-line-arrays)
 
 Arrays MUST be formatted with one space separating each element, right after the comma
 
@@ -486,7 +486,7 @@ let someArray = ['hello','world'];
 let someArray = ['hello', 'world'];
 ```
 
-### Multi-line Arrays
+### [Multi-line Arrays](#multi-line-arrays)
 
 If the line is longer than 80 characters, each element MUST be broken into its own line, and indented one level. You SHOULD use a trailing comma, as doing so will simplify adding and removing items into the array, and also results in cleaner git diffs.
 
@@ -508,7 +508,7 @@ let fruits = [
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Strings
+## [Strings](#strings)
 
 ### Quotes
 Although there is no actual difference to how Javascript interprets them, single quotes MUST be used everywhere, for the sake of uniformity. 
@@ -521,7 +521,7 @@ let message = "Hello World";
 let message = 'Hello World';
 ```
 
-### Concatenation
+### [Concatenation](#concatenation)
 
 Furthermore, strings are an exception to the 80-character rule: in case a string is longer than 80 characters, it MUST NOT be written across multiple lines using string concatenation, because broken strings are harder to work with.
 
@@ -562,9 +562,9 @@ function sayHi(name) {
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Comparison Operators & Equality
+## [Comparison Operators & Equality](#comparison-operators-&-equality)
 
-### Comparison Operators
+### [Comparison Operators](#comparison-operators)
 
 Strict equality operators (`===` and `==!`) MUST be used when comparing two values, one MUST NOT use their non-strict counterparts (`==` and `=!`). This is because the latter offer type coercion, which can lead to unexpected errors.
 
@@ -584,7 +584,7 @@ if (false === null === 0) {
 }
 ```
 
-### Equality
+### [Equality](#equality)
 
 Conditional statements, such as the `if` statement, evaluate their condition using type coercion, using these rules:
 
@@ -658,9 +658,9 @@ const foo = maybe1 > maybe2 ? 'bar' : maybeNull;
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Functions
+## [Functions](#functions)
 
-### Function Declaration
+### [Function Declaration](#function-declaration)
 
 Functions MUST always have a sensible name that summarizes their use, just like variables. When declaring functions, one MUST NOT declare them in non-function blocks, like `if` and `while`: assign them to a variable outside of the block instead (in this case it is preferable to use arrow functions instead).
 
@@ -681,7 +681,7 @@ if (currentUser) {
 }
 ```
 
-### Function Parameters
+### [Function Parameters](#function-parameters)
 
 Parameters MUST NOT be mutated inside the function. When evaluating conditions on parameters at the start of a function, use default parameters instead.
 
@@ -732,9 +732,9 @@ function handleThings(name, opts = {}) {
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Arrow Functions
+## [Arrow Functions](#arrow-functions)
 
-### Arrow Functions vs Functions
+### [Arrow Functions vs Functions](#arrow-functions-vs-functions)
 
 The use of arrow functions is preferred when creating and calling anonymous functions. This is better than using normal funcitons, because it is more concise and also excludes the context of `this`. Use normal functions when you have complicated logic that would deserve a named function of its own.
 
@@ -752,7 +752,7 @@ The use of arrow functions is preferred when creating and calling anonymous func
 });
 ```
 
-### Implicit Returns
+### [Implicit Returns](#implicit-returns)
 
 If the arrow function consists of a single statement, than you SHOULD omit the braces and the `return` statement, and use the implicit return. On the other hand, if the function spans across multiple lines, one MUST use braces.
 
@@ -767,7 +767,7 @@ If the arrow function consists of a single statement, than you SHOULD omit the b
 [1, 2, 3].map((number) => `A string containing the ${number + 1}.`);
 ```
 
-### Style and Consistency Considerations
+### [Style and Consistency Considerations](#style-and-consistency-considerations)
 
 Also, even when you have a single parameter, one MUST include parentheses around arguments for clarity and consistency
 
@@ -791,9 +791,9 @@ const itemHeight = (item) => (item.height <= 256 ? item.largeSize : item.smallSi
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Classes
+## [Classes](#classes)
 
-### Class Declaration
+### [Class Declaration](#class-declaration)
 
 The `class` syntax MUST be used when creating classes. The previous `prototype` manipulation tecnique used for creating classes is no longer valid, because `class` is more concise and easier to debug. Furthermore, use the `extends` keyword for inheritance, instead of the `inherits()` method.
 
@@ -816,7 +816,7 @@ class PeekableQueue extends Queue {
 }
 ```
 
-### Methods & Method Chaining
+### [Methods & Method Chaining](#methods-&-method-chaining)
 
 There MUST NOT be duicate class members, so never give the same name to the same two properties. Furthermore, when creating setters and getters, consider returning `this`, to help with method chaining.
 
@@ -840,7 +840,7 @@ luke.jump()
   .setHeight(20);
 ```
 
-### Constructors
+### [Constructors](#constructors)
 
 Classes have a default `constructor` if one is not specified. This MUST be used when dealing with empty constructors, or constructors that delegate to the parent class, because it makes the code less redundant.
 
@@ -870,7 +870,7 @@ class Rey extends Jedi {
 }
 ```
 
-### Static Methods
+### [Static Methods](#static-methods)
 
 Lastly, if a method doesn't use `this`, it MUST be made static. Being an instance method should indicate that it behaves differently based on the properties of the object it's executed from.
 
@@ -892,9 +892,9 @@ class Foo {
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Objects
+## [Objects](#objects)
 
-### Object Initialization
+### [Object Initialization](#object-initialization)
 
 When creating a new object, always use the literal syntax rather than the curly braces syntax. This makes it clearer that you are creating a new object.
 
@@ -906,7 +906,7 @@ const item = new Object();
 const item = {};
 ```
 
-### Object Shorthands
+### [Object Shorthands](#object-shorthands)
 
 Shorthands MUST be used when creating methods or when defining properties where the value variable is the same as the key name. Lastly, when using shorthand properties, always group them at the beginning of the object notation, in order to make it easier to tell which properties are using the shorthand.
 

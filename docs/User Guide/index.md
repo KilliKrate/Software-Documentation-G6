@@ -26,7 +26,7 @@ This document is stored in the project's GIT repository at:
 
 Group 6 is responsible for developing and maintaining this document.
 
-## Table of contents
+## [Table of contents](#table-of-contents)
 > [Introduction](#introduction)
 >
 > [Quick Start Guide](#quick-start-guide)
@@ -69,21 +69,21 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >
 
-## Introduction
+## [Introduction](#introduction)
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Quick Start Guide
+## [Quick Start Guide](#quick-start-guide)
 
 [⬆️ Back to Top](#table-of-contents)
 
-## System Requirements
+## [System Requirements](#system-requirements)
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Main Scenarios of Use
+## [Main Scenarios of Use](#main-scenarios-of-use)
 
-### Registration
+### [Registration](#registration)
 
 1. Open the application.
 
@@ -98,7 +98,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### Login
+### [Login](#login)
 
 ![](../img/User%20Guide/start.png)
 
@@ -112,7 +112,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### Edit User Settings
+### [Edit User Settings](#edit-user-settings)
 
 1. Press on "Edit User Settings" after doing the [login](#login).
 
@@ -126,7 +126,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### Navigate Through Elements
+### [Navigate Through Elements](#navigate-through-elements)
 
 1. Press "Start Learning!" after doing the [login](#login).
 
@@ -144,7 +144,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### Open a Lesson
+### [Open a Lesson](#open-a-lesson)
 
 1. Press on a lesson as in step 3 of [Navigate Through Elements](#navigate-through-elements).
 
@@ -154,7 +154,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### Complete a Quiz
+### [Complete a Quiz](#complete-a-quiz)
 
 1. Press on a quiz as in step 3 of [Navigate Through Elements](#navigate-through-elements).
 
@@ -179,7 +179,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### Create a Course
+### [Create a Course](#create-a-course)
 
 1. Press on the ➕ sign on top of the courses list.
 
@@ -197,7 +197,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### Create a Topic
+### [Create a Topic](#create-a-topic)
 
 1. Press on the ➕ sign on top of the topics list.
 
@@ -215,7 +215,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### Create a Lesson
+### [Create a Lesson](#create-a-lesson)
 
 1. Press on the ➕ sign on top of the lessons list.
 
@@ -233,7 +233,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### Edit a Lesson
+### [Edit a Lesson](#edit-a-lesson)
 
 1. Right click on a lesson to open the menu.
 
@@ -257,7 +257,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### Delete a course
+### [Delete a course](#delete-a-course)
 
 1. Right click on a course to open the menu.
 
@@ -271,7 +271,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### Delete a topic
+### [Delete a topic](#delete-a-topic)
 
 1. Right click on a topic to open the menu.
 
@@ -285,7 +285,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### Delete a lesson
+### [Delete a lesson](#delete-a-lesson)
 
 1. Right click on a lesson to open the menu.
 
@@ -299,16 +299,16 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Troubleshooting
+## [Troubleshooting](#troubleshooting)
 
-### Incorrect Login Mail
+### [Incorrect Login Mail](#incorrect-login-mail)
 
 A message will be displayed in the event an incorrect mail is entered. Try again with proper credentials. If the problem persists, contact the administrator.
 
 ![](../img/User%20Guide/incorrect%20login%201.png)
 
 
-### Incorrect Login Password
+### [Incorrect Login Password](#incorrect-login-password)
 
 A message will be displayed in the event an incorrect password for the selected email is entered. Try again with proper credentials. If the problem persists, try resetting the password or contact the administrator.
 

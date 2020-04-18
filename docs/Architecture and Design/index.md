@@ -26,7 +26,7 @@ This document is stored in the project's GIT repository at:
 
 Group 6 is responsible for developing and maintaining this document.
 
-## Table of contents
+## [Table of contents](#table-of-contents)
 > [Introduction](#introduction)
 >
 > [Data Flow Diagram](#data-flow-diagram)
@@ -57,39 +57,39 @@ Group 6 is responsible for developing and maintaining this document.
 >> [Registration View](#registration-view)
 >
 
-## Introduction
+## [Introduction](#introduction)
 
 The Lezioni alla Pari Architecture Document is designed to illustrate and identify the high level architecture used to design and implement the Lezioni alla Pari application. The document contains an overall view of the system hierarchy, logical views of the system components, and a process view of the system's communication.
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Flow Chart
+## [Flow Chart](#flow-chart)
 
 ![](../img/Flow%20chart.png)
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Logic Diagram
+## [Logic Diagram](#logic-diagram)
 
 ![](../img/Logic%20diagram.png)
 
 [⬆️ Back to Top](#table-of-contents)
 
-## High Level Hierarchy
+## [High Level Hierarchy](#high-level-hierarchy)
 
-### Hierarchy Diagram
+### [Hierarchy Diagram](#hierarchy-diagram)
 
 ![](../img/Hierarchy%20diagram.png)
 
-### Hierarchy Description
+### [Hierarchy Description](#hierarchy-description)
 
 The architecture system for the Lezioni alla Pari apllication is a 3-tier application.
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Components Classification
+## [Components Classification](#components-classification)
 
-### Presentation Tier
+### [Presentation Tier](#presentation-tier)
 
 **Purpose**: To display forms, controls, images, videos to the user to create fluid and efficient user experience.
 
@@ -99,7 +99,7 @@ The architecture system for the Lezioni alla Pari apllication is a 3-tier applic
 
   - **Quill WYSIWYG editor** - Quill is a text editor that is used whenever a user, owner of a lesson or a quiz, wants to update it. With Quill we can easily upload images and videos that will make our lessons more friendly and intuitive. Styling text and entering formulas especially are some useful features.
 
-### Business Tier
+### [Business Tier](#business-tier)
 
 **Purpose**: Processes and respond to events, typically user actions. This tier is in charge of the heavy algorithm business logic found in complex solutions. 
 
@@ -111,7 +111,7 @@ The architecture system for the Lezioni alla Pari apllication is a 3-tier applic
 
   - **CourseFileSystem** - CourseFileSystem class will be responsible of the interaction between the application and the filesystem by opening, reading and writing files in a prestuctured way.
 
-### Data Tier
+### [Data Tier](#data-tier)
 
 **Purpose**: This tier is in charge of storing data in persistent storage.
 
@@ -219,25 +219,25 @@ The architecture system for the Lezioni alla Pari apllication is a 3-tier applic
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Process View
+## [Process View](#process-view)
 
-### Process View Description
+### [Process View Description](#process-view-description)
 
 The Process View is essential in understanding how the separate components and subcomponents communicate with each other in a concurrent application. By better understanding the necessary paths of communication between the components, it may be possible to optimize the data flow and storage of the application, as well as ensuring thread-safety.
 
-### Application View
+### [Application View](#application-view)
 
 This view is the main application view that is created at runtime of the program. The program creates the view; this is not a user created view. This view handles the basic program flow by controlling navigation between items, videos, quizzes, including the handling of user input to the graphical forms.
 
-### Presentation View
+### [Presentation View](#presentation-view)
 
 This view is user created, when the application enters the Course/Topic/Lesson management mode. This view is the main one, responsible for almost every action in the application. From this view an authorized user, based on its permissions, can create an item on the platform and give read and write access to other users. 
 
-### Login View
+### [Login View](#login-view)
 
 This view is created when opening the application. This view manages the login, and the registration if needed, of users in order to give them the proper authorizations.
 
-### Registration View
+### [Registration View](#registration-view)
 
 This view is user created, when the users chooses to create a new account from the Login view. This view handles the basic operations of creating a new user on the platform.
 
