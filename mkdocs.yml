@@ -3,23 +3,23 @@ repo_url: https://github.com/KilliKrate/Software-Documentation-G6/
 site_name: 2020_5BI_Team6_Software_Doc
 
 nav:
-    - 'Project Charter': 'Project Charter/index.md'
-    - 'Software Requirements Specification': 'Software Requirements Specification/index.md'
-    - 'Software Project Management plan': 'Software Project Management Plan/index.md'
+    - 'Architecture and Design': 'Architecture and Design/index.md'
     - 'Business Model Canvas': 'Business Model Canvas/index.md'
-    - 'Project Model Canvas': 'Project Model Canvas/index.md'
-    - 'Release Plan': 'Release Plan/index.md'
+    - 'Coding Standards': 'Coding Standards/index.md'
     - 'Iteration Plan': 'Iteration Plan/index.md'
     - 'Memo of Understanding': 'Memo of Understanding/index.md'
-    - 'Project Success Criteria': 'Project Success Criteria/index.md'
+    - 'Project Charter': 'Project Charter/index.md'
     - 'Project Closure Report': 'Project Closure Report/index.md'
+    - 'Project Model Canvas': 'Project Model Canvas/index.md'
+    - 'Project Success Criteria': 'Project Success Criteria/index.md'
+    - 'Release Plan': 'Release Plan/index.md'
+    - 'Software Project Management plan': 'Software Project Management Plan/index.md'
+    - 'Software Requirements Specification': 'Software Requirements Specification/index.md'
     - 'Status Report': 'Status Report/index.md'
-    - 'Architecture and Design': 'Architecture and Design/index.md'
-    - 'Coding Standards': 'Coding Standards/index.md'
-    - 'Test Plan': 'Test Plan/index.md'
-    - 'Test Case Specification': 'Test Case Specification/index.md'
-    - 'User Guide': 'User Guide/index.md'
     - 'System Documentation': 'System Documentation/index.md' 
+    - 'Test Case Specification': 'Test Case Specification/index.md'
+    - 'Test Plan': 'Test Plan/index.md'
+    - 'User Guide': 'User Guide/index.md'
     
 markdown_extensions:
     - toc:
