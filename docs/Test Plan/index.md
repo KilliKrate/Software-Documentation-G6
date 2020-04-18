@@ -20,7 +20,7 @@ Zhiyang Xia
 **Document storage**
 
 This document is stored in the project's GIT repository at:
-https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/Test%20Plan.md
+https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/Test%20Plan/index.md
  
 **Document Owner**
 

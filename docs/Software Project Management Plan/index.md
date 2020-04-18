@@ -20,7 +20,7 @@ Zhiyang Xia
 **Document storage**
 
 This document is stored in the project's GIT repository at:
-https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/software%20project%20management%20plan.md
+https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/Software%20Project%20Management%20Plan/index.md
  
 **Document Owner**
 
