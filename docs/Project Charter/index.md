@@ -27,6 +27,33 @@ This document is stored in the project's GIT repository at:
 Group 6 is responsible for developing and maintaining this document.
 
 -----------------------------------------------------
+## [Table of Contents](#table-of-contents)
+> [Stakeholders and Expectations](#stakeholders-and-expectations)
+>
+> [Purpose](#purpose)
+>
+> [Goals and Objectives](#goals-and-objectives)
+>
+> [Schedule Information (Major milestones and deliverables)](#schedule-information-major-milestones-and-deliverables)
+>
+> [Financial Information (Cost estimate and budget information)](#financial-information-cost-estimate-and-budget-information)
+>
+> [Project Priorities and degrees of freedom](#project-priorities-and-degrees-of-freedom)
+>
+> [Approach](#approach)
+>
+> [Constraints](#constraints)
+>
+> [Assumptions](#assumptions)
+>
+> [Success Criteria](#success-criteria)
+>
+> [Scope](#scope)
+>
+> [Risks and obstacles to success](#risks-and-obstacles-to-success)
+>
+-----------------------------------------------------
+
 ### Project Title: Lezioni alla Pari
 ### Start Date: 04/10/2019
 ### End Date: 09/13/2019
@@ -43,9 +70,13 @@ Customers: will use the application to share learning material and leave simple 
 
 The Sponsor: will have an application to enhance the school’s learning experience for its students and professors, while also gaining local visibility since it was made by its students.
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## [Purpose](#purpose)
 
 Thanks to the creation of an online open-source learning platform students and professors alike will be able to streamline knowledge sharing between small groups, classes, or even entire departments, while also making computerized quizzes and tests easier to make. Other insitutions and companies will also be able to use this system for learning materials and resources, especially for interns or new employees.
+
+[⬆️ Back to Top](#table-of-contents)
 
 ## [Goals and Objectives](#goals-and-objectives)
 
@@ -56,6 +87,8 @@ The overall goal is to give school and company figures an easy to use and intuit
 3. Provide a way to add partecipants to a course, in the form of collaborators or students
 4. Function in a simple and intuitive manner, so that it's usable to all demographics
 5. Deliver content efficiently and on-demand
+
+[⬆️ Back to Top](#table-of-contents)
 
 ## [Schedule Information (Major milestones and deliverables)](#schedule-information-major-milestones-and-deliverables)
 
@@ -69,6 +102,8 @@ The overall goal is to give school and company figures an easy to use and intuit
 | 07/01/2019 | Beta release and feedback from stakeholders |
 | 07/08/2019 | Further development of the platform |
 | 09/13/2019 | Application fully downloadable from Github repository | 
+
+[⬆️ Back to Top](#table-of-contents)
 
 ## [Financial Information (Cost estimate and budget information)](#financial-information-cost-estimate-and-budget-information)
 
@@ -86,30 +121,46 @@ The overall goal is to give school and company figures an easy to use and intuit
 
 **384 hours total, €6720 total, avg, €17,5 per hour**
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## [Project Priorities and degrees of freedom](#project-priorities-and-degrees-of-freedom)
 
 Internal development dates are generally flexible only by a few days at most, and with the authorization of the project manager.  Budget is extendable in terms of hours put in by each team member. The team members amount of weekly hours may change based on the amount of work to be done, as organized by the project manager. Roles are changeable based on workloads of individual team members. Roles are expected to shift throughout the project as needs arise.
+
+[⬆️ Back to Top](#table-of-contents)
 
 ## [Approach](#approach)
 
 The SCRUM development strategy will be used to its fullest extent, as development will be based on Sprints, after which feedback from the stakeholders will be received and analyzed for subsequent iteration. After the back-end and basic front end has been deployed, a beta phase will start, in which all partners will give useful feedback for UI and UX improvements before the final release.
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## [Constraints](#constraints)
 
 The project will have to be supported by at least 3 partners before the beta phase, in order to have an acceptable amount feedback. The application must satisfy security and privacy standards of public institutions before release. If support after release or partners is not sufficient, the platform will be launched to the public domain as an online learning tool.
 
-## [Assumptions](#assumptions) 
+[⬆️ Back to Top](#table-of-contents)
+
+## [Assumptions](#assumptions)
 
  Team members will work from home, since no office space is available. Collaboration will be made possible through Github.  
+
+ [⬆️ Back to Top](#table-of-contents)
 
 ## [Success Criteria](#success-criteria)
 
 At least 3 official insitutions/companies that have successfully adopted our platform will be considered as a success to the project. The platform’s efficiency in the learning process can be measured through an integrated star-based review system. We expect this outcome to be achieved in about 2 years.
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## [Scope](#scope)
 
 The software will provide users with the tools necessary for the creation of illustrated text documents and will also enable them to upload video lessons. A Q&A section will be available on each lesson in a forum-like structure. The result of the quizzes will be accessible by the creator of the lesson, who will also be able to review the answers given by each user. The project does not include a file-sharing system, although it could be implemented as part of a post-release update.
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## [Risks and obstacles to success](#risks-and-obstacles-to-success)
 
 The project faces a notable risk because of the lack of the team's relevant experience on developing database-based applications. A base monthly financial target has to be achieved in order to keep the project alive. Not reaching the minimum target will result in the failure of the project and the consequential end of support.
+
+[⬆️ Back to Top](#table-of-contents)
