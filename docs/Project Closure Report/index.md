@@ -71,7 +71,7 @@ The project started with the definition of the main goals that needed to be achi
 + Fixing bugs, receiving feedback, various refinements
 + Final release to the public
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 #### [Project Dates](#project-dates)
 
@@ -110,7 +110,7 @@ Project Participants:
 > >
 > > Università di Verona: sponsor and quality assurance
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 ### [Project Performance and Outcome](#project-performance-and-outcome)
 
@@ -118,7 +118,7 @@ Project Participants:
 
 The project was successful in its premise as our partners have fully adopted our platfrom as a service for their teams and group organizations inside their establishment. In particular, ITI G.Marconi Verona has integrated the application in its schooling network, whereas Università di Verona used the system to make further research inside the education field. Many other independent users and organizations downloaded the project from GitHub.
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 #### [Project Outcome, Goal and Objectives](#project-outcome-goal-and-objectives)
 
@@ -126,7 +126,7 @@ Most of the intended objectives and outputs where achieved as planned. \
 Problems encountered during development where mainly caused by time constraints and a lack of resources and budget, as the deliverables where not delivered accordingly to the planning and no founding was granted upon project start. \
 Nevertheless, customers have provided a good feedback and were not taken back from the lengthy development of the application, neither the shortage of means.
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 #### [Project Deviations](#project-deviations)
 
@@ -135,7 +135,7 @@ The scope of the project hasn't been narrowed, on the contrary, it has widened a
 The time constraints pushed the project to develop the essentials at first, that resulted in a bare-bones platform, but which could still be presentable, and only with time and effort evolved into the polished and refined final product. \
 A major lack of resources and funds were the main cause of the slow pace of the project, but also the inability to build a high-end, feature rich, extensible and advanced application.
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 #### [Models, Methods, Tools and Processes](#models-methods-tools-and-processes)
 
@@ -148,7 +148,7 @@ To build the application the following tools have been adopted:
 
 The SCRUM method has been used to organize the work between team members and the project developing steps. Instant messaging apps were made use of in order to keep contact.
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 ### [Project Experiences and Observations](#project-experiences-and-observations)
 
@@ -158,13 +158,13 @@ There were no major unexpected impacts during the development of the application
 It has has to be noticed, though, that the project required a lot more time and effort than expected,
 as at the start of the process, it was not conceivable to develop such a complex application, it was just a small basic platfrom, that over time evolved into the final product.
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 #### [Project Management Methods and Tools](#project-management-methods-and-tools)
 
 The project management methods, such as the SCRUM method for organizing work and task, objective planning has been a productive and efficient way on approaching the project. The Bugzilla tool made bug fixing and typo corrections much easier, whereas the Version Control System adopted under GitHub simplified the synchronization between file versions and remote working.
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 ### [Unrealized or Outstanding Outputs](#unrealized-or-outstanding-outputs)
 
@@ -172,7 +172,7 @@ The project management methods, such as the SCRUM method for organizing work and
 
 There haven't been any outstanding items  that have impacted project completion, though the team had to deal with a lot of new knowledge that wasn't acquired and new skills and tools which made the development process definetly more lengthy than what expected. There was also a long period of holidays and external working commitments which slowed significantly the pace of the project.
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 
 #### [Unrealized Outputs](#unrealized-outputs)
@@ -181,7 +181,7 @@ The possibility to integrate the application into a web based system has not bee
 
 The data storage solution of a hosted database and the usage of frameworks didn't make it in the planning of tools and systems to use for the project because of scarce adapatability to the scale of the platform and the high-demanding nature of these requests.
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 ### [Improvement Recommendations and Comments](#improvement-recommendations-and-comments)
 
@@ -193,5 +193,4 @@ On a final note, here is a list of reporting notes on the project that specify a
 + Organization between team members and communication could have been more effective if proper tools had been used, Trello for example.
 + A more in depth documentation and design plan for the application as many details and architectural decisions weren't clear from the start. 
 
-[⬆Back to Top](#table-of-contents)
-
+[⬆️ Back to Top](#table-of-contents)
