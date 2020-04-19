@@ -45,24 +45,24 @@ Group 6 is responsible for developing and maintaining this document.
 
 + Iteration #2: development of the database, front-end and back-end with beta release
 
- | Features / Deliverables | Estimated Effort | Actual Effort |
- | ----------------------- | ---------------- | ------------- |
- | Database development | 6 hrs | 11 hrs |
- | Front-end development | 30 hrs | 28 hrs |
- | Back-end development | 34 hrs | 30 hrs |
- | Beta release | 12 hrs | 14 hrs |
- 
- [⬆Back to Top](#table-of-contents)
+| Features / Deliverables | Estimated Effort | Actual Effort |
+| ----------------------- | ---------------- | ------------- |
+| Database development | 6 hrs | 11 hrs |
+| Front-end development | 30 hrs | 28 hrs |
+| Back-end development | 34 hrs | 30 hrs |
+| Beta release | 12 hrs | 14 hrs |
 
- #### [Release #2: Launch of the final application](#release-#2:-launch-of-the-final-application)
- 
- + Iteration #3: final release, with the approval of partners, stakeholders and various software debugging
- 
- | Features / Deliverables | Estimated Effort | Actual Effort |
- | ----------------------- | ---------------- | ------------- |
- | Software debugging | 20 hrs | 15 hrs |
- | Approval of partners, stakeholders | 5 hrs | 3 hrs |
- | Final release | 10 hrs | 13 hrs |
+[⬆Back to Top](#table-of-contents)
+
+#### [Release #2: Launch of the final application](#release-#2:-launch-of-the-final-application)
+
++ Iteration #3: final release, with the approval of partners, stakeholders and various software debugging
+
+| Features / Deliverables | Estimated Effort | Actual Effort |
+| ----------------------- | ---------------- | ------------- |
+| Software debugging | 20 hrs | 15 hrs |
+| Approval of partners, stakeholders | 5 hrs | 3 hrs |
+| Final release | 10 hrs | 13 hrs |
  
 **Effort Estimates (Hours)**
 
