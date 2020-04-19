@@ -27,7 +27,6 @@ This document is stored in the project's GIT repository at:
 Group 6 is responsible for developing and maintaining this document.
 
 --------------------------------------------------------------------
-
 ## [Table of Contents](#table-of-contents)
 > [1. Project Background Overview](#1-project-background-overview)
 >> [1.1 Project Overview](#11-project-overview)
@@ -57,9 +56,8 @@ Group 6 is responsible for developing and maintaining this document.
 >
 > [5. Improvement Recommendations and Comments](#5-improvement-recommendations-and-comments)
 >> [5.1 Suggestions and Improvements](#51-suggestions-and-improvements)
-
+>
 ----------------------------------------
-
 
 ### [1. Project Background Overview](#1-project-background-overview)
 

@@ -26,6 +26,7 @@ This document is stored in the project's GIT repository at:
 
 Group 6 is responsible for developing and maintaining this document.
  
+-----------------------------------------------------
 ## [Table of Contents](#table-of-contents)
 > [Overview](#overview)
 >> [Purpose and Scope](#purpose-and-scope)
@@ -70,6 +71,7 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Product Acceptance Plan](#product-acceptance-plan)
 >
+-----------------------------------------------------
 
 ## [Overview](#overview)
 

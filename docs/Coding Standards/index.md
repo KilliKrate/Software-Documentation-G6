@@ -26,6 +26,7 @@ This document is stored in the project's GIT repository at:
 
 Group 6 is responsible for developing and maintaining this document.
 
+-----------------------------------------------------
 ## [Table of contents](#table-of-contents)
 > [Introduction](#introduction)
 >
@@ -96,6 +97,8 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Object Shorthands](#object-shorthands)
 >
+-----------------------------------------------------
+
 ## [Introduction](#introduction)
 The "Lezioni alla Pari" coding standards aim to illustrate the way forward for implementing features and changes to the Javascript codebase. Every new piece of code committed the Github repository must strictly adhere to the following rules, since all the code in this code-base should look like a single person typed it, no matter the size of the team. These rules must be followed if you also are interested in collaborating with the team, by implementing changes and features to further develop the project.
 

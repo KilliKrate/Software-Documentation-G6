@@ -26,8 +26,8 @@ This document is stored in the project's GIT repository at:
 
 Group 6 is responsible for developing and maintaining this document.
 
+-----------------------------------------------------
 ## [Table of Contents](#table-of-contents)
-
 > [1. Preliminary and Parallel Tasks](#1-preliminary-and-parallel-tasks)
 >
 > [2. Iteration #1](#2-iteration-#1)
@@ -37,7 +37,6 @@ Group 6 is responsible for developing and maintaining this document.
 > [4. Iteration #3](#4-iteration-#3)
 >
 > [5. Totals](#5-totals)
-
 ---------------------------------------------
 
 ### [1. Preliminary and Parallel Tasks](#1-preliminary-and-parallel-tasks)

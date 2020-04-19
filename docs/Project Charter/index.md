@@ -26,6 +26,7 @@ This document is stored in the project's GIT repository at:
 
 Group 6 is responsible for developing and maintaining this document.
 
+-----------------------------------------------------
 ### Project Title: Lezioni alla Pari
 ### Start Date: 04/10/2019
 ### End Date: 09/13/2019

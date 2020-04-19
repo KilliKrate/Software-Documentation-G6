@@ -26,8 +26,8 @@ This document is stored in the project's GIT repository at:
 
 Group 6 is responsible for developing and maintaining this document.
 
+-----------------------------------------------------
 ## [Table of Contents](#table-of-contents)
-
 > [Introduction](#introduction)
 >
 > [Items and Features Tested](#items-and-features-tested)
@@ -48,7 +48,7 @@ Group 6 is responsible for developing and maintaining this document.
 > [Test Deliverables](#test-deliverables)
 >
 > [Test Goals](#test-goals)
-
+-----------------------------------------------------
 
 ## [Introduction](#introduction)
 

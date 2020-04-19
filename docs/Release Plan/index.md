@@ -32,7 +32,6 @@ Group 6 is responsible for developing and maintaining this document.
 >
 >[Release #2: Launch of the final application](#release-#2:-laucnh-of-the-final-application)
 >
-
 -----------------------------------------------------
 
 #### [Release #1: Release of the beta application](#release-#1:-release-of-the-beta-application)

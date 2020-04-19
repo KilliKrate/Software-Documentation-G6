@@ -50,6 +50,7 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [3.3 Task schedule](#33-task-schedule)
 -----------------------------------------------------
+
 ### [Iteration #1](#iteration-1)
 
 #### [1.1 Objectives](#11-objectives)

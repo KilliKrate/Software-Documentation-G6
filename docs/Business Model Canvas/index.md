@@ -26,4 +26,5 @@ This document is stored in the project's GIT repository at:
 
 Group 6 is responsible for developing and maintaining this document.
 
+-----------------------------------------------------
 ![](../img/Business%20model%20canvas.png)

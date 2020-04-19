@@ -26,6 +26,7 @@ This document is stored in the project's GIT repository at:
 
 Group 6 is responsible for developing and maintaining this document.
 
+-----------------------------------------------------
 ## [Table of contents](#table-of-contents)
 > [Introduction](#introduction)
 >
@@ -56,6 +57,7 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Registration View](#registration-view)
 >
+-----------------------------------------------------
 
 ## [Introduction](#introduction)
 

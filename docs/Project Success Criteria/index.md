@@ -26,6 +26,7 @@ This document is stored in the project's GIT repository at:
 
 Group 6 is responsible for developing and maintaining this document.
 
+-----------------------------------------------------
 # SUCCESS CRITERIA  FOR LEZIONI ALLA PARI (LAP)
 ### The LAP project will be considered a siccess if ...
  
