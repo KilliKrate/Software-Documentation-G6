@@ -73,13 +73,47 @@ Group 6 is responsible for developing and maintaining this document.
 
 ## [Introduction](#introduction)
 
+The Lezioni alla Pari application gives its users a simple interface to learn and to teach others. This document will provide instructions for using the application to create, open and edit lessons and quizzes.
+
 [⬆️ Back to Top](#table-of-contents)
 
 ## [Quick Start Guide](#quick-start-guide)
 
+1. Open Lezioni alla Pari application.
+
+![](../img/User%20Guide/start.png)
+
+2. Enter your Email and your Password.
+
+![](../img/User%20Guide/login.png)
+
+3. Press the Log-in button.
+
+![](../img/User%20Guide/welcome.png)
+
+4. Press "Start Learning!".
+
+![](../img/User%20Guide/courses%20view.png)
+
+5. Choose one course from the list. The selected course will be highlighted.
+
+![](../img/User%20Guide/topics%20view.png)
+
+6. Choose one topic from the list. The selected topic will be highlighted.
+
+![](../img/User%20Guide/elements%20view.png)
+
+7. Choose one lesson from the list.
+
+![](../img/User%20Guide/open%20lesson.png)
+
+8. Scroll to view the lesson and eventually press "Torna Alla Home" to go back to the homepage.
+
 [⬆️ Back to Top](#table-of-contents)
 
 ## [System Requirements](#system-requirements)
+
+The Lezioni alla Pari application can only be installed on Windows operative systems. Refer to the System Documentation for instructions about the installation.
 
 [⬆️ Back to Top](#table-of-contents)
 
@@ -87,7 +121,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 ### [Registration](#registration)
 
-1. Open the application.
+1. Open Lezioni alla Pari application.
 
 ![](../img/User%20Guide/start.png)
 
@@ -134,15 +168,15 @@ Group 6 is responsible for developing and maintaining this document.
 
 ![](../img/User%20Guide/courses%20view.png)
 
-2. Choose one course from the list.
+2. Choose one course from the list. The selected course will be highlighted.
 
 ![](../img/User%20Guide/topics%20view.png)
 
-3. The selected course will be highlighted. Choose one topic from the list.
+3. Choose one topic from the list. The selected topic will be highlighted.
 
 ![](../img/User%20Guide/elements%20view.png)
 
-3. The selected topic will be highlighted. Choose one lesson/quiz from the list.
+3. Choose one lesson/quiz from the list.
 
 [⬆️ Back to Top](#table-of-contents)
 
