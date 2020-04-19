@@ -48,7 +48,7 @@ Group 6 is responsible for developing and maintaining this document.
 | Database design | Back-end dev | Andrioaia, Mateias | 7 | 6 | 3 | 0 | 3 | 0 |
 | **Total** | | | **21** | **22** | **8** | **3** | **9** | **2** |
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 ### [Iteration #1](#iteration-#1)
 
@@ -61,7 +61,7 @@ Group 6 is responsible for developing and maintaining this document.
 | Database deployment | Back-end dev | Andrioaia, Mateias | 4 | 3 | 1 | 0 | 2 | 0 |
 | **Total** | | | **35** | **33** |  **8** | **3** | **9** | **13** |
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 ### [Iteration #2](#iteration-#2)
 
@@ -74,7 +74,7 @@ Group 6 is responsible for developing and maintaining this document.
 | Launch of the beta | Whole team | Andrioaia (Whole team) | 10 | 10 | 3 | 2 | 4 | 1 |
 | **Total** | | | **34** | **34** | **10** | **10** | **11** | **3** |
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 ### [Iteration #3](#iteration-#3)
 
@@ -86,7 +86,7 @@ Group 6 is responsible for developing and maintaining this document.
 | Final release | Whole team | Andrioaia (Whole team) | 5 | 7 | 2 | 2 | 3 | 0 |
 | **Total** | | | **21** | **24** | **6** | **5** | **7** | **6** |
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
 ### [Totals](#totals)
 
@@ -99,8 +99,4 @@ Group 6 is responsible for developing and maintaining this document.
 | **Total** | **111** | **113** | **32** | **21** | **36** | **24** |
 
 
-[⬆Back to Top](#table-of-contents)
-
-
-
-
+[⬆️ Back to Top](#table-of-contents)

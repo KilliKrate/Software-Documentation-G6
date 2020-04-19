@@ -52,7 +52,7 @@ Group 6 is responsible for developing and maintaining this document.
 | Back-end development | 34 hrs | 30 hrs |
 | Beta release | 12 hrs | 14 hrs |
 
-[⬆Back to Top](#table-of-contents)
+[?? Back to Top](#table-of-contents)
 
 #### [Release #2: Launch of the final application](#release-#2:-launch-of-the-final-application)
 
@@ -73,4 +73,4 @@ Group 6 is responsible for developing and maintaining this document.
  | Iteration 3 | 35 hrs estimated | 35 hrs estimated | 35 hrs estimated | 31 hrs actual |
  | Total:      | 134 hrs          | 142 hrs          | 143 hrs          | 139 hrs
 
-[⬆Back to Top](#table-of-contents)
+[?? Back to Top](#table-of-contents)
