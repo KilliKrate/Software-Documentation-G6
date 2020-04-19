@@ -30,30 +30,30 @@ Group 6 is responsible for developing and maintaining this document.
 ## [Table of Contents](#table-of-contents)
 
 > [Iteration #1](#iteration-1)
->> [1.1 Objectives](#11-objectives)
+>> [Objectives](#objectives)
 >>
->> [1.2 Use cases](#12-use-cases)
+>> [Use cases](#use-cases)
 >>
->> [1.3 Task schedule](#13-task-schedule)
+>> [Task schedule](#task-schedule)
 >
 > [Iteration #2](#iteration-2)
->> [2.1 Objectives](#21-objectives)
+>> [Objectives](#objectives)
 >>
->> [2.2 Use cases](#22-use-cases)
+>> [Use cases](#use-cases)
 >>
->> [2.3 Task schedule](#23-task-schedule)
+>> [Task schedule](#task-schedule)
 >
 > [Iteration #3](#iteration-3)
->> [3.1 Objectives](#31-objectives)
+>> [Objectives](#objectives)
 >>
->> [3.2 Use cases](#32-use-cases)
+>> [Use cases](#use-cases)
 >>
->> [3.3 Task schedule](#33-task-schedule)
+>> [Task schedule](#task-schedule)
 -----------------------------------------------------
 
 ### [Iteration #1](#iteration-1)
 
-#### [1.1 Objectives](#11-objectives)
+#### [Objectives](#objectives)
 
 The purpose of this iteration is to make an intention agreement between the team on how the software
 should be developed, start searching for partners and design the architecture and the framework of the application.
@@ -62,11 +62,11 @@ At the end of the iteration, the project should have:
 + An operative database
 + Partners and stakeholders who are willing to support the project
 
-#### [1.2 Use cases](#12-use-cases)
+#### [Use cases](#use-cases)
 
 There are no use cases involved in this iteration as its purpose is to design the founding structure of the application, by which all the features and functionalities are based on.
 
-#### [1.3 Task schedule](#13-task-schedule)
+#### [Task schedule](#task-schedule)
 
 | Task | Estimated Effort | Actual Effort | Estimated Completion Date | Actual Completion Date | Owner | Status |
 |:----:|:----------------:|:-------------:|:-------------------------:|:----------------------:|:-----:|:------:|
@@ -80,7 +80,7 @@ There are no use cases involved in this iteration as its purpose is to design th
 
 ### [Iteration #2](#iteration-2)
 
-#### [2.1 Objectives](#21-objectives)
+#### [Objectives](#objectives)
 
 On this iteration the team will focus on developing the front-end and the back-end of the application, providing all the features that have been designed in the previous iteration.
 At the end of this iteration, the project should have:
@@ -89,7 +89,7 @@ At the end of this iteration, the project should have:
 + A good UI and UX
 + Privately downloadable app 
 
-#### [2.2 Use cases](#22-use-cases)
+#### [Use cases](#use-cases)
 
 The following use cases are involved in this iteration:
 + UC1: Register and login - Basic flow 
@@ -97,7 +97,7 @@ The following use cases are involved in this iteration:
 + UC3: Create tests: Basic flow and alternate flows.
 + UC4: Watch videos - Basic flow.
 
-#### [2.3 Task schedule](#23-task-schedule)
+#### [Task schedule](#task-schedule)
 
 | Task | Estimated Effort | Actual Effort | Estimated Completion Date | Actual Completion Date | Owner | Status |
 |:----:|:----------------:|:-------------:|:-------------------------:|:----------------------:|:-----:|:------:|
@@ -111,17 +111,17 @@ The following use cases are involved in this iteration:
 
 ### [Iteration #3](#iteration-3)
 
-#### [3.1 Objectives](#31-objectives)
+#### [Objectives](#objectives)
 
 The third iteration has the purpose to launch the final release, with the approval of partners, stakeholders and various software debugging.
 At the end of this iteration, the project should have:
 + A stable and public application for everyone
 
-#### [3.2 Use cases](#32-use-cases)
+#### [Use cases](#use-cases)
 
 There aren't new use cases involved in this iteration.
 
-#### [3.3 Task schedule](#33-task-schedule)
+#### [Task schedule](#task-schedule)
 
 | Task | Estimated Effort | Actual Effort | Estimated Completion Date | Actual Completion Date | Owner | Status |
 |:----:|:----------------:|:-------------:|:-------------------------:|:----------------------:|:-----:|:------:|

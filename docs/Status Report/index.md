@@ -28,18 +28,18 @@ Group 6 is responsible for developing and maintaining this document.
 
 -----------------------------------------------------
 ## [Table of Contents](#table-of-contents)
-> [1. Preliminary and Parallel Tasks](#1-preliminary-and-parallel-tasks)
+> [Preliminary and Parallel Tasks](#preliminary-and-parallel-tasks)
 >
-> [2. Iteration #1](#2-iteration-#1)
+> [Iteration #1](#iteration-#1)
 >
-> [3. Iteration #2](#3-iteration-#2)
+> [Iteration #2](#iteration-#2)
 >
-> [4. Iteration #3](#4-iteration-#3)
+> [Iteration #3](#iteration-#3)
 >
-> [5. Totals](#5-totals)
+> [Totals](#totals)
 ---------------------------------------------
 
-### [1. Preliminary and Parallel Tasks](#1-preliminary-and-parallel-tasks)
+### [Preliminary and Parallel Tasks](#preliminary-and-parallel-tasks)
 
 | Task Name | Roles | Owner | Estimated Effort  | Actual Effort | Andrioaia | Cirdan | Mateias | Xia |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
@@ -50,7 +50,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆Back to Top](#table-of-contents)
 
-### [2. Iteration #1](#2-iteration-#1)
+### [Iteration #1](#iteration-#1)
 
 | Task Name | Roles | Owner | Estimated Effort  | Actual Effort | Andrioaia | Cirdan | Mateias | Xia |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
@@ -63,7 +63,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆Back to Top](#table-of-contents)
 
-### [3. Iteration #2](#3-iteration-#2)
+### [Iteration #2](#iteration-#2)
 
 
 | Task Name | Roles | Owner | Estimated Effort  | Actual Effort | Andrioaia | Cirdan | Mateias | Xia |
@@ -76,7 +76,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆Back to Top](#table-of-contents)
 
-### [4. Iteration #3](#4-iteration-#3)
+### [Iteration #3](#iteration-#3)
 
 | Task Name | Roles | Owner | Estimated Effort  | Actual Effort | Andrioaia | Cirdan | Mateias | Xia |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
@@ -88,7 +88,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆Back to Top](#table-of-contents)
 
-### [5. Totals](#5-totals)
+### [Totals](#totals)
 
 | Table Name | Estimated Effort | Actual Effort | Andrioaia | Cirdan | Mateias | Xia |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
