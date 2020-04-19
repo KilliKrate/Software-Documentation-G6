@@ -104,7 +104,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 ![](../img/User%20Guide/start.png)
 
-1. Enter your Email and your Password used on the [Registration](#registration)
+1. Enter your Email and your Password used on the [Registration](#registration).
 
 ![](../img/User%20Guide/login.png)
 
@@ -152,7 +152,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 ![](../img/User%20Guide/open%20lesson.png)
 
-2. Scroll to view the lesson and eventually press "Torna Alla Home" to go back to the home.
+2. Scroll to view the lesson and eventually press "Torna Alla Home" to go back to the homepage.
 
 [⬆️ Back to Top](#table-of-contents)
 
