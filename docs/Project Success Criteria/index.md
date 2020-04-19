@@ -27,12 +27,22 @@ This document is stored in the project's GIT repository at:
 Group 6 is responsible for developing and maintaining this document.
 
 -----------------------------------------------------
-# SUCCESS CRITERIA  FOR LEZIONI ALLA PARI (LAP)
+## [Table of Contents](#table-of-contents)
+> [Success Criteria](#success-criteria)
+>
+> [Signatures](#signatures)
+>
+> [LAP Acceptance Test User Survey](#lap-acceptance-test-user-survey)
+>
+-----------------------------------------------------
+
+## [Success Criteria](#success-criteria)
+
 ### The LAP project will be considered a siccess if ...
  
-##### A fully fuctional test system is delivere on or before October 13th.
+##### A fully fuctional test system is delivered on or before October 13th.
 
-The software shall be delivered in a state that is ready to be downloaded and used in its intended production environment dor its intended purpose. The staff and the user shall be given the training they need in order to begin using the system. We will consider both of these goals met if the users who plan to use the system during its test period fill out the attached Acceptance Test User Survey and:
+The software shall be delivered in a state that is ready to be downloaded and used in its intended production environment for its intended purpose. The staff and the user shall be given the training they need in order to begin using the system. We will consider both of these goals met if the users who plan to use the system during its test period fill out the attached Acceptance Test User Survey and:
 
 *	No one circles “No” on the first two questions
 *	If anyone circles “Yes, with restriction” on the first two questions, these restriction shall be resolved prior to November 13th to the satisfaction of the users with the restriction
@@ -67,7 +77,9 @@ These reports shall be in the form of a Microsoft Excel spreadsheets with the da
 First, a user manual shall be produced and included with the system. This user manual shall be easy to understand for non-technical users familiar with basic Internet and spreadsheet concepts. This manual shall explain only how to use all features of the system. 
 Second, a system manual shall be produced. This system manual shall consist of the architecture document, as well as any additional material required to provide a technician with all necessary information needed to maintain and update the system. A single read through of this document and no more than 2 hours looking at the code should provide an appropriately skilled technician with all the information necessary to understand the system and make simple changes such as add a lesson to a generated report.
 
-#### Signatures
+[⬆️ Back to Top](#table-of-contents)
+
+## [Signatures](#signatures)
   
 ITI G. Marconi, Project sponsor
 ___
@@ -77,7 +89,9 @@ ___
 Nadia Dallago, Lorenzo de Carli, Customer Representative
 ___
 
-#### LAP Acceptance Test User Surver
+[⬆️ Back to Top](#table-of-contents)
+
+## [LAP Acceptance Test User Survey](#lap-acceptance-test-user-survey)
 
 1. Is the system installed and functioning adequately such that you can begin using it in its production environment for its intended purpose?
 
@@ -123,3 +137,4 @@ ___
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Priority: Low / Medium / High
 
+[⬆️ Back to Top](#table-of-contents)
