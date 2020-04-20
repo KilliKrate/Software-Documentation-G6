@@ -34,7 +34,7 @@ Group 6 is responsible for developing and maintaining this document.
 >
 -----------------------------------------------------
 
-#### [Release #1: Release of the beta application](#release-#1:-release-of-the-beta-application)
+#### [Release #1: Release of the beta application](#release-1release-of-the-beta-application)
 
 + Iteration #1: design all the application architecture and find partners
 
@@ -54,7 +54,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-#### [Release #2: Launch of the final application](#release-#2:-launch-of-the-final-application)
+#### [Release #2: Launch of the final application](#release-2-launch-of-the-final-application)
 
 + Iteration #3: final release, with the approval of partners, stakeholders and various software debugging
 
