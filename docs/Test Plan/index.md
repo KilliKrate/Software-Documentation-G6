@@ -43,7 +43,7 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Changes](#changes)
 >
-> [Item Pass/Fail Criteria](#item-pass/fail-criteria)
+> [Item Pass/Fail Criteria](#item-passfail-criteria)
 >
 > [Test Deliverables](#test-deliverables)
 >
