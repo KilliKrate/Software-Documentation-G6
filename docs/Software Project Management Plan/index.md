@@ -173,123 +173,123 @@ At least 3 official insitutions/companies that have successfully adopted our pla
 
 ### [Team Organization](#team-organization)
 Team members:
-* Project Manager :         Ovidiu Costin Andrioaia.  
+- Project Manager :         Ovidiu Costin Andrioaia.  
 The project leader is responsible for creating the project plan, managing risks, and running the weekly team meeting.
 
-* Front-end developer:    David Constantin Cirdan - Zhiyang Angelo Xia.  
+- Front-end developer:    David Constantin Cirdan - Zhiyang Angelo Xia.  
 The Front-end developers are responsible for designing and and implementing the application's UI.
 
-* Back-end developer:     Ovidiu Costin Andrioaia - Luciano Mateias.  
+- Back-end developer:     Ovidiu Costin Andrioaia - Luciano Mateias.  
 The Back-end developer is responsible for coding the logic of the application.
 
-* Marketing :             Zhiyang Angelo Xia.  
+- Marketing :             Zhiyang Angelo Xia.  
 Deals with the sale policies of the company's products and establishes the techniques and strategies that must be adopted in order to increase sales.
 
 ### [Project Communications](#project-communications)
 The information is collected in the weekly meeting, in which each member reports on the obtained feedback, so as to be able to obtain a concise summary and check the progress of the project. 
 The feedback reporting occurs thanks to the use of multiple channels:
-* Social media
-* Github
-* Referral through users
+- Social media
+- Github
+- Referral through users
 
 ### [Technical Process](#technical-process)
 As a development methodology the team chose to use SCRUM together with the PEP-8 code standard. SCRUM enables the team to develop the software quickly and with the assistance of feedback for further iteration.
 
-### Tools
+### [Tools](#tools)
 Tools used for development:
-* Programming Language:   Python - JavaScript
-* Version Control:        Github
-* Defect tracking:        Bugzilla
-* Build tools:            PyCharm
-* Database:               SQL
+- Programming Language:   Python - JavaScript
+- Version Control:        Github
+- Defect tracking:        Bugzilla
+- Build tools:            PyCharm
+- Database:               SQL
 
 ## [Work Plan](#work-plan)
 
 ### [Resource Estimate](#resource-estimate)
 The following estimates of resource spending are based on time, estimated effort, actual effort and the dependecies between the tasks:
-* Software documentation: 
-   * Team members involved: all the team takes part
-   * Time: this task should be done in three days
-   * Estimated effort: substantial
-   * Actual effort: substantial
-   * Dependencies: all the later tasks will be influenced by this one
-* Find partners:
-   * Team members involved: all the team will take part to a certain extent, but the marketing specialist will be in charge of decision making.
-   * Time: the task is estimated to take up to one month before conclusion.
-   * Estimated effort: major
-   * Actual effort: major
-   * Dependencies: all the tasks regarding the advertising and launch of the platform will be influenced
-* Database architecture design:
-   * Team members involved: all the team
-   * Time: up to one week
-   * Estimated effort: average
-   * Actual effort: average
-   * Dependencies: software development tasks
-* Video streaming architecure design:
-   * Team members involved: all the team
-   * Time: up to one week
-   * Estimated effort: substantial
-   * Actual effort: substantial
-   * Dependencies: software development tasks
-* Back-end architecure design:
-   * Team members involved: back-end developer and project leader
-   * Time: up to one week
-   * Estimated effort: substantial
-   * Actual effort: substantial
-   * Dependencies: 
-* Database development:
-   * Team members involved: all the team
-   * Time: up to two weeks
-   * Estimated effort: average
-   * Actual effort: average
-   * Dependencies: all the software development tasks
-* Back-end development:
-   * Team members involved: back-end developer and project leader
-   * Time: up to two months
-   * Estimated effort: average
-   * Actual effort: average
-   * Dependencies: front-end tasks and overall software constraints
-* Client design and development:
-   * Team members involved: front-end developers
-   * Time: up to one month
-   * Estimated effort: average
-   * Actual effort: average
-   * Dependencies: appeal to the partners and stakeholders
-* Private Beta release:
-   * Team members involved: all the team
-   * Time: one month from the end of the project
-   * Estimated effort: major
-   * Actual effort: major
-   * Dependencies: market contribution and reviews of the product
-* Partner and stakeholder feedback:
-   * Team members involved: all the team
-   * Time: up to one week after beta release
-   * Estimated effort: minor
-   * Actual effort: minor
-   * Dependencies: changes on the software on a structural and aesthetical level
-* Debugging:
-   * Team members involved: all the team
-   * Time: up to two weeks
-   * Estimated effort: average
-   * Actual effort: average
-   * Dependencies: a well functioning software for the future 
-* UI and UX improvements:
-   * Team members involved: all the team
-   * Time: up to two weeks
-   * Estimated effort: average
-   * Actual effort: average
-   * Dependencies: a well functioning software for the future 
-* Final release:
-   * Team members involved: all the team
-   * Time: roughly six months after project start
-   * Estimated effort: average
-   * Actual effort: average
-   * Dependencies: none
+- Software documentation: 
+   - Team members involved: all the team takes part
+   - Time: this task should be done in three days
+   - Estimated effort: substantial
+   - Actual effort: substantial
+   - Dependencies: all the later tasks will be influenced by this one
+- Find partners:
+   - Team members involved: all the team will take part to a certain extent, but the marketing specialist will be in charge of decision making.
+   - Time: the task is estimated to take up to one month before conclusion.
+   - Estimated effort: major
+   - Actual effort: major
+   - Dependencies: all the tasks regarding the advertising and launch of the platform will be influenced
+- Database architecture design:
+   - Team members involved: all the team
+   - Time: up to one week
+   - Estimated effort: average
+   - Actual effort: average
+   - Dependencies: software development tasks
+- Video streaming architecure design:
+   - Team members involved: all the team
+   - Time: up to one week
+   - Estimated effort: substantial
+   - Actual effort: substantial
+   - Dependencies: software development tasks
+- Back-end architecure design:
+   - Team members involved: back-end developer and project leader
+   - Time: up to one week
+   - Estimated effort: substantial
+   - Actual effort: substantial
+   - Dependencies: 
+- Database development:
+   - Team members involved: all the team
+   - Time: up to two weeks
+   - Estimated effort: average
+   - Actual effort: average
+   - Dependencies: all the software development tasks
+- Back-end development:
+   - Team members involved: back-end developer and project leader
+   - Time: up to two months
+   - Estimated effort: average
+   - Actual effort: average
+   - Dependencies: front-end tasks and overall software constraints
+- Client design and development:
+   - Team members involved: front-end developers
+   - Time: up to one month
+   - Estimated effort: average
+   - Actual effort: average
+   - Dependencies: appeal to the partners and stakeholders
+- Private Beta release:
+   - Team members involved: all the team
+   - Time: one month from the end of the project
+   - Estimated effort: major
+   - Actual effort: major
+   - Dependencies: market contribution and reviews of the product
+- Partner and stakeholder feedback:
+   - Team members involved: all the team
+   - Time: up to one week after beta release
+   - Estimated effort: minor
+   - Actual effort: minor
+   - Dependencies: changes on the software on a structural and aesthetical level
+- Debugging:
+   - Team members involved: all the team
+   - Time: up to two weeks
+   - Estimated effort: average
+   - Actual effort: average
+   - Dependencies: a well functioning software for the future 
+- UI and UX improvements:
+   - Team members involved: all the team
+   - Time: up to two weeks
+   - Estimated effort: average
+   - Actual effort: average
+   - Dependencies: a well functioning software for the future 
+- Final release:
+   - Team members involved: all the team
+   - Time: roughly six months after project start
+   - Estimated effort: average
+   - Actual effort: average
+   - Dependencies: none
  
 ### [Release Plan](#release-plan)
 
 **Iteration #1**
-* Summary: design all the application architecure and find partners
+- Summary: design all the application architecure and find partners
  
 | Features / Deliverables | Estimated Effort | Actual Effort |
 | ----------------------- | ---------------- | --------------| 
@@ -297,7 +297,7 @@ The following estimates of resource spending are based on time, estimated effort
 | Finding partners | Major | Major |
 
 **Iteration #2**
-* Summary: development of the database, front-end and back-end with beta release
+- Summary: development of the database, front-end and back-end with beta release
  
 | Features / Deliverables | Estimated Effort | Actual Effort |
 | ----------------------- | ---------------- | ------------- |
@@ -305,18 +305,18 @@ The following estimates of resource spending are based on time, estimated effort
 | Beta release | Major | Major |
  
 **Iteration #3**
-* Summary: final release, with the approval of partners, stakeholders and various software debugging
+- Summary: final release, with the approval of partners, stakeholders and various software debugging
  
 | Features / Deliverables | Estimated Effort | Actual Effort |
 | ----------------------- | ---------------- | ------------- |
 | Final release | Average | Substantial |
  
 ### [Iteration Plans](#iteration-plans)
-* **First iteration**: intention agreement will all the team on how the software should be developed, starting to search for partners interested in the project while developing the overall design and framework. In the meantime devs will also develop and deploy the video streaming architecture, the database structure and will deploy a part of the back-end server logic.
+- **First iteration**: intention agreement will all the team on how the software should be developed, starting to search for partners interested in the project while developing the overall design and framework. In the meantime devs will also develop and deploy the video streaming architecture, the database structure and will deploy a part of the back-end server logic.
 
-* **Second iteration**: front-end design and implementation and back-end completion. After the core application is finished, the private beta will be launched for all partners to use.
+- **Second iteration**: front-end design and implementation and back-end completion. After the core application is finished, the private beta will be launched for all partners to use.
 
-* **Third iteration**: past the beta and the general feedback on the software, start fixing bugs and improve the platform, at last launch the final release.
+- **Third iteration**: past the beta and the general feedback on the software, start fixing bugs and improve the platform, at last launch the final release.
  
 ## [Control Plan](#control-plan)
 
