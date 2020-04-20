@@ -1,7 +1,7 @@
 # User Guide
 
 ## Lezioni alla pari
-January dd, 2020
+April 19, 2020
 
 ## Team Members
 Ovidiu Andrioaia  
@@ -15,7 +15,7 @@ Zhiyang Xia
 
 | Revision | Change Date | Description of changes |
 | -------- | ----------- | ---------------------- |
-| V1.0     | mm/dd/2020  | Initial release        |
+| V1.0     | 04/19/2020  | Initial release        |
 
 **Document storage**
 
