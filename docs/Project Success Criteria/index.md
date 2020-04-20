@@ -40,7 +40,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 ### The LAP project will be considered a success if ...
  
-##### A fully fuctional test system is delivered on or before October 13th.
+#### A fully fuctional test system is delivered on or before October 13th.
 
 The software shall be delivered in a state that is ready to be downloaded and used in its intended production environment for its intended purpose. The staff and the user shall be given the training they need in order to begin using the system. We will consider both of these goals met if the users who plan to use the system during its test period fill out the attached Acceptance Test User Survey and:
 
