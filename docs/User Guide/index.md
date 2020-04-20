@@ -35,6 +35,7 @@ Group 6 is responsible for developing and maintaining this document.
 > [System Requirements](#system-requirements)
 >
 > [Main Scenarios of Use](#main-scenarios-of-use)
+>
 >>
 >> [Registration](#registration)
 >> 
@@ -62,7 +63,9 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Delete a Lesson](#delete-a-lesson)
 >>
+>
 > [Troubleshooting](#troubleshooting)
+>
 >>
 >> [Incorrect Login Mail](#incorrect-login-mail)
 >>
