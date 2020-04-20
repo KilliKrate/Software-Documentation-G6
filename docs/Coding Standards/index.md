@@ -940,3 +940,5 @@ const atom = {
 ## Python
 
 For developing the Python back-end we did not create our own coding standard. We have, instead, opted to adopt the extensive and commonly used PEP8 standard. You can take a look at the standard's documentation by following this [link](https://www.python.org/dev/peps/pep-0008/)
+
+[⬆️ Back to Top](#table-of-contents)
