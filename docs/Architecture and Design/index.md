@@ -30,7 +30,7 @@ Group 6 is responsible for developing and maintaining this document.
 ## [Table of contents](#table-of-contents)
 > [Introduction](#introduction)
 >
-> [Data Flow Diagram](#data-flow-diagram)
+> [Flow Chart](#flow-chart)
 >
 > [Logic diagram](#logic-diagram)
 >
