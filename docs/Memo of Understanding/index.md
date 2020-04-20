@@ -1,7 +1,7 @@
 # Memo of Understanding
 
 ## Lezioni alla pari
-January 4, 2020
+April 19, 2020
 
 ## Team Members
 Ovidiu Andrioaia  
@@ -15,7 +15,7 @@ Zhiyang Xia
 
 | Revision | Change Date | Description of changes |
 | -------- | ----------- | ---------------------- |
-| V1.0     | 01/04/2020  | Initial release        |
+| V1.0     | 04/19/2020  | Initial release        |
 
 **Document storage**
 
