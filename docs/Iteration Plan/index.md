@@ -51,9 +51,9 @@ Group 6 is responsible for developing and maintaining this document.
 >> [Task schedule](#task-schedule)
 -----------------------------------------------------
 
-### [Iteration #1](#iteration-1)
+## [Iteration #1](#iteration-1)
 
-#### [Objectives](#objectives)
+### [Objectives](#objectives)
 
 The purpose of this iteration is to make an intention agreement between the team on how the software
 should be developed, start searching for partners and design the architecture and the framework of the application.
@@ -62,11 +62,11 @@ At the end of the iteration, the project should have:
 + An operative database
 + Partners and stakeholders who are willing to support the project
 
-#### [Use cases](#use-cases)
+### [Use cases](#use-cases)
 
 There are no use cases involved in this iteration as its purpose is to design the founding structure of the application, by which all the features and functionalities are based on.
 
-#### [Task schedule](#task-schedule)
+### [Task schedule](#task-schedule)
 
 | Task | Estimated Effort | Actual Effort | Estimated Completion Date | Actual Completion Date | Owner | Status |
 |:----:|:----------------:|:-------------:|:-------------------------:|:----------------------:|:-----:|:------:|
@@ -78,9 +78,9 @@ There are no use cases involved in this iteration as its purpose is to design th
 
 [⬆️ Back to Top](#table-of-contents)
 
-### [Iteration #2](#iteration-2)
+## [Iteration #2](#iteration-2)
 
-#### [Objectives](#objectives)
+### [Objectives](#objectives)
 
 On this iteration the team will focus on developing the front-end and the back-end of the application, providing all the features that have been designed in the previous iteration.
 At the end of this iteration, the project should have:
@@ -89,7 +89,7 @@ At the end of this iteration, the project should have:
 + A good UI and UX
 + Privately downloadable app 
 
-#### [Use cases](#use-cases)
+### [Use cases](#use-cases)
 
 The following use cases are involved in this iteration:
 + UC1: Register and login - Basic flow 
@@ -97,7 +97,7 @@ The following use cases are involved in this iteration:
 + UC3: Create tests: Basic flow and alternate flows.
 + UC4: Watch videos - Basic flow.
 
-#### [Task schedule](#task-schedule)
+### [Task schedule](#task-schedule)
 
 | Task | Estimated Effort | Actual Effort | Estimated Completion Date | Actual Completion Date | Owner | Status |
 |:----:|:----------------:|:-------------:|:-------------------------:|:----------------------:|:-----:|:------:|
@@ -109,19 +109,19 @@ The following use cases are involved in this iteration:
 
 [⬆️ Back to Top](#table-of-contents)
 
-### [Iteration #3](#iteration-3)
+## [Iteration #3](#iteration-3)
 
-#### [Objectives](#objectives)
+### [Objectives](#objectives)
 
 The third iteration has the purpose to launch the final release, with the approval of partners, stakeholders and various software debugging.
 At the end of this iteration, the project should have:
 + A stable and public application for everyone
 
-#### [Use cases](#use-cases)
+### [Use cases](#use-cases)
 
 There aren't new use cases involved in this iteration.
 
-#### [Task schedule](#task-schedule)
+### [Task schedule](#task-schedule)
 
 | Task | Estimated Effort | Actual Effort | Estimated Completion Date | Actual Completion Date | Owner | Status |
 |:----:|:----------------:|:-------------:|:-------------------------:|:----------------------:|:-----:|:------:|
