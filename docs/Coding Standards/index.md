@@ -97,6 +97,7 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Object Shorthands](#object-shorthands)
 >
+> [Python](#python)
 -----------------------------------------------------
 
 ## [Introduction](#introduction)
