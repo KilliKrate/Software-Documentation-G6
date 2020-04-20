@@ -20,7 +20,7 @@ Zhiyang Xia
 **Document storage**
 
 This document is stored in the project's GIT repository at:
-[https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/Status%20Report/index.md](https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/Status%20Report/index.md)
+[https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/README.md](https://github.com/KilliKrate/Software-Documentation-G6/blob/master/docs/README.md)
  
 **Document Owner**
 
