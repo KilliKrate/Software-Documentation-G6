@@ -38,7 +38,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 ## [Success Criteria](#success-criteria)
 
-### The LAP project will be considered a siccess if ...
+### The LAP project will be considered a success if ...
  
 ##### A fully fuctional test system is delivered on or before October 13th.
 
@@ -48,25 +48,24 @@ The software shall be delivered in a state that is ready to be downloaded and us
 *	If anyone circles “Yes, with restriction” on the first two questions, these restriction shall be resolved prior to November 13th to the satisfaction of the users with the restriction
 
 #### Concerns raised during the test period are addressed according to the test plan contained.
-
-All critical defects found before November 13th will be fixed. A critical defect is one for which there is no convenient workaround. Beyond fixing defects, requested changes will be handled on a sliding scale. Changes taking 30 hours or less will be done if notified of the change 3 weeks before the scheduled end of the project. Changes taking 20 hours or less will be done if notified of the change 2 weeks before the scheduled end of the project. Changes taking 10 hours or less will be done if notified of the change 1 week before the scheduled end of the project.
+All critical faults found before November 13th will be fixed. A critical fault is one for which there is no convenient workaround. Beyond fixing faults, requested changes will be handled on a sliding scale. Changes taking 30 hours or less will be done if notified of the change 3 weeks before the scheduled end of the project. Changes taking 20 hours or less will be done if notified of the change 2 weeks before the scheduled end of the project. Changes taking 10 hours or less will be done if notified of the change 1 week before the scheduled end of the project.
 Users shall be notified of their rights and responsibilities under this policy prior to the start of acceptance test.
 
 #### The user can easily log into the system.
 
-This specifically mean that every user will be able to select the login or register option, type the access data and press confirmation button without any problem.
+This specifically means that every user will be able to select the login or register option, type the access data and press the confirmation button without any problem.
 
 #### LAP supervisor can edit any lesson in the system.
 
-Specifically, a staff member will be able to login to the system, select every user lessons option and add or remove any contents. Also this means that they will be able to control the lessons available foe every user.
+Specifically, a staff member will be able to login to the system, select every user lessons option and add or remove any contents. This also means that they will be able to control the lessons available for every user.
 
 #### LAP supervisor can create and edit user accounts.
 
-This include every user account, except for the supervisors account. All data should be editable from the Interface.
+This includes every user account, except for the supervisor account. All data should be editable from the interface.
 
 #### The production database is updated.
 
-Data from LAP's existing database is uploaded to the new system. Data from all fields in the existing database shall be emigrated to the corresponding fields in the new database.
+Data from LAP's existing database is uploaded to the new system. Data from all fields in the existing database shall be relocated to the corresponding fields in the new database.
 
 #### LAP supervisor can print all reports outlined in spreadsheet sample reports 
 
@@ -81,7 +80,7 @@ Second, a system manual shall be produced. This system manual shall consist of t
 
 ## [Signatures](#signatures)
   
-ITI G. Marconi, Project sponsor
+ITI G. MARCONI, Project sponsor
 ___
 
 Ovidiu Costin Andrioaia, Project Manager
