@@ -30,11 +30,11 @@ Group 6 is responsible for developing and maintaining this document.
 ## [Table of Contents](#table-of-contents)
 > [Preliminary and Parallel Tasks](#preliminary-and-parallel-tasks)
 >
-> [Iteration #1](#iteration-#1)
+> [Iteration #1](#iteration-1)
 >
-> [Iteration #2](#iteration-#2)
+> [Iteration #2](#iteration-2)
 >
-> [Iteration #3](#iteration-#3)
+> [Iteration #3](#iteration-3)
 >
 > [Totals](#totals)
 ---------------------------------------------
@@ -50,7 +50,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### [Iteration #1](#iteration-#1)
+### [Iteration #1](#iteration-1)
 
 | Task Name | Roles | Owner | Estimated Effort  | Actual Effort | Andrioaia | Cirdan | Mateias | Xia |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
@@ -63,7 +63,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### [Iteration #2](#iteration-#2)
+### [Iteration #2](#iteration-2)
 
 
 | Task Name | Roles | Owner | Estimated Effort  | Actual Effort | Andrioaia | Cirdan | Mateias | Xia |
@@ -76,7 +76,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### [Iteration #3](#iteration-#3)
+### [Iteration #3](#iteration-3)
 
 | Task Name | Roles | Owner | Estimated Effort  | Actual Effort | Andrioaia | Cirdan | Mateias | Xia |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
