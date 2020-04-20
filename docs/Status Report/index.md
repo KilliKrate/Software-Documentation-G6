@@ -39,7 +39,7 @@ Group 6 is responsible for developing and maintaining this document.
 > [Totals](#totals)
 ---------------------------------------------
 
-### [Preliminary and Parallel Tasks](#preliminary-and-parallel-tasks)
+## [Preliminary and Parallel Tasks](#preliminary-and-parallel-tasks)
 
 | Task Name | Roles | Owner | Estimated Effort  | Actual Effort | Andrioaia | Cirdan | Mateias | Xia |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
@@ -50,7 +50,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### [Iteration #1](#iteration-1)
+## [Iteration #1](#iteration-1)
 
 | Task Name | Roles | Owner | Estimated Effort  | Actual Effort | Andrioaia | Cirdan | Mateias | Xia |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
@@ -63,8 +63,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### [Iteration #2](#iteration-2)
-
+## [Iteration #2](#iteration-2)
 
 | Task Name | Roles | Owner | Estimated Effort  | Actual Effort | Andrioaia | Cirdan | Mateias | Xia |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
@@ -76,7 +75,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### [Iteration #3](#iteration-3)
+## [Iteration #3](#iteration-3)
 
 | Task Name | Roles | Owner | Estimated Effort  | Actual Effort | Andrioaia | Cirdan | Mateias | Xia |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
@@ -88,7 +87,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 [⬆️ Back to Top](#table-of-contents)
 
-### [Totals](#totals)
+## [Totals](#totals)
 
 | Table Name | Estimated Effort | Actual Effort | Andrioaia | Cirdan | Mateias | Xia |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
@@ -97,6 +96,5 @@ Group 6 is responsible for developing and maintaining this document.
 | Iteration #2 | 34 | 34 | 10 | 10 | 11 | 3 |
 | Iteration #3 | 21 | 24 | 6 | 5 | 7 | 6 |
 | **Total** | **111** | **113** | **32** | **21** | **36** | **24** |
-
 
 [⬆️ Back to Top](#table-of-contents)
