@@ -33,7 +33,7 @@ Group 6 is responsible for developing and maintaining this document.
 >>
 >> [Project Dates](#project-dates)
 >>
->> [1.3 Project Organization](#project-organization)
+>> [Project Organization](#project-organization)
 >
 > [Project Performance and Outcome](#project-performance-and-outcome)
 >> [Project Success](#project-success)
@@ -85,9 +85,9 @@ The project started with the definition of the main goals that needed to be achi
 | Launch of beta | 06/20/2019 | 07/01/2019 |
 | Final release | 09/02/2019 | 09/13/2019 |
 
-[⬆Back to Top](#table-of-contents)
+[⬆️ Back to Top](#table-of-contents)
 
-#### [1.3 Project Organization](#project-organization)
+#### [Project Organization](#project-organization)
 
 Project Participants:
 
