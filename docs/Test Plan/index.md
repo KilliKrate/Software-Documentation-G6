@@ -56,23 +56,29 @@ This document outlines the test plan for the Lezioni alla Pari application which
 
 The test plan outlined in this document provides a strategy for analyzing and uncovering potential issues in the program, like bugs or architecture faults, which can tamper with the user experience or general usability of the program. The testing activies described will ensure that the systems meets its requirements and target features.
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## [Items and Features Tested](#items-and-features-tested)
 
 Items that will be tested during the testing phase by the project's developer team include  the Login Application, through which individuals can sign-in and sign-up to the service, and the Lezioni alla Pari Client. The features tested include, but are not limited to:
 
 Login Application  
 
-- The ability for an individual to sign up to the service
-- The ability for a user to log into the service
-- The ability for a user to change his user settings, like resetting his password
+- The ability for an individual to sign up to the service (1.1)
+- The ability for a user to log into the service (1.2)
+- The ability for a user to change his user settings, like resetting his password (1.3)
 
 Lezioni alla Pari Client
 
-- The ability for a user to view courses, topics and lessons made by other users
-- The ability for a user to read lessons
-- The ability for a user to complete quizzes
-- The ability for a user to create courses, topics for a course and lessons or quizzes for a certain topic
-- The ability for a user to edit an existing lesson or quiz and submit the changes
+- The ability for a user to view the courses, topics and lessons/quizzes list (2.1)
+- The ability for a user to create courses, topics and lessons/quizzes for a certain topic (2.2)
+- The ability for a user to delete an existing lesson or quiz (2.3)
+- The ability for a user to view a lesson (2.4)
+- The ability for a user to complete quizzes (2.5)
+- The ability for a user to modify a lessons's contents (2.6)
+- The ability for a user to modify a quiz's questions and answers (2.7)
+
+[⬆️ Back to Top](#table-of-contents)
 
 ## [Items not Tested](#items-not-tested)
 
@@ -82,6 +88,8 @@ There are features that will not be included in the current testing procedure. T
 - Functions tied to one's email, like email confirmation and preferences
 - Permission functions, like adding a co-instructor/moderator to a course or inviting students to a private course (as of now, all courses are public by default)
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## [Approach](#approach)
 
 The testing approach will be conducted by the "Lezioni alla Pari" developement team during the alpha phase. The team will use the application and try to do things a normal user would do, like logging in, reading a lesson and maybe do a quiz, but also perform a series of low-level tests, to ensure the integrity of the code logic (white-box testing). The team will also try to break application by inserting invalid data or trying to use the software in an improper manner.
@@ -89,6 +97,8 @@ The testing approach will be conducted by the "Lezioni alla Pari" developement t
 During the beta phase, the software will be rolled out to close friends and relatives to test. By obtaining an outsider's approach (black-box testing), we will be able to discover bugs that also originate from improper use that a developer team might not have even thought about. All issues found will be fixed before the final release. After release, testing will be lead by the internal developement team, and scheduled before an update, in order to ascertain that the features work as intended.
 
 Internal architecture testing and stress tests will also occour to determine the size of the workload the servers can manage. This testing will also ensure that the system fullfills the requirements that have been agreed upon with the client.
+
+[⬆️ Back to Top](#table-of-contents)
 
 ## [Test Reports](#test-reports)
 
@@ -106,14 +116,22 @@ Defects are problems associated with a direct "break/fix" problem, like a bug in
 
 Changes are problems that result after a change has been made in the software: for example, an update of the graphical user interface might upset some users, which were already used to the old layout, or maybe the new interface is less accessible with people with screen readers, which impairs their ability to efficiently navigate the platform's contents.
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## [Item Pass/Fail Criteria](#item-passfail-criteria)
 
 The features that the software provides, and the minimum requirements associated with them, have already been described in the Software Requirements Specification document. All the features present will have to comply to those requirements, as specified by the client. Features that fail the testing procedure, or do not meet the requirements specified by the client will be documented via a test report and turned over to the developement team for investigation and revision.
+
+[⬆️ Back to Top](#table-of-contents)
 
 ## [Test Deliverables](#test-deliverables)
 
 In addition to the Test Plan, test deliverables have been included in the Test Specification, which outlines the specific test cases and expected results of each test. The Test report, as mentioned earlier, will be comprised of Incidents, Defects and Changes
 
+[⬆️ Back to Top](#table-of-contents)
+
 ## [Test Goals](#test-goals)
 
 The goals of this testing exercise include finding various user situations and testing against these situations in order to discover any errors that may cause failures. The ultimate goal is to ensure that the team delivers an error-free functioning system. 
+
+[⬆️ Back to Top](#table-of-contents)
