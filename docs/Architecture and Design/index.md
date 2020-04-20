@@ -95,23 +95,23 @@ The architecture system for the Lezioni alla Pari application is a 3-tier applic
 
 **Purpose**: To display forms, controls, images, videos to the user to create fluid and efficient user experience.
 
-**Specific Nature**: The presentation tier will be in charge of displaying appropriate images, menus and videos to the user. This tier will also be in charge of handling left and right click. When a user clicks a menu on the GUI, the code corresponding to that event will be called. This tier will also be in charge of the spawning of appropriate threads. The need of spawning extra threads is due to the fact that the main thread of the app will be watching for event clicks, but we also need another thread constantly running to send asynchronous requests to the webserver.
+**Specific Nature**: The presentation tier will be in charge of displaying appropriate images, menus and videos to the user. This tier will also be in charge of handling left and right clicks. When a user clicks a menu on the GUI, the code corresponding to that event will be called. This tier will also be in charge of the spawning of appropriate threads. The need of spawning extra threads is due to the fact that the main thread of the app will be watching for event clicks, but we also need another thread constantly running to send asynchronous requests to the webserver.
 
 **Subcomponents**: [Quill WYSIWYG editor](https://quilljs.com/)
 
-  - **Quill WYSIWYG editor** - Quill is a text editor that is used whenever a user, owner of a lesson or a quiz, wants to update it. With Quill we can easily upload images and videos that will make our lessons more friendly and intuitive. Styling text and entering formulas especially are some useful features.
+  - **Quill WYSIWYG editor** - Quill is a text editor that is used whenever a user, owner of a lesson or a quiz, wants to update it. With Quill we can easily upload images and videos that will make our lessons more approachable and intuitive. Styling text and entering formulas are especially useful features.
 
 ### [Business Tier](#business-tier)
 
-**Purpose**: Processes and respond to events, typically user actions. This tier is in charge of the heavy algorithm business logic found in complex solutions. 
+**Purpose**: Processes and responds to events, typically user actions. This tier is in charge of the heavy algorithm business logic found in complex solutions. 
 
 **Specific Nature**: The Business Tier is the core of our program, it will be in charge of responding to user requests and to interact with th
 
 **Associated Constructs**: CourseApplication, CourseFileSystem
 
-  - **CourseApplication** - CourseApplication class will be responsible of processing data and serving webpages to the presentation tier, it coordinates all the other classes. This class interacts with almost everything, from loading html lessons from the filesystem to creating and editing quizzes.
+  - **CourseApplication** - The CourseApplication class will be responsible of processing data and serving webpages to the presentation tier, it coordinates all the other classes. This class interacts with almost everything, from loading html lessons from the filesystem to creating and editing quizzes.
 
-  - **CourseFileSystem** - CourseFileSystem class will be responsible of the interaction between the application and the filesystem by opening, reading and writing files in a prestuctured way.
+  - **CourseFileSystem** - The CourseFileSystem class will be responsible of the interaction between the application and the filesystem by opening, reading and writing files in a prestuctured way.
 
 ### [Data Tier](#data-tier)
 
@@ -225,11 +225,11 @@ The architecture system for the Lezioni alla Pari application is a 3-tier applic
 
 ### [Process View Description](#process-view-description)
 
-The Process View is essential in understanding how the separate components and subcomponents communicate with each other in a concurrent application. By better understanding the necessary paths of communication between the components, it may be possible to optimize the data flow and storage of the application, as well as ensuring thread-safety.
+The Process View is essential in understanding how the separate components and subcomponents communicate with each other in a concurrent application. By better understanding the communication between components, it may be possible to optimize the data flow and storage of the application, as well as ensuring thread-safety.
 
 ### [Application View](#application-view)
 
-This view is the main application view that is created at runtime of the program. The program creates the view; this is not a user created view. This view handles the basic program flow by controlling navigation between items, videos, quizzes, including the handling of user input to the graphical forms.
+This view is the main application view that is created at runtime of the program. The program creates the view: this is not a user created view. This view handles the basic program flow by controlling navigation between items, videos, quizzes, including the handling of user input to the graphical forms.
 
 ### [Presentation View](#presentation-view)
 
