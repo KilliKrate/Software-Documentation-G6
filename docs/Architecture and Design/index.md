@@ -85,7 +85,7 @@ The Lezioni alla Pari Architecture Document is designed to illustrate and identi
 
 ### [Hierarchy Description](#hierarchy-description)
 
-The architecture system for the Lezioni alla Pari apllication is a 3-tier application.
+The architecture system for the Lezioni alla Pari application is a 3-tier application.
 
 [⬆️ Back to Top](#table-of-contents)
 
@@ -95,7 +95,7 @@ The architecture system for the Lezioni alla Pari apllication is a 3-tier applic
 
 **Purpose**: To display forms, controls, images, videos to the user to create fluid and efficient user experience.
 
-**Specific Nature**: The presentation tier will be in charge of displaying appropriate images, menus and videos to the user. This tier will also be in charge of handling stylus click. When a user clicks a menu on the GUI, the code corresponding to that event will be called. This tier will also be in charge of the spawning of appropriate threads. The need of spawning extra threads is due to the fact that the main thread of the app will be watching for event clicks, but we also need another thread constantly running to send asynchronous requests to the webserver.
+**Specific Nature**: The presentation tier will be in charge of displaying appropriate images, menus and videos to the user. This tier will also be in charge of handling left and right click. When a user clicks a menu on the GUI, the code corresponding to that event will be called. This tier will also be in charge of the spawning of appropriate threads. The need of spawning extra threads is due to the fact that the main thread of the app will be watching for event clicks, but we also need another thread constantly running to send asynchronous requests to the webserver.
 
 **Subcomponents**: [Quill WYSIWYG editor](https://quilljs.com/)
 
