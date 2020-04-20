@@ -513,7 +513,7 @@ let fruits = [
 
 ## [Strings](#strings)
 
-### Quotes
+### [Quotes](#quotes)
 Although there is no actual difference to how Javascript interprets them, single quotes MUST be used everywhere, for the sake of uniformity. 
 
 ```javascript
