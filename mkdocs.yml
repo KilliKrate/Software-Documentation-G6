@@ -3,6 +3,7 @@ repo_url: https://github.com/KilliKrate/Software-Documentation-G6/
 site_name: 2020_5BI_Team6_Software_Doc
 
 nav:
+    - 'PDF': 'PDF/index.md'
     - 'Architecture and Design': 'Architecture and Design/index.md'
     - 'Business Model Canvas': 'Business Model Canvas/index.md'
     - 'Coding Standards': 'Coding Standards/index.md'
