@@ -28,6 +28,7 @@ Group 6 is responsible for developing and maintaining this document.
 
 -----------------------------------------------------
 
+- #### [PDF](PDF/)
 - #### [Architecture and Design](Architecture%20and%20Design/)
 - #### [Business Model Canvas](Business%20Model%20Canvas/)
 - #### [Coding Standards](Coding%20Standards/)
