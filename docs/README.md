@@ -1,7 +1,7 @@
 # Software Documentation
 
 ## Lezioni alla pari
-January dd, 2020
+January 20, 2020
 
 ## Team Members
 Ovidiu Andrioaia  
